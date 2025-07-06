@@ -1,36 +1,23 @@
-/*  src/data/campaigns/expanded/index.ts  */
-
+import whMainMap from './wh_main_map.png';
+import whMainMapText from './wh_main_map_text.png';
 import rawRegions from './regions.json';
-import type { Campaign, Region } from '../index';
+import type { Region } from '../index'; // adjust path if needed
 
-// ── map images ───────────────────────────────────────────────
-import wh_main_map       from './wh_main_map.png';
-import wh_main_map_text  from './wh_main_map_text.png';
+// ✅ Manually declare the shape of the regions JSON
+const regions = rawRegions as unknown as Record<string, Region>;
 
-/**
- * Make every region conform to the Region interface:
- *   if d is string[]  → join with spaces
- *   else keep as-is
- */
-const regions: Record<string, Region> = Object.fromEntries(
-  Object.entries(rawRegions as Record<string, any>).map(([key, value]) => {
-    const flatD = Array.isArray(value.d) ? value.d.join(' ') : value.d;
-    return [key, { ...value, d: flatD } as Region];
-  })
-);
-
-const expanded: Campaign = {
+const expanded = {
   key: 'expanded',
-  name: 'Immortal Empires EXPANDED',
+  name: 'Expanded Campaign',
   map: {
-    image: wh_main_map,
-    imageText: wh_main_map_text,
-    width: 4000,
-    height: 4000,
+    image: whMainMap,
+    imageText: whMainMapText,
+    width: 3000,
+    height: 2146,
   },
-  img:  { width: 4000, height: 4000 },
-  game: { width: 4000, height: 4000 },
-  regions,                         // ✅ now 100 % Region-typed
+  img: whMainMap,
+  game: 'WH3',
+  regions,
 };
 
 export default expanded;
