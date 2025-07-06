@@ -1,7 +1,13 @@
 import React, { useCallback } from 'react';
 import L from 'leaflet';
-import { MapContext, BaseCampaign } from './context';
-import { Button, Box } from '@material-ui/core';
+import { MapContext } from './context';
+import type { BaseCampaign } from './context';
+
+const style = {
+  height: '100%',
+  transition: 'opacity 1s',
+  opacity: 1, // Force visibility
+};
 
 type MapProps<C extends BaseCampaign> = {
   children: React.ReactNode;
@@ -25,7 +31,6 @@ const Map = <C extends BaseCampaign>(props: MapProps<C>) => {
   });
 
   const [loaded, setLoaded] = React.useState(false);
-  const [zoom, setZoom] = React.useState(0);
 
   const mapContainer = useCallback((el: HTMLDivElement | null) => {
     if (el !== null) {
@@ -41,12 +46,6 @@ const Map = <C extends BaseCampaign>(props: MapProps<C>) => {
         zoomSnap: 0.2,
         zoomAnimation: true,
         markerZoomAnimation: true,
-        scrollWheelZoom: true,
-      });
-
-      leafletMap.fitBounds(bounds);
-      leafletMap.on('zoomend', () => {
-        setZoom(leafletMap.getZoom());
       });
 
       contextState.current.map = leafletMap;
@@ -57,6 +56,8 @@ const Map = <C extends BaseCampaign>(props: MapProps<C>) => {
     const map = contextState.current.map!;
     const waitFor = contextState.current.waitFor!;
 
+    map.fitBounds(bounds);
+
     Promise.all(waitFor).then(() => {
       setLoaded(true);
     });
@@ -66,35 +67,12 @@ const Map = <C extends BaseCampaign>(props: MapProps<C>) => {
     };
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
-  const handleZoomIn = () => {
-    contextState.current.map.zoomIn();
-  };
-
-  const handleZoomOut = () => {
-    contextState.current.map.zoomOut();
-  };
-
   return (
-    <MapContext.Provider value={contextState}>
-      <div style={{ width: '100vw', height: '100vh', position: 'relative', opacity: loaded ? 1 : 0, transition: 'opacity 1s' }}>
-        <div ref={mapContainer} style={{ width: '100%', height: '100%', backgroundColor: 'transparent' }} />
-
-        {/* Custom Zoom Controls */}
-        <Box
-          position="absolute"
-          bottom={20}
-          right={20}
-          zIndex="tooltip"
-          display="flex"
-          flexDirection="column"
-        >
-          <Button variant="contained" size="small" onClick={handleZoomIn} style={{ marginBottom: 4 }}>+</Button>
-          <Button variant="contained" size="small" onClick={handleZoomOut}>−</Button>
-        </Box>
-
-        {children}
+    <div style={{ ...style, opacity: loaded ? 1 : 0 }}>
+      <div ref={mapContainer} style={{ height: '100%', backgroundColor: 'transparent' }}>
+        <MapContext.Provider value={contextState}>{children}</MapContext.Provider>
       </div>
-    </MapContext.Provider>
+    </div>
   );
 };
 
