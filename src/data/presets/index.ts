@@ -1,26 +1,22 @@
-// @ts-nocheck
-const requireContext = require.context('.', true, /^.+\.json$/);
+const files = import.meta.glob('./**/*.json', { eager: true });
 
-const presets = requireContext.keys().reduce((accumulator, filename) => {
-  if (filename.endsWith('map.json')) return accumulator;
+const presets: Record<string, any> = {};
 
-  const [/* dot */, campaign, key] = filename.split('/');
-  const meta = requireContext(filename);
+for (const path in files) {
+  if (path.endsWith('map.json')) continue;
 
-  const mapJsonFilename = filename.replace('meta.json', 'map.json');
-  const mapJson = requireContext(mapJsonFilename);
+  const [, campaign] = path.split('/');
 
-  if (accumulator[campaign] === undefined) {
-    accumulator[campaign] = {};
-  }
+  const mod = files[path] as { default: any };
+  const meta = mod.default;
 
-  accumulator[campaign][key] = {
+  const mapJsonPath = path.replace('meta.json', 'map.json');
+  const mapJsonMod = files[mapJsonPath] as { default: any };
+
+  presets[campaign] = {
     ...meta,
-    ownership: mapJson,
+    ownership: mapJsonMod?.default ?? {},
   };
-
-
-  return accumulator;
-}, {});
+}
 
 export default presets as { [key: string]: any };
