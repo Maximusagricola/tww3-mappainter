@@ -1,33 +1,25 @@
 import React from 'react';
-import { Box, CircularProgress, Typography } from '@material-ui/core';
-import { usePreloader } from './usePreloader'; // ✅ local sibling file
+import Box from '@mui/material/Box';
+import CircularProgress from '@mui/material/CircularProgress';
+import { usePreloader } from './preloaderUtils'; 
 
 type PreloaderProps = {
-  children: React.ReactNode;
+  children: React.ReactElement;
   assets: string[];
 };
 
-const Preloader: React.FC<PreloaderProps> = ({ children, assets }) => {
-  const { loaded, progress } = usePreloader(assets);
+const Preloader = (props: PreloaderProps) => {
+  const { loaded, progress } = usePreloader(props.assets);
 
   if (!loaded) {
     return (
-      <Box
-        height="100vh"
-        display="flex"
-        flexDirection="column"
-        alignItems="center"
-        justifyContent="center"
-      >
+      <Box height="100%" display="flex" alignItems="center" justifyContent="center">
         <CircularProgress variant="determinate" value={progress} />
-        <Typography variant="body2" style={{ marginTop: 8 }}>
-          {progress}%
-        </Typography>
       </Box>
     );
   }
 
-  return <>{children}</>;
+  return <>{props.children}</>;
 };
 
 export default Preloader;
