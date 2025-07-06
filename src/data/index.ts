@@ -3,44 +3,50 @@ const files = import.meta.glob('./**/*.{json,png}', { eager: true });
 const factionGroups: Record<string, any> = {};
 
 for (const path in files) {
+  // Skip .png files in this loop — we'll handle icons based on the .json path
   if (path.endsWith('.png')) continue;
 
   const splitResult = path.split('/');
 
-  const meta = files[path] as any;
+  const mod = files[path] as { default: any };
+  const meta = mod.default;
+
+  if (!meta || !meta.key) {
+    console.warn(`⚠️ Skipping invalid faction meta: ${path}`);
+    continue;
+  }
+
+  const factionKey = meta.key;
+  const factionName = meta.name;
+  const factionColor = meta.color;
+
+  // Group key (e.g., "./somegroup/faction/meta.json" → "somegroup")
+  const [, groupKey] = splitResult;
+
+  if (!factionGroups[groupKey]) {
+    factionGroups[groupKey] = { factions: {} };
+  }
 
   if (splitResult.length === 3) {
-    const [, groupKey] = splitResult;
+    factionGroups[groupKey].name = factionName;
+    continue;
+  }
 
-    if (!factionGroups[groupKey]) {
-      factionGroups[groupKey] = { factions: {} };
-    }
+  const iconPath = path.replace('meta.json', 'mon_24.png');
+  const iconModule = files[iconPath] as { default: string } | undefined;
 
-    factionGroups[groupKey].name = meta['name'];
-  } else {
-    const [, groupKey] = splitResult;
+  if (!iconModule) {
+    console.warn(`⚠️ Missing icon for faction "${factionKey}" at: ${iconPath}`);
+  }
 
-    if (!factionGroups[groupKey]) {
-      factionGroups[groupKey] = { factions: {} };
-    }
-
-    const factionKey = meta['key'];
-    const factionName = meta['name'];
-    const factionColor = meta['color'];
-
-    const iconPath = path.replace('meta.json', 'mon_24.png');
-    const iconModule = files[iconPath] as { default: string };
-
-    if (!factionGroups[groupKey].factions[factionKey]) {
-      factionGroups[groupKey].factions[factionKey] = {
-        key: factionKey,
-        name: factionName,
-        icon: iconModule?.default ?? '',
-        color: factionColor,
-        group: groupKey,
-        rank: 1,
-      };
-    }
+  if (!factionGroups[groupKey].factions[factionKey]) {
+    factionGroups[groupKey].factions[factionKey] = {
+      key: factionKey,
+      name: factionName,
+      icon: iconModule?.default ?? '', 
+      group: groupKey,
+      rank: 1,
+    };
   }
 }
 
