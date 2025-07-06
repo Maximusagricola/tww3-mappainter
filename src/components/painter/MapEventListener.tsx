@@ -1,7 +1,7 @@
 import React from 'react';
 import { useAppSelector } from '../../store';
 import { useMapContext } from '../map/context';
-import { Campaign } from '../../data/campaigns';
+import type { Campaign } from '../../data/campaigns';
 
 const MapEventListener = () => {
   const context = useMapContext<Campaign>();

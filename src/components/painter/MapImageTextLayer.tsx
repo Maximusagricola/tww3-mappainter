@@ -7,6 +7,7 @@ const MapImageTextLayer = () => {
 
   React.useEffect(() => {
     const { map, campaign, bounds, waitFor } = context;
+    console.log("🖼️ Adding text overlay layer:", campaign.map.imageText);
 
     const pane = map.createPane('labels');
     pane.style.setProperty('z-index', '450');
@@ -14,9 +15,13 @@ const MapImageTextLayer = () => {
 
     const layer = L.imageOverlay(campaign.map.imageText, bounds, { pane: 'labels' });
     const onLoad = new Promise<void>((resolve) => {
-      layer.on('load', () => resolve());
+      layer.on('load', () => {
+        console.log("✅ Map text overlay loaded");
+        resolve();
+      });
     });
     waitFor.push(onLoad);
+
     map.addLayer(layer);
     context.addOverlay('map-text', 'Map labels', layer);
   }, []); // eslint-disable-line react-hooks/exhaustive-deps

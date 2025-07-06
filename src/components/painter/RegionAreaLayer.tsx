@@ -2,19 +2,19 @@ import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
 import clsx from 'clsx';
 import L from 'leaflet';
-import { makeStyles } from '@material-ui/core/styles';
+import { makeStyles } from '@mui/styles';
 import { useMapContext, createSvgElement } from '../map/context';
 import { useAppSelector, useAppDispatch } from '../../store';
 import { regionChanged, regionOwnerChanged } from '../../store/painter';
-import { Campaign, Region } from '../../data/campaigns';
+import type { Campaign, Region } from '../../data/campaigns';
 
 const useStyles = makeStyles({
   path: {
     opacity: 0.4,
     '&:hover': {
       opacity: 0.6,
-    }
-  }
+    },
+  },
 });
 
 const RegionAreaLayer = () => {
@@ -33,11 +33,11 @@ const RegionAreaLayer = () => {
 
   if (svgElem === null) return null;
 
-  const regionpaths = Object.values(context.campaign.regions).map((region: any) => (
+  const regionpaths = Object.values(context.campaign.regions).map((region: Region) => (
     <RegionPath key={region.key} region={region} />
   ));
 
-  return ReactDOM.createPortal(regionpaths, svgElem);
+  return ReactDOM.createPortal(regionpaths, svgElem!);
 };
 
 const RegionPath = (props: { region: Region }) => {
@@ -46,20 +46,26 @@ const RegionPath = (props: { region: Region }) => {
   const { fillColor, onClickRegion } = useRegionPath(region);
 
   return (
-    <path className={clsx('leaflet-interactive', classes.path)} onClick={onClickRegion} d={region.d} fill={fillColor} />
+    <path
+      className={clsx('leaflet-interactive', classes.path)}
+      onClick={onClickRegion}
+      d={region.d}
+      fill={fillColor}
+    />
   );
 };
 
 function useRegionPath(region: Region) {
-const fillColor = useAppSelector((state) => {
-  const factionKey = state.painter.ownership[region.key];
-  const faction = factionKey ? state.painter.factions[factionKey] : null;
-  return faction ? faction.color : 'transparent';
-});
+  const fillColor = useAppSelector((state) => {
+    const factionKey = state.painter.ownership[region.key];
+    const faction = factionKey ? state.painter.factions[factionKey] : null;
+    return faction?.color ?? 'transparent';
+  });
 
   const dispatch = useAppDispatch();
   const isModeInteractive = useAppSelector((state) => state.painter.mode === 'interactive');
   const selectedFaction = useAppSelector((state) => state.painter.selectedFaction);
+
   const onClickRegion = React.useCallback(() => {
     if (isModeInteractive) {
       dispatch(regionChanged(region.key));

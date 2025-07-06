@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import L from 'leaflet';
-import { makeStyles } from '@material-ui/core/styles';
+import { makeStyles } from '@mui/styles';
 import { useMapContext } from '../map/context';
 import { useAppSelector, useAppDispatch } from '../../store';
 import { regionChanged, regionOwnerChanged } from '../../store/painter';
@@ -25,7 +25,7 @@ const useStyles = makeStyles({
     filter: 'drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.6))',
     '&:hover': {
       filter: 'drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.4))',
-    }
+    },
   },
   '@keyframes arrowBounce': {
     '0%': {
@@ -40,7 +40,6 @@ const useStyles = makeStyles({
   },
 });
 
-// TODO: cleanup #useEffect....
 const RegionMarkerLayer = () => {
   const context = useMapContext<Campaign>();
   const [elems, setElems] = React.useState<[HTMLElement, any][]>([]);
@@ -61,6 +60,7 @@ const RegionMarkerLayer = () => {
       elements.push([el, region]);
       return marker;
     });
+
     setElems(elements);
 
     const layer = L.layerGroup(markers);
@@ -107,14 +107,15 @@ const RegionMarker = (props: { regionKey: string }) => {
 };
 
 function useRegionMarker(regionKey: string) {
-  const icon = useAppSelector((state) => {
-    const factionKey = state.painter.ownership[regionKey];
-    const faction = factionKey ? state.painter.factions[factionKey] : null;
-    if (factionKey && !faction) {
-      console.warn(`Missing faction for key: ${factionKey}`);
-    }
-    return faction?.icon ?? abandonedIcon;
-  });
+const icon = useAppSelector((state) => {
+  const factionKey = state.painter.ownership[regionKey];
+  const faction = factionKey ? state.painter.factions[factionKey] : null;
+  if (!faction) {
+    console.warn("🚨 Unknown factionKey:", factionKey, "for region:", regionKey);
+  }
+  return faction?.icon ?? abandonedIcon;
+});
+
 
   const showPointerArrow = useAppSelector((state) => {
     const isModeInteractive = state.painter.mode === 'interactive';
@@ -124,7 +125,7 @@ function useRegionMarker(regionKey: string) {
 
   const dispatch = useAppDispatch();
   const isModeInteractive = useAppSelector((state) => state.painter.mode === 'interactive');
-  const selectedFaction =  useAppSelector((state) => state.painter.selectedFaction);
+  const selectedFaction = useAppSelector((state) => state.painter.selectedFaction);
 
   const onClickMarker = React.useCallback(() => {
     if (isModeInteractive) {

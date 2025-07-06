@@ -1,10 +1,10 @@
-import React, { useCallback } from 'react';
-import { Fab } from '@material-ui/core';
-import { makeStyles } from '@material-ui/core/styles';
-import { FilterCenterFocus } from '@material-ui/icons';
+import { useCallback } from 'react';;
+import Fab from '@mui/material/Fab';
+import { makeStyles } from '@mui/styles';
+import FilterCenterFocusIcon from '@mui/icons-material/FilterCenterFocus';
 import { useMapContext } from '../map/context';
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles((theme: any) => ({
   fab: {
     position: 'absolute',
     bottom: theme.spacing(2),
@@ -21,13 +21,13 @@ const MapCenterButton = () => {
     const { map, bounds } = context;
     map.flyToBounds(bounds, {
       animate: true,
-      duration: 2
+      duration: 2,
     });
-  }, []); // eslint-disable-line react-hooks/exhaustive-deps
+  }, [context]); // Include context to avoid disabling lint rule
 
   return (
     <Fab size="medium" color="primary" className={classes.fab} onClick={onClick}>
-      <FilterCenterFocus />
+      <FilterCenterFocusIcon />
     </Fab>
   );
 };

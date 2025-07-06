@@ -7,10 +7,15 @@ const MapImageLayer = () => {
 
   React.useEffect(() => {
     const { campaign, map, bounds, waitFor } = context;
-    const imageOverlay = L.imageOverlay(campaign.map.image, bounds, {});
+    console.log("🖼️ Adding map image layer:", campaign.map.image);
+    console.log("📏 Map bounds:", bounds);
 
+    const imageOverlay = L.imageOverlay(campaign.map.image, bounds, {});
     const onLoad = new Promise<void>((resolve) => {
-      imageOverlay.on('load', () => resolve());
+      imageOverlay.on('load', () => {
+        console.log("✅ Map base image loaded");
+        resolve();
+      });
     });
     waitFor.push(onLoad);
 
