@@ -1,20 +1,22 @@
 import React from 'react';
-import { TextField, InputAdornment, Typography } from '@material-ui/core';
-import { Autocomplete } from '@material-ui/lab';
+import { TextField, InputAdornment, Typography } from '@mui/material';
+import Autocomplete from '@mui/material/Autocomplete'; // ✅ correct import
 
 import assets from '../../../assets';
+import type { Faction } from '../../../data/factions';
+
 const abandonedIcon = assets['icons/abandoned'];
 
 type FactionAutocompleteProps = {
-  options: any[];
-  value: any;
+  options: Faction[];
+  value: Faction | null;
   disabled?: boolean;
   showFactionIcon?: boolean;
   label?: string;
   placeholder?: string;
   helperText?: string;
-  onChange: (event: React.ChangeEvent<{}>, value: any) => void;
-  getOptionSelected?: (option: any, value: any) => boolean;
+  onChange: (event: React.ChangeEvent<{}>, value: Faction | null) => void;
+  getOptionSelected?: (option: Faction, value: Faction) => boolean;
 };
 
 const FactionAutocomplete = ({
@@ -33,15 +35,14 @@ const FactionAutocomplete = ({
       size="small"
       options={options}
       value={value}
-      getOptionSelected={getOptionSelected}
-      onChange={onChange}
+      isOptionEqualToValue={(option, value) => option.key === value.key}      onChange={onChange}
       groupBy={(option) => option.group}
       getOptionLabel={(option) => option.name}
       disabled={disabled}
-      renderOption={(option) =>
-        <FactionAutocompleteItem option={option} />
-      }
-      renderInput={(params) =>
+      renderOption={(props, option) => (
+        <FactionAutocompleteItem option={option} {...props} />
+      )}
+      renderInput={(params) => (
         <FactionAutocompleteInput
           params={params}
           value={value}
@@ -50,24 +51,42 @@ const FactionAutocomplete = ({
           showFactionIcon={showFactionIcon}
           placeholder={placeholder}
         />
-      }
+      )}
     />
   );
-}
-
-const FactionAutocompleteItem = (props: any) => {
-  return (
-    <>
-      <img style={{ width: 24, height: 24, marginRight: 12 }} src={props.option.icon} alt="" />
-      <Typography noWrap>{props.option.name}</Typography>
-    </>
-  )
 };
 
-const FactionAutocompleteInput = (props: any) => {
-  const icon = props.showFactionIcon
-    ? props.value?.icon ?? abandonedIcon
-    : null;
+type FactionAutocompleteItemProps = {
+  option: Faction;
+};
+
+const FactionAutocompleteItem = ({ option }: FactionAutocompleteItemProps) => {
+  return (
+    <>
+      <img style={{ width: 24, height: 24, marginRight: 12 }} src={option.icon} alt="" />
+      <Typography noWrap>{option.name}</Typography>
+    </>
+  );
+};
+
+type FactionAutocompleteInputProps = {
+  params: any;
+  value: Faction | null;
+  label?: string;
+  helperText?: string;
+  placeholder?: string;
+  showFactionIcon?: boolean;
+};
+
+const FactionAutocompleteInput = ({
+  params,
+  value,
+  label,
+  helperText,
+  placeholder,
+  showFactionIcon,
+}: FactionAutocompleteInputProps) => {
+  const icon = showFactionIcon ? value?.icon ?? abandonedIcon : null;
 
   const inputAdornment = icon && (
     <InputAdornment position="start">
@@ -77,15 +96,18 @@ const FactionAutocompleteInput = (props: any) => {
 
   return (
     <TextField
-      {...props.params}
-      label={props.label}
-      helperText={props.helperText}
+      {...params}
+      label={label}
+      helperText={helperText}
       variant="outlined"
-      placeholder={props.placeholder}
+      placeholder={placeholder}
       InputLabelProps={{ shrink: true }}
-      InputProps={{ ...props.params.InputProps, startAdornment: inputAdornment }}
+      InputProps={{
+        ...params.InputProps,
+        startAdornment: inputAdornment,
+      }}
     />
-  )
+  );
 };
 
 export default FactionAutocomplete;
