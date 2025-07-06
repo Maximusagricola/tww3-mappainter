@@ -1,19 +1,19 @@
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import { AppBar, Toolbar, Hidden, Drawer } from '@material-ui/core';
+import { makeStyles } from '@mui/styles';
+import type { Theme } from '@mui/material/styles';
+import { AppBar, Toolbar, Drawer, useMediaQuery } from '@mui/material';
+import { useTheme } from '@mui/material/styles';
 
 const drawerWidth = 320;
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles((theme: Theme) => ({
   root: {
     display: 'flex',
     flex: 1,
   },
   drawer: {
-    [theme.breakpoints.up('md')]: {
-      width: drawerWidth,
-      flexShrink: 0,
-    },
+    width: drawerWidth,
+    flexShrink: 0,
   },
   appBar: {
     [theme.breakpoints.up('md')]: {
@@ -41,47 +41,44 @@ type AppLayoutProps = {
 };
 
 const AppLayout = (props: AppLayoutProps) => {
-  const { drawerOpen, toggleDrawer } = props;
+  const { drawerOpen, toggleDrawer, barContent, mainContent, drawerContent } = props;
   const classes = useStyles();
+  const theme = useTheme();
+  const isDesktop = useMediaQuery(theme.breakpoints.up('md'));
 
   return (
     <div className={classes.root}>
       <AppBar className={classes.appBar} position="fixed" color="default" elevation={0}>
-        {props.barContent}
+        {barContent}
       </AppBar>
+
       <main className={classes.content}>
         <Toolbar />
-        {props.mainContent}
+        {mainContent}
       </main>
+
       <nav className={classes.drawer}>
-        <Hidden mdUp implementation="css">
+        {isDesktop ? (
+          <Drawer
+            classes={{ paper: classes.drawerPaper }}
+            variant="permanent"
+            anchor="right"
+            open
+          >
+            {drawerContent}
+          </Drawer>
+        ) : (
           <Drawer
             variant="temporary"
             anchor="right"
             open={drawerOpen}
             onClose={toggleDrawer}
-            classes={{
-              paper: classes.drawerPaper,
-            }}
-            ModalProps={{
-              keepMounted: true,
-            }}
+            classes={{ paper: classes.drawerPaper }}
+            ModalProps={{ keepMounted: true }}
           >
-            {props.drawerContent}
+            {drawerContent}
           </Drawer>
-        </Hidden>
-        <Hidden smDown implementation="css">
-          <Drawer
-            classes={{
-              paper: classes.drawerPaper,
-            }}
-            variant="permanent"
-            anchor="right"
-            open
-          >
-            {props.drawerContent}
-          </Drawer>
-        </Hidden>
+        )}
       </nav>
     </div>
   );

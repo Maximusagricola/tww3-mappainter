@@ -1,11 +1,12 @@
 import React from 'react';
-import { IconButton, Divider } from '@material-ui/core';
-import { makeStyles } from '@material-ui/core/styles';
-import { Close } from '@material-ui/icons';
+import { IconButton, Divider } from '@mui/material';
+import { makeStyles } from '@mui/styles';
+import type { Theme } from '@mui/material/styles'; 
+import CloseIcon from '@mui/icons-material/Close';
 import CampaignSelect from './painter/ControlPane/CampaignSelect';
 import ControlPane from './painter/ControlPane';
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles((theme: Theme) => ({
   root: {
     height: '100%',
     overflow: 'hidden',
@@ -59,7 +60,7 @@ const DrawerContent = (props: DrawerContentProps) => {
           edge="end"
           onClick={toggleDrawer}
         >
-          <Close />
+          <CloseIcon />
         </IconButton>
       </div>
       <Divider />
