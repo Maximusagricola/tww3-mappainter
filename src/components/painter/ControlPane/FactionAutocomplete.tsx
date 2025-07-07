@@ -1,6 +1,5 @@
-import React from 'react';
 import { TextField, InputAdornment, Typography } from '@mui/material';
-import Autocomplete from '@mui/material/Autocomplete'; // ✅ correct import
+import Autocomplete from '@mui/material/Autocomplete';
 
 import assets from '../../../assets';
 import type { Faction } from '../../../data/factions';
@@ -15,8 +14,7 @@ type FactionAutocompleteProps = {
   label?: string;
   placeholder?: string;
   helperText?: string;
-  onChange: (event: React.ChangeEvent<{}>, value: Faction | null) => void;
-  getOptionSelected?: (option: Faction, value: Faction) => boolean;
+  onChange: (_event: React.ChangeEvent<{}>, value: Faction | null) => void;
 };
 
 const FactionAutocomplete = ({
@@ -28,14 +26,14 @@ const FactionAutocomplete = ({
   placeholder,
   helperText,
   onChange,
-  getOptionSelected,
 }: FactionAutocompleteProps) => {
   return (
     <Autocomplete
       size="small"
       options={options}
       value={value}
-      isOptionEqualToValue={(option, value) => option.key === value.key}      onChange={onChange}
+      isOptionEqualToValue={(option, value) => option.key === value.key}
+      onChange={onChange}
       groupBy={(option) => option.group}
       getOptionLabel={(option) => option.name}
       disabled={disabled}
