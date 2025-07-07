@@ -43,7 +43,7 @@ const ControlPane = () => {
         variant="fullWidth"
         indicatorColor="primary"
         value={painter.mode}
-        onChange={(e, mode) => selectMode(mode)}
+        onChange={(_e, mode) => selectMode(mode)}
       >
         <Tab label="Interactive mode" value="interactive" />
         <Tab label="Paint mode" value="painter" />
@@ -56,7 +56,7 @@ const ControlPane = () => {
               size="small"
               options={painter.options.regions}
               value={selectedRegion}
-              onChange={(e, option) => selectRegion(option?.key ?? null)}
+              onChange={(_e, option) => selectRegion(option?.key ?? null)}
               groupBy={(option) => option.province.name}
               getOptionLabel={(option) => option.name}
               renderInput={(params) => (
@@ -76,7 +76,7 @@ const ControlPane = () => {
               disabled={!selectedRegion}
               showFactionIcon={!!selectedRegion}
               placeholder={selectedRegion ? 'Abandoned' : 'Select a region first'}
-              onChange={(e, option) =>
+              onChange={(_e, option) =>
                 selectedRegion && selectOwner(selectedRegion.key, option?.key ?? null)
               }
             />
@@ -90,7 +90,7 @@ const ControlPane = () => {
               label="Selected faction"
               placeholder="Abandoned"
               helperText="No faction selected abandons region."
-              onChange={(e, option) => selectFaction(option?.key ?? null)}
+              onChange={(_e, option) => selectFaction(option?.key ?? null)}
             />
           </Box>
         )}
@@ -122,14 +122,14 @@ const PainterSectionImportExport = () => {
           fileInput.setAttribute('type', 'file');
           fileInput.setAttribute('accept', '.json');
 
-          fileInput.onchange = (e) => {
+          fileInput.onchange = (_e) => {
             const reader = new FileReader();
             reader.onload = (event) => {
               const mapJson = JSON.parse((event.target as FileReader).result as string);
               importJson(mapJson);
             };
             reader.onerror = (err) => console.log(err);
-            reader.readAsText((e.target as HTMLInputElement).files?.[0] as Blob);
+            reader.readAsText((_e.target as HTMLInputElement).files?.[0] as Blob);
           };
 
           fileInput.click();
@@ -186,8 +186,7 @@ const PainterSectionOverlays = () => {
   return (
     <List subheader={<ListSubheader disableSticky>Map layers</ListSubheader>}>
       {Object.values(overlays).map((overlay) => (
-        <ListItem key={overlay.key} disablePadding
-        >
+        <ListItem key={overlay.key} disablePadding>
           <ListItemIcon>
             <LayersIcon />
           </ListItemIcon>
@@ -195,7 +194,7 @@ const PainterSectionOverlays = () => {
           <Switch
             edge="end"
             color="primary"
-            onChange={(e, checked) => setOverlayVisible(overlay.key, checked)}
+            onChange={(_e, checked) => setOverlayVisible(overlay.key, checked)}
             checked={overlay.visible}
           />
         </ListItem>
