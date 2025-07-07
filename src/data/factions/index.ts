@@ -18,7 +18,6 @@ for (const path in files) {
 
   const factionKey = meta.key;
   const factionName = meta.name;
-  const factionColor = meta.color;
 
   // Group key (e.g., "./somegroup/faction/meta.json" → "somegroup")
   const [, groupKey] = splitResult;
@@ -43,9 +42,10 @@ for (const path in files) {
     factionGroups[groupKey].factions[factionKey] = {
       key: factionKey,
       name: factionName,
-      icon: iconModule?.default ?? '', 
+      icon: iconModule?.default ?? '',
       group: groupKey,
       rank: 1,
+      color: meta.color, // ✅ now correctly used
     };
   }
 }
