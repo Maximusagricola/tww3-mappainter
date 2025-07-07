@@ -1,4 +1,3 @@
-import React from 'react';
 import { FormControl, InputLabel, Select, MenuItem } from '@mui/material';
 import { useAppSelector, useAppDispatch } from '../../../store';
 import { mapChanged } from '../../../store/painter';
