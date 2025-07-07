@@ -1,10 +1,11 @@
-import { useCallback } from 'react';;
-import Fab from '@mui/material/Fab';
+import { useCallback } from 'react';
+import { Fab } from '@mui/material';
 import { makeStyles } from '@mui/styles';
-import FilterCenterFocusIcon from '@mui/icons-material/FilterCenterFocus';
-import { useMapContext } from '../map/context';
+import type { Theme } from '@mui/material/styles';
+import FilterCenterFocusIcon from '@mui/icons-material/FilterCenterFocus'; 
+import { useMapContext } from '../../map/context';
 
-const useStyles = makeStyles((theme: any) => ({
+const useStyles = makeStyles((theme: Theme) => ({
   fab: {
     position: 'absolute',
     bottom: theme.spacing(2),
@@ -12,6 +13,7 @@ const useStyles = makeStyles((theme: any) => ({
     zIndex: 1000,
   },
 }));
+
 
 const MapCenterButton = () => {
   const classes = useStyles();
@@ -21,9 +23,9 @@ const MapCenterButton = () => {
     const { map, bounds } = context;
     map.flyToBounds(bounds, {
       animate: true,
-      duration: 2,
+      duration: 2
     });
-  }, [context]); // Include context to avoid disabling lint rule
+  }, []); 
 
   return (
     <Fab size="medium" color="primary" className={classes.fab} onClick={onClick}>
