@@ -1,4 +1,3 @@
-import React from 'react';
 import { makeStyles } from '@mui/styles';
 import { IconButton, Typography, Toolbar } from '@mui/material';
 import type { Theme } from '@mui/material/styles';
@@ -42,7 +41,7 @@ function BarContent(props: BarContentProps) {
           Map Painter
         </Typography>
         <Typography variant="subtitle2" color="textSecondary" noWrap>
-          Total War: WARHAMMER II
+          Total War: WARHAMMER III
         </Typography>
       </div>
       <span className={classes.fillSpace}></span>
