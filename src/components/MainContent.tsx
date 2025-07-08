@@ -46,13 +46,13 @@ const MainContent = () => {
 
   return (
     <div className={classes.map} key={campaign.key}>
-      <div className={classes.debugText}>🗺️ Map container mounted</div>
+      {/* <div className={classes.debugText}>🗺️ Map container mounted</div> */}
       <Map campaign={campaign}>
         <MapImageLayer />
-        <RegionAreaLayer />
+        {/* <RegionAreaLayer /> */}
         <RegionMarkerLayer />
         <MapEventListener />
-        <MapCenterButton />
+        {/* <MapCenterButton /> */}
       </Map>
     </div>
   );

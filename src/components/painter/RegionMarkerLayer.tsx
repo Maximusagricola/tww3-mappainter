@@ -7,6 +7,8 @@ import { useAppSelector, useAppDispatch } from '../../store';
 import { regionChanged, regionOwnerChanged } from '../../store/painter';
 import type { Campaign } from '../../data/campaigns';
 
+import regions from '../../data/campaigns/expanded/regions2.json';
+
 import assets from '../../assets';
 const abandonedIcon = assets['icons/abandoned'];
 const pointerArrowIcon = assets['icons/pointer_arrow'];
@@ -40,6 +42,20 @@ const useStyles = makeStyles({
   },
 });
 
+// TODO fixme, these are image map and in-game map dimensions
+const config = {
+  game: {
+    width: 1556,
+
+    height: 970,
+  },
+  image: {
+    width: 6264,
+
+    height: 4480,
+  },
+};
+
 const RegionMarkerLayer = () => {
   const context = useMapContext<Campaign>();
   const [elems, setElems] = React.useState<[HTMLElement, any][]>([]);
@@ -48,14 +64,18 @@ const RegionMarkerLayer = () => {
     const { map, campaign } = context;
     const elements: [HTMLElement, any][] = [];
 
-    const markers = Object.values(campaign.regions).map((region: any) => {
-      const { y, x } = region.settlement;
+    const markers = Object.values(regions).map((region: any) => {
+      const settlement = region.settlement;
       const el = document.createElement('div');
       el.setAttribute(
         'style',
         'display: flex; height: 0; width: 0; align-items: center; justify-content: center; position: relative;'
       );
       const icon = createPortalMarker({ element: el });
+
+      const x = settlement.x * (config.image.width / config.game.width);
+      const y = settlement.y * (config.image.height / config.game.height) + config.image.height;
+
       const marker = L.marker([y, x], { icon });
       elements.push([el, region]);
       return marker;
@@ -98,24 +118,21 @@ const RegionMarker = (props: { regionKey: string }) => {
 
   return (
     <>
-      {showPointerArrow && (
-        <img className={classes.pointer} src={pointerArrowIcon} alt="" />
-      )}
+      {showPointerArrow && <img className={classes.pointer} src={pointerArrowIcon} alt="" />}
       <img className={classes.marker} onClick={onClickMarker} src={icon} alt="" />
     </>
   );
 };
 
 function useRegionMarker(regionKey: string) {
-const icon = useAppSelector((state) => {
-  const factionKey = state.painter.ownership[regionKey];
-  const faction = factionKey ? state.painter.factions[factionKey] : null;
-  if (!faction) {
-    console.warn("🚨 Unknown factionKey:", factionKey, "for region:", regionKey);
-  }
-  return faction?.icon ?? abandonedIcon;
-});
-
+  const icon = useAppSelector((state) => {
+    const factionKey = state.painter.ownership[regionKey];
+    const faction = factionKey ? state.painter.factions[factionKey] : null;
+    if (!faction) {
+      console.warn('🚨 Unknown factionKey:', factionKey, 'for region:', regionKey);
+    }
+    return faction?.icon ?? abandonedIcon;
+  });
 
   const showPointerArrow = useAppSelector((state) => {
     const isModeInteractive = state.painter.mode === 'interactive';

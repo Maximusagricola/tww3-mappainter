@@ -8,6 +8,9 @@ import { ThemeProvider as StylesThemeProvider } from '@mui/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import theme from './theme';
 
+// this was missing
+import './index.css';
+
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <Provider store={store}>

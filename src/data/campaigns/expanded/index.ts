@@ -1,4 +1,4 @@
-import whMainMap from './wh_main_map.png';
+import whMainMap from './cr_combi_expanded_map.webp';
 import whMainMapText from './wh_main_map_text.png';
 import rawRegions from './regions.json';
 import type { Region } from '../index'; // adjust path if needed
@@ -12,8 +12,8 @@ const expanded = {
   map: {
     image: whMainMap,
     imageText: whMainMapText,
-    width: 3000,
-    height: 2146,
+    width: 6264,
+    height: 4480,
   },
   img: whMainMap,
   game: 'WH3',
