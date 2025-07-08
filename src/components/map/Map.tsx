@@ -68,7 +68,7 @@ const Map = <C extends BaseCampaign>(props: MapProps<C>) => {
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
-    <div style={{ ...style, opacity: loaded ? 1 : 0 }}>
+    <div style={{ ...style }}>
       <div ref={mapContainer} style={{ height: '100%', backgroundColor: 'transparent' }}>
         <MapContext.Provider value={contextState}>{children}</MapContext.Provider>
       </div>

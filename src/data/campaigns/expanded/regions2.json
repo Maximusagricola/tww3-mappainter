@@ -1,0 +1,5230 @@
+[
+  {
+    "key": "wh3_main_combi_region_volksgrad",
+    "cqi": 1,
+    "settlement": { "cqi": 1, "x": 749, "y": 778 },
+    "name": "Volksgrad",
+    "province": { "key": "wh3_main_combi_province_eastern_oblast", "name": "Eastern Oblast" }
+  },
+  {
+    "key": "wh3_main_combi_region_gisoreux",
+    "cqi": 2,
+    "settlement": { "cqi": 2, "x": 438, "y": 627 },
+    "name": "Gisoreux",
+    "province": { "key": "wh3_main_combi_province_forest_of_arden", "name": "Forest of Arden" }
+  },
+  {
+    "key": "wh3_main_combi_region_har_ganeth",
+    "cqi": 3,
+    "settlement": { "cqi": 3, "x": 212, "y": 827 },
+    "name": "Har Ganeth",
+    "province": {
+      "key": "wh3_main_combi_province_the_road_of_skulls",
+      "name": "The Road of Skulls"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_dawns_light",
+    "cqi": 4,
+    "settlement": { "cqi": 4, "x": 584, "y": 57 },
+    "name": "Dawn's Light",
+    "province": { "key": "wh3_main_combi_province_dawns_landing", "name": "Dawn's Landing" }
+  },
+  {
+    "key": "wh3_main_combi_region_swamp_town",
+    "cqi": 5,
+    "settlement": { "cqi": 5, "x": 91, "y": 459 },
+    "name": "Swamp Town",
+    "province": {
+      "key": "wh3_main_combi_province_jungles_of_pahualaxa",
+      "name": "Jungles of Pahualaxa"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_serpent_coast",
+    "cqi": 6,
+    "settlement": { "cqi": 6, "x": 795, "y": 219 },
+    "name": "Serpent Coast",
+    "province": {
+      "key": "wh3_main_combi_province_kingdom_of_beasts",
+      "name": "Kingdom of Beasts"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_monolith_of_festerlung",
+    "cqi": 7,
+    "settlement": { "cqi": 7, "x": 820, "y": 868 },
+    "name": "Monolith of Festerlung",
+    "province": { "key": "wh3_main_combi_province_bloodfire_falls", "name": "Bloodfire Falls" }
+  },
+  {
+    "key": "wh3_main_combi_region_tlaxtlan",
+    "cqi": 8,
+    "settlement": { "cqi": 8, "x": 164, "y": 324 },
+    "name": "Tlaxtlan",
+    "province": { "key": "wh3_main_combi_province_scorpion_coast", "name": "Piranha Swamps" }
+  },
+  {
+    "key": "cr_combi_region_nine_graves",
+    "cqi": 9,
+    "settlement": { "cqi": 9, "x": 1290, "y": 770 },
+    "name": "Nine Graves",
+    "province": { "key": "cr_combi_province_near_steppe_2", "name": "East Kurgania" }
+  },
+  {
+    "key": "wh3_main_combi_region_bay_of_blades",
+    "cqi": 10,
+    "settlement": { "cqi": 10, "x": 582, "y": 814 },
+    "name": "Bay of Blades",
+    "province": {
+      "key": "wh3_main_combi_province_trollheim_mountains",
+      "name": "Trollheim Mountains"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_tor_anlec",
+    "cqi": 11,
+    "settlement": { "cqi": 11, "x": 234, "y": 650 },
+    "name": "Tor Anlec",
+    "province": { "key": "wh3_main_combi_province_nagarythe", "name": "Nagarythe" }
+  },
+  {
+    "key": "wh3_main_combi_region_the_black_pillar",
+    "cqi": 12,
+    "settlement": { "cqi": 12, "x": 214, "y": 849 },
+    "name": "The Black Pillar",
+    "province": {
+      "key": "wh3_main_combi_province_the_road_of_skulls",
+      "name": "The Road of Skulls"
+    }
+  },
+  {
+    "key": "cr_combi_region_oglai_khans_folly",
+    "cqi": 13,
+    "settlement": { "cqi": 13, "x": 1340, "y": 775 },
+    "name": "Oglai Khan's Folly",
+    "province": { "key": "cr_combi_province_far_steppe_2", "name": "Grave of Scythia" }
+  },
+  {
+    "key": "wh3_main_combi_region_quatar",
+    "cqi": 14,
+    "settlement": { "cqi": 14, "x": 678, "y": 277 },
+    "name": "Quatar",
+    "province": { "key": "mixer_combi_province_numas", "name": "Ash River" }
+  },
+  {
+    "key": "wh3_main_combi_region_averheim",
+    "cqi": 15,
+    "settlement": { "cqi": 15, "x": 615, "y": 599 },
+    "name": "Averheim",
+    "province": { "key": "wh3_main_combi_province_averland", "name": "Averland" }
+  },
+  {
+    "key": "wh3_main_combi_region_yhetee_peak",
+    "cqi": 16,
+    "settlement": { "cqi": 16, "x": 1071, "y": 619 },
+    "name": "Yhetee Peak",
+    "province": {
+      "key": "wh3_main_combi_province_ancient_giant_lands",
+      "name": "Ancient Giant Lands"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_shrine_of_khaine",
+    "cqi": 17,
+    "settlement": { "cqi": 17, "x": 258, "y": 663 },
+    "name": "Shrine of Khaine",
+    "province": { "key": "wh3_main_combi_province_nagarythe", "name": "Nagarythe" }
+  },
+  {
+    "key": "wh3_main_combi_region_shard_bastion",
+    "cqi": 18,
+    "settlement": { "cqi": 18, "x": 314, "y": 900 },
+    "name": "Shard Bastion",
+    "province": { "key": "wh3_main_combi_province_the_shard_lands", "name": "The Shard Lands" }
+  },
+  {
+    "key": "wh3_main_combi_region_fu_hung",
+    "cqi": 19,
+    "settlement": { "cqi": 19, "x": 1230, "y": 376 },
+    "name": "Fu Hung",
+    "province": {
+      "key": "wh3_main_combi_province_broken_lands_of_tian_li",
+      "name": "Broken Lands of Tian Li"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_the_sentinel_of_time",
+    "cqi": 20,
+    "settlement": { "cqi": 20, "x": 190, "y": 152 },
+    "name": "The Sentinel of Time",
+    "province": { "key": "wh3_main_combi_province_the_lost_valley", "name": "The Lost Valley" }
+  },
+  {
+    "key": "wh3_main_combi_region_middenheim",
+    "cqi": 21,
+    "settlement": { "cqi": 21, "x": 554, "y": 706 },
+    "name": "Middenheim",
+    "province": { "key": "wh3_main_combi_province_middenland", "name": "Middenland" }
+  },
+  {
+    "key": "wh3_main_combi_region_lothern",
+    "cqi": 22,
+    "settlement": { "cqi": 22, "x": 254, "y": 513 },
+    "name": "Lothern",
+    "province": { "key": "wh3_main_combi_province_eataine", "name": "Eataine" }
+  },
+  {
+    "key": "wh3_main_combi_region_hell_pit",
+    "cqi": 23,
+    "settlement": { "cqi": 23, "x": 705, "y": 807 },
+    "name": "Hell Pit",
+    "province": { "key": "wh3_main_combi_province_black_blood_pass", "name": "Black Blood Pass" }
+  },
+  {
+    "key": "cr_combi_region_ihan_3_1",
+    "cqi": 24,
+    "settlement": { "cqi": 24, "x": 1448, "y": 587 },
+    "name": "Sinhadaeng",
+    "province": { "key": "cr_combi_province_ihan_3", "name": "East Ihan" }
+  },
+  {
+    "key": "wh3_main_combi_region_the_palace_of_ruin",
+    "cqi": 25,
+    "settlement": { "cqi": 25, "x": 230, "y": 904 },
+    "name": "The Palace of Ruin",
+    "province": {
+      "key": "wh3_dlc20_combi_province_frigid_wasteland",
+      "name": "The Frigid Wasteland"
+    }
+  },
+  {
+    "key": "cr_combi_region_khuresh_7_1",
+    "cqi": 26,
+    "settlement": { "cqi": 26, "x": 1292, "y": 140 },
+    "name": "Warpstone Caves",
+    "province": { "key": "cr_combi_province_khuresh_7", "name": "Khureshi Hills" }
+  },
+  {
+    "key": "wh3_main_combi_region_the_moot",
+    "cqi": 27,
+    "settlement": { "cqi": 27, "x": 648, "y": 601 },
+    "name": "The Moot",
+    "province": { "key": "wh3_main_combi_province_mootland", "name": "Mootland" }
+  },
+  {
+    "key": "wh3_main_combi_region_monument_of_the_moon",
+    "cqi": 28,
+    "settlement": { "cqi": 28, "x": 145, "y": 455 },
+    "name": "Monument of the Moon",
+    "province": {
+      "key": "wh3_main_combi_province_jungles_of_pahualaxa",
+      "name": "Jungles of Pahualaxa"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_village_of_the_tigermen",
+    "cqi": 29,
+    "settlement": { "cqi": 29, "x": 1189, "y": 414 },
+    "name": "Village of the Tigermen",
+    "province": {
+      "key": "wh3_main_combi_province_broken_lands_of_tian_li",
+      "name": "Broken Lands of Tian Li"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_dagraks_end",
+    "cqi": 30,
+    "settlement": { "cqi": 30, "x": 128, "y": 909 },
+    "name": "Dagrak's End",
+    "province": {
+      "key": "wh3_main_combi_province_ironfrost_glacier",
+      "name": "Ironfrost Glacier"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_flensburg",
+    "cqi": 31,
+    "settlement": { "cqi": 31, "x": 587, "y": 618 },
+    "name": "Flensburg",
+    "province": { "key": "wh3_main_combi_province_stirland", "name": "Stirland" }
+  },
+  {
+    "key": "wh3_main_combi_region_the_fetid_catacombs",
+    "cqi": 32,
+    "settlement": { "cqi": 32, "x": 441, "y": 896 },
+    "name": "The Foetid Catacombs",
+    "province": { "key": "wh3_main_combi_province_the_cold_mires", "name": "The Cold Mires" }
+  },
+  {
+    "key": "wh3_main_combi_region_granite_massif",
+    "cqi": 33,
+    "settlement": { "cqi": 33, "x": 755, "y": 306 },
+    "name": "Granite Massif",
+    "province": { "key": "wh3_main_combi_province_devils_backbone", "name": "Devil's Backbone" }
+  },
+  {
+    "key": "cr_combi_region_ind_6_3",
+    "cqi": 34,
+    "settlement": { "cqi": 34, "x": 1120, "y": 246 },
+    "name": "Pubjiwanpur",
+    "province": { "key": "cr_combi_province_ind_6", "name": "Ind's End" }
+  },
+  {
+    "key": "wh3_main_combi_region_the_bone_gulch",
+    "cqi": 35,
+    "settlement": { "cqi": 35, "x": 841, "y": 423 },
+    "name": "The Bone Gulch",
+    "province": {
+      "key": "wh3_main_combi_province_the_plain_of_bones",
+      "name": "The Plain of Bones"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_crucible_of_delights",
+    "cqi": 36,
+    "settlement": { "cqi": 36, "x": 772, "y": 16 },
+    "name": "Crucible of Delights",
+    "province": {
+      "key": "wh3_main_combi_province_the_daemonium_hills",
+      "name": "The Daemonium Hills"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_verdanos",
+    "cqi": 37,
+    "settlement": { "cqi": 37, "x": 557, "y": 451 },
+    "name": "Verdanos",
+    "province": {
+      "key": "wh3_main_combi_province_western_border_princes",
+      "name": "Western Border Princes"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_numas",
+    "cqi": 38,
+    "settlement": { "cqi": 38, "x": 651, "y": 297 },
+    "name": "Numas",
+    "province": { "key": "mixer_combi_province_numas", "name": "Ash River" }
+  },
+  {
+    "key": "wh3_main_combi_region_gnobbly_gorge",
+    "cqi": 39,
+    "settlement": { "cqi": 39, "x": 1072, "y": 436 },
+    "name": "Gnobbly Gorge",
+    "province": { "key": "wh3_main_combi_province_gnoblar_country", "name": "Gnoblar Country" }
+  },
+  {
+    "key": "wh3_main_combi_region_bechafen",
+    "cqi": 40,
+    "settlement": { "cqi": 40, "x": 677, "y": 716 },
+    "name": "Bechafen",
+    "province": { "key": "wh3_main_combi_province_ostermark", "name": "Ostermark" }
+  },
+  {
+    "key": "wh3_main_combi_region_shrine_of_kurnous",
+    "cqi": 41,
+    "settlement": { "cqi": 41, "x": 267, "y": 642 },
+    "name": "Shrine of Kurnous",
+    "province": { "key": "wh3_main_combi_province_chrace", "name": "Chrace" }
+  },
+  {
+    "key": "cr_combi_region_ihan_1_2",
+    "cqi": 42,
+    "settlement": { "cqi": 42, "x": 1379, "y": 640 },
+    "name": "Bumgyeong",
+    "province": { "key": "cr_combi_province_ihan_1", "name": "North Ihan" }
+  },
+  {
+    "key": "wh3_main_combi_region_beichai",
+    "cqi": 43,
+    "settlement": { "cqi": 43, "x": 1356, "y": 554 },
+    "name": "Beichai",
+    "province": { "key": "wh3_main_combi_province_jade_river_delta", "name": "Jade River Delta" }
+  },
+  {
+    "key": "wh3_main_combi_region_shattered_stone_isle",
+    "cqi": 44,
+    "settlement": { "cqi": 44, "x": 999, "y": 384 },
+    "name": "Shattered Stone Isle",
+    "province": { "key": "wh3_main_combi_province_the_dragon_isles", "name": "The Dragon Isles" }
+  },
+  {
+    "key": "wh3_main_combi_region_quenelles",
+    "cqi": 45,
+    "settlement": { "cqi": 45, "x": 481, "y": 540 },
+    "name": "Quenelles",
+    "province": {
+      "key": "wh3_main_combi_province_forest_of_chalons",
+      "name": "Forest of Chalons"
+    }
+  },
+  {
+    "key": "cr_combi_region_ind_3_2",
+    "cqi": 46,
+    "settlement": { "cqi": 46, "x": 1113, "y": 320 },
+    "name": "Varindapur",
+    "province": { "key": "cr_combi_province_ind_3", "name": "Land of a Thousand Gods" }
+  },
+  {
+    "key": "wh3_main_combi_region_essen",
+    "cqi": 47,
+    "settlement": { "cqi": 47, "x": 693, "y": 662 },
+    "name": "Essen",
+    "province": { "key": "wh3_main_combi_province_ostermark", "name": "Ostermark" }
+  },
+  {
+    "key": "cr_combi_region_khuresh_2_2",
+    "cqi": 48,
+    "settlement": { "cqi": 48, "x": 1291, "y": 298 },
+    "name": "Shedding Grounds",
+    "province": { "key": "cr_combi_province_khuresh_2", "name": "Forest of Broken Fangs" }
+  },
+  {
+    "key": "wh3_main_combi_region_the_sentinels",
+    "cqi": 49,
+    "settlement": { "cqi": 49, "x": 947, "y": 510 },
+    "name": "The Sentinels",
+    "province": {
+      "key": "wh3_main_combi_province_the_howling_wastes",
+      "name": "The Howling Wastes"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_temple_of_addaioth",
+    "cqi": 50,
+    "settlement": { "cqi": 50, "x": 76, "y": 689 },
+    "name": "Temple of Addaioth",
+    "province": { "key": "wh3_main_combi_province_doom_glades", "name": "Doom Glades" }
+  },
+  {
+    "key": "wh3_main_combi_region_tor_achare",
+    "cqi": 51,
+    "settlement": { "cqi": 51, "x": 295, "y": 619 },
+    "name": "Tor Achare",
+    "province": { "key": "wh3_main_combi_province_chrace", "name": "Chrace" }
+  },
+  {
+    "key": "cr_combi_region_nippon_3_3",
+    "cqi": 52,
+    "settlement": { "cqi": 52, "x": 1477, "y": 252 },
+    "name": "The Grand Vim-To Shrine",
+    "province": { "key": "cr_combi_province_nippon_3", "name": "Sun's Origin" }
+  },
+  {
+    "key": "wh3_main_combi_region_black_fang",
+    "cqi": 53,
+    "settlement": { "cqi": 53, "x": 976, "y": 639 },
+    "name": "Black Fang",
+    "province": { "key": "wh3_main_combi_province_gash_kadrak", "name": "Gash Kadrak" }
+  },
+  {
+    "key": "wh3_main_combi_region_matorca",
+    "cqi": 54,
+    "settlement": { "cqi": 54, "x": 632, "y": 505 },
+    "name": "Matorca",
+    "province": {
+      "key": "wh3_main_combi_province_eastern_border_princes",
+      "name": "Eastern Border Princes"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_el_kalabad",
+    "cqi": 55,
+    "settlement": { "cqi": 55, "x": 532, "y": 273 },
+    "name": "El-Kalabad",
+    "province": { "key": "wh3_main_combi_province_the_cracked_land", "name": "The Cracked Land" }
+  },
+  {
+    "key": "wh3_main_combi_region_blizzardpeak",
+    "cqi": 56,
+    "settlement": { "cqi": 56, "x": 1016, "y": 699 },
+    "name": "Blizzardpeak",
+    "province": { "key": "wh3_main_combi_province_path_to_the_east", "name": "Path to the East" }
+  },
+  {
+    "key": "wh3_main_combi_region_waterfall_palace",
+    "cqi": 57,
+    "settlement": { "cqi": 57, "x": 515, "y": 566 },
+    "name": "Waterfall Palace",
+    "province": { "key": "wh3_main_combi_province_argwylon", "name": "Argwylon" }
+  },
+  {
+    "key": "wh3_main_combi_region_cuexotl",
+    "cqi": 58,
+    "settlement": { "cqi": 58, "x": 640, "y": 169 },
+    "name": "Cuexotl",
+    "province": { "key": "wh3_main_combi_province_central_jungles", "name": "Central Jungles" }
+  },
+  {
+    "key": "wh3_main_combi_region_tribeslaughter",
+    "cqi": 59,
+    "settlement": { "cqi": 59, "x": 847, "y": 782 },
+    "name": "Tribeslaughter",
+    "province": { "key": "wh3_main_combi_province_the_skull_road", "name": "The Skull Road" }
+  },
+  {
+    "key": "wh3_main_combi_region_sjoktraken",
+    "cqi": 60,
+    "settlement": { "cqi": 60, "x": 726, "y": 828 },
+    "name": "Sjoktraken",
+    "province": {
+      "key": "wh3_main_combi_province_gianthome_mountains",
+      "name": "Gianthome Mountains"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_bilious_cliffs",
+    "cqi": 61,
+    "settlement": { "cqi": 61, "x": 608, "y": 922 },
+    "name": "Bilious Cliffs",
+    "province": {
+      "key": "wh3_main_combi_province_the_noisome_tumour",
+      "name": "The Noisome Tumour"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_ironspike",
+    "cqi": 62,
+    "settlement": { "cqi": 62, "x": 43, "y": 547 },
+    "name": "Ironspike",
+    "province": { "key": "wh3_main_combi_province_ashen_coast", "name": "Ashen Coast" }
+  },
+  {
+    "key": "wh3_main_combi_region_praag",
+    "cqi": 63,
+    "settlement": { "cqi": 63, "x": 723, "y": 770 },
+    "name": "Praag",
+    "province": { "key": "wh3_main_combi_province_the_cursed_city", "name": "The Cursed City" }
+  },
+  {
+    "key": "wh3_main_combi_region_tor_elyr",
+    "cqi": 64,
+    "settlement": { "cqi": 64, "x": 206, "y": 558 },
+    "name": "Tor Elyr",
+    "province": { "key": "wh3_main_combi_province_ellyrion", "name": "Ellyrion" }
+  },
+  {
+    "key": "wh3_main_combi_region_tlax",
+    "cqi": 65,
+    "settlement": { "cqi": 65, "x": 259, "y": 289 },
+    "name": "Tlax",
+    "province": { "key": "wh3_main_combi_province_vampire_coast", "name": "Jungle of Webs" }
+  },
+  {
+    "key": "wh3_main_combi_region_darkhold",
+    "cqi": 66,
+    "settlement": { "cqi": 66, "x": 899, "y": 478 },
+    "name": "Darkhold",
+    "province": {
+      "key": "wh3_main_combi_province_the_howling_wastes",
+      "name": "The Howling Wastes"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_iron_rock",
+    "cqi": 67,
+    "settlement": { "cqi": 67, "x": 728, "y": 491 },
+    "name": "Iron Rock",
+    "province": { "key": "wh3_main_combi_province_death_pass", "name": "Death Pass" }
+  },
+  {
+    "key": "wh3_main_combi_region_tower_of_ashung",
+    "cqi": 68,
+    "settlement": { "cqi": 68, "x": 1330, "y": 366 },
+    "name": "Tower of Ashung",
+    "province": { "key": "wh3_main_combi_province_serpent_estuary", "name": "Serpent Estuary" }
+  },
+  {
+    "key": "wh3_main_combi_region_cairn_thel",
+    "cqi": 69,
+    "settlement": { "cqi": 69, "x": 285, "y": 517 },
+    "name": "Cairn Thel",
+    "province": { "key": "wh3_main_combi_province_southern_yvresse", "name": "Southern Yvresse" }
+  },
+  {
+    "key": "cr_combi_region_khuresh_5_3",
+    "cqi": 70,
+    "settlement": { "cqi": 70, "x": 1313, "y": 177 },
+    "name": "Sacred Pool of Xholankha",
+    "province": { "key": "cr_combi_province_khuresh_5", "name": "The Lost Jungle" }
+  },
+  {
+    "key": "wh3_main_combi_region_spitepeak",
+    "cqi": 71,
+    "settlement": { "cqi": 71, "x": 789, "y": 417 },
+    "name": "Spitepeak",
+    "province": { "key": "wh3_main_combi_province_eastern_badlands", "name": "Eastern Badlands" }
+  },
+  {
+    "key": "wh3_main_combi_region_hexoatl",
+    "cqi": 72,
+    "settlement": { "cqi": 72, "x": 69, "y": 489 },
+    "name": "Hexoatl",
+    "province": {
+      "key": "wh3_main_combi_province_isthmus_of_lustria",
+      "name": "Isthmus of Lustria"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_skeggi",
+    "cqi": 73,
+    "settlement": { "cqi": 73, "x": 126, "y": 513 },
+    "name": "Skeggi",
+    "province": {
+      "key": "wh3_main_combi_province_the_isthmus_coast",
+      "name": "The Isthmus Coast"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_ziggurat_of_dawn",
+    "cqi": 74,
+    "settlement": { "cqi": 74, "x": 92, "y": 517 },
+    "name": "Ziggurat of Dawn",
+    "province": {
+      "key": "wh3_main_combi_province_the_isthmus_coast",
+      "name": "The Isthmus Coast"
+    }
+  },
+  {
+    "key": "cr_combi_region_ind_5_2",
+    "cqi": 75,
+    "settlement": { "cqi": 75, "x": 1114, "y": 290 },
+    "name": "Suryapuri",
+    "province": { "key": "cr_combi_province_ind_5", "name": "Central Ind" }
+  },
+  {
+    "key": "wh3_main_combi_region_ghrond",
+    "cqi": 76,
+    "settlement": { "cqi": 76, "x": 157, "y": 841 },
+    "name": "Ghrond",
+    "province": { "key": "wh3_main_combi_province_spiteful_peaks", "name": "Spiteful Peaks" }
+  },
+  {
+    "key": "wh3_main_combi_region_deaths_head_monoliths",
+    "cqi": 77,
+    "settlement": { "cqi": 77, "x": 497, "y": 200 },
+    "name": "Dead-Head Monoliths",
+    "province": { "key": "wh3_main_combi_province_western_jungles", "name": "Western Jungles" }
+  },
+  {
+    "key": "wh3_main_combi_region_ironfrost",
+    "cqi": 78,
+    "settlement": { "cqi": 78, "x": 40, "y": 878 },
+    "name": "Ironfrost",
+    "province": {
+      "key": "wh3_main_combi_province_ironfrost_glacier",
+      "name": "Ironfrost Glacier"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_pillars_of_unseen_constellations",
+    "cqi": 79,
+    "settlement": { "cqi": 79, "x": 59, "y": 332 },
+    "name": "Pillars of Unseen Constellations",
+    "province": {
+      "key": "wh3_main_combi_province_jungles_of_green_mist",
+      "name": "Jungles of Green Mist"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_shrine_of_asuryan",
+    "cqi": 80,
+    "settlement": { "cqi": 80, "x": 258, "y": 540 },
+    "name": "Shrine of Asuryan",
+    "province": { "key": "wh3_main_combi_province_eataine", "name": "Eataine" }
+  },
+  {
+    "key": "cr_combi_region_khuresh_3_3",
+    "cqi": 81,
+    "settlement": { "cqi": 81, "x": 1370, "y": 264 },
+    "name": "S'Sirron Burrows",
+    "province": { "key": "cr_combi_province_khuresh_3", "name": "Whispering Jungle" }
+  },
+  {
+    "key": "wh3_main_combi_region_zarakzil",
+    "cqi": 82,
+    "settlement": { "cqi": 82, "x": 539, "y": 451 },
+    "name": "Zarakzil",
+    "province": { "key": "wh3_main_combi_province_the_vaults", "name": "The Vaults" }
+  },
+  {
+    "key": "wh3_main_combi_region_hanyu_port",
+    "cqi": 83,
+    "settlement": { "cqi": 83, "x": 1127, "y": 494 },
+    "name": "Hanyu Port",
+    "province": {
+      "key": "wh3_main_combi_province_wastelands_of_jinshen",
+      "name": "Wastelands of Jinshen"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_zandri",
+    "cqi": 84,
+    "settlement": { "cqi": 84, "x": 541, "y": 325 },
+    "name": "Zandri",
+    "province": { "key": "wh3_main_combi_province_the_cracked_land", "name": "The Cracked Land" }
+  },
+  {
+    "key": "wh3_main_combi_region_chamber_of_visions",
+    "cqi": 85,
+    "settlement": { "cqi": 85, "x": 71, "y": 273 },
+    "name": "Chamber of Visions",
+    "province": { "key": "wh3_main_combi_province_the_turtle_isles", "name": "The Turtle Isles" }
+  },
+  {
+    "key": "wh3_main_combi_region_gorssel",
+    "cqi": 86,
+    "settlement": { "cqi": 86, "x": 460, "y": 681 },
+    "name": "Gorssel",
+    "province": { "key": "wh3_main_combi_province_the_wasteland", "name": "The Wasteland" }
+  },
+  {
+    "key": "wh3_main_combi_region_the_sinhall_monolith",
+    "cqi": 87,
+    "settlement": { "cqi": 87, "x": 369, "y": 37 },
+    "name": "The Sinhall Monolith",
+    "province": {
+      "key": "wh3_main_combi_province_the_southern_wastes",
+      "name": "The Southern Wastes"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_gristle_valley",
+    "cqi": 88,
+    "settlement": { "cqi": 88, "x": 561, "y": 548 },
+    "name": "Gristle Valley",
+    "province": {
+      "key": "wh3_main_combi_province_southern_grey_mountains",
+      "name": "Southern Grey Mountains"
+    }
+  },
+  {
+    "key": "cr_combi_region_ind_1_2",
+    "cqi": 89,
+    "settlement": { "cqi": 89, "x": 1106, "y": 422 },
+    "name": "Himaranya",
+    "province": { "key": "cr_combi_province_ind_1", "name": "The Spice Route" }
+  },
+  {
+    "key": "wh3_main_combi_region_grunburg",
+    "cqi": 90,
+    "settlement": { "cqi": 90, "x": 548, "y": 623 },
+    "name": "Grunburg",
+    "province": { "key": "wh3_main_combi_province_reikland", "name": "Reikland" }
+  },
+  {
+    "key": "wh3_main_combi_region_shattered_cove",
+    "cqi": 91,
+    "settlement": { "cqi": 91, "x": 999, "y": 417 },
+    "name": "Shattered Stone Bay",
+    "province": { "key": "wh3_main_combi_province_the_dragon_isles", "name": "The Dragon Isles" }
+  },
+  {
+    "key": "wh3_main_combi_region_lost_plateau",
+    "cqi": 92,
+    "settlement": { "cqi": 92, "x": 704, "y": 243 },
+    "name": "Lost Plateau",
+    "province": {
+      "key": "wh3_main_combi_province_southlands_worlds_edge_mountains",
+      "name": "Southlands World's Edge Mountains"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_whitefire_tor",
+    "cqi": 93,
+    "settlement": { "cqi": 93, "x": 219, "y": 582 },
+    "name": "Whitefire Tor",
+    "province": { "key": "wh3_main_combi_province_ellyrion", "name": "Ellyrion" }
+  },
+  {
+    "key": "wh3_main_combi_region_the_golden_colossus",
+    "cqi": 94,
+    "settlement": { "cqi": 94, "x": 86, "y": 211 },
+    "name": "The Golden Colossus",
+    "province": { "key": "wh3_main_combi_province_copper_desert", "name": "Copper Desert" }
+  },
+  {
+    "key": "wh3_main_combi_region_shi_wu",
+    "cqi": 95,
+    "settlement": { "cqi": 95, "x": 1365, "y": 417 },
+    "name": "Shi-Wu",
+    "province": { "key": "wh3_main_combi_province_mount_li", "name": "Mount Li" }
+  },
+  {
+    "key": "wh3_main_combi_region_sarl_encampment",
+    "cqi": 96,
+    "settlement": { "cqi": 96, "x": 586, "y": 846 },
+    "name": "Sarl Encampment",
+    "province": {
+      "key": "wh3_main_combi_province_trollheim_mountains",
+      "name": "Trollheim Mountains"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_sentinels_of_xeti",
+    "cqi": 97,
+    "settlement": { "cqi": 97, "x": 77, "y": 243 },
+    "name": "Sentinels of Xeti",
+    "province": { "key": "wh3_main_combi_province_the_turtle_isles", "name": "The Turtle Isles" }
+  },
+  {
+    "key": "wh3_main_combi_region_port_elistor",
+    "cqi": 98,
+    "settlement": { "cqi": 98, "x": 284, "y": 541 },
+    "name": "Port Elistor",
+    "province": { "key": "wh3_main_combi_province_saphery", "name": "Saphery" }
+  },
+  {
+    "key": "cr_combi_region_nippon_2_1",
+    "cqi": 99,
+    "settlement": { "cqi": 99, "x": 1452, "y": 325 },
+    "name": "Dragon Fleet Port",
+    "province": { "key": "cr_combi_province_nippon_2", "name": "Samurai's Domain" }
+  },
+  {
+    "key": "wh3_main_combi_region_grimhold",
+    "cqi": 100,
+    "settlement": { "cqi": 100, "x": 546, "y": 530 },
+    "name": "Grimhold",
+    "province": {
+      "key": "wh3_main_combi_province_southern_grey_mountains",
+      "name": "Southern Grey Mountains"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_desolation_of_drakenmoor",
+    "cqi": 101,
+    "settlement": { "cqi": 101, "x": 833, "y": 611 },
+    "name": "Desolation of Drakenmoor",
+    "province": {
+      "key": "wh3_main_combi_province_the_blasted_wastes",
+      "name": "The Blasted Wastes"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_karond_kar",
+    "cqi": 102,
+    "settlement": { "cqi": 102, "x": 277, "y": 797 },
+    "name": "Karond Kar",
+    "province": { "key": "wh3_main_combi_province_the_broken_lands", "name": "The Broken Lands" }
+  },
+  {
+    "key": "wh3_main_combi_region_riffraffa",
+    "cqi": 103,
+    "settlement": { "cqi": 103, "x": 519, "y": 435 },
+    "name": "Riffraffa",
+    "province": { "key": "wh3_main_combi_province_tilea", "name": "Tilea" }
+  },
+  {
+    "key": "wh3_main_combi_region_mighdal_vongalbarak",
+    "cqi": 104,
+    "settlement": { "cqi": 104, "x": 650, "y": 554 },
+    "name": "Mighdal Vongalbarak",
+    "province": { "key": "wh3_main_combi_province_black_mountains", "name": "Black Mountains" }
+  },
+  {
+    "key": "wh3_main_combi_region_castle_artois",
+    "cqi": 105,
+    "settlement": { "cqi": 105, "x": 410, "y": 639 },
+    "name": "Castle Artois",
+    "province": { "key": "wh3_main_combi_province_forest_of_arden", "name": "Forest of Arden" }
+  },
+  {
+    "key": "wh3_main_combi_region_carroburg",
+    "cqi": 106,
+    "settlement": { "cqi": 106, "x": 509, "y": 656 },
+    "name": "Carroburg",
+    "province": { "key": "wh3_main_combi_province_middenland", "name": "Middenland" }
+  },
+  {
+    "key": "wh3_main_combi_region_cliff_of_beasts",
+    "cqi": 107,
+    "settlement": { "cqi": 107, "x": 527, "y": 933 },
+    "name": "Cliff of Beasts",
+    "province": {
+      "key": "wh3_main_combi_province_the_eternal_lagoon",
+      "name": "The Eternal Lagoon"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_black_iron_mine",
+    "cqi": 108,
+    "settlement": { "cqi": 108, "x": 797, "y": 481 },
+    "name": "Black Iron Mine",
+    "province": {
+      "key": "wh3_main_combi_province_southern_worlds_edge_mountains",
+      "name": "Southern World's Edge Mountains"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_niedling",
+    "cqi": 109,
+    "settlement": { "cqi": 109, "x": 653, "y": 640 },
+    "name": "Niedling",
+    "province": { "key": "wh3_main_combi_province_stirland", "name": "Stirland" }
+  },
+  {
+    "key": "cr_combi_region_khazags_khural",
+    "cqi": 110,
+    "settlement": { "cqi": 110, "x": 1268, "y": 740 },
+    "name": "Khazags Khural",
+    "province": { "key": "cr_combi_province_near_steppe_2", "name": "East Kurgania" }
+  },
+  {
+    "key": "wh3_main_combi_region_dragon_gate",
+    "cqi": 111,
+    "settlement": { "cqi": 111, "x": 1209, "y": 666 },
+    "name": "Dragon Gate",
+    "province": {
+      "key": "wh3_main_combi_province_central_great_bastion",
+      "name": "Central Great Bastion"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_kunlan",
+    "cqi": 112,
+    "settlement": { "cqi": 112, "x": 1251, "y": 587 },
+    "name": "Kunlan",
+    "province": {
+      "key": "wh3_main_combi_province_forests_of_the_moon",
+      "name": "Forests of the Moon"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_storag_kor",
+    "cqi": 113,
+    "settlement": { "cqi": 113, "x": 72, "y": 727 },
+    "name": "Storag Kor",
+    "province": { "key": "wh3_main_combi_province_obsidian_peaks", "name": "Obsidian Peaks" }
+  },
+  {
+    "key": "wh3_main_combi_region_copher",
+    "cqi": 114,
+    "settlement": { "cqi": 114, "x": 473, "y": 341 },
+    "name": "Copher",
+    "province": { "key": "wh3_main_combi_province_coast_of_araby", "name": "Coast of Araby" }
+  },
+  {
+    "key": "wh3_main_combi_region_castle_alexandronov",
+    "cqi": 115,
+    "settlement": { "cqi": 115, "x": 613, "y": 792 },
+    "name": "Castle Alexandronov",
+    "province": { "key": "wh3_main_combi_province_troll_country", "name": "Troll Country" }
+  },
+  {
+    "key": "wh3_main_combi_region_shagrath",
+    "cqi": 116,
+    "settlement": { "cqi": 116, "x": 319, "y": 853 },
+    "name": "Shagrath",
+    "province": { "key": "wh3_main_combi_province_the_shard_lands", "name": "The Shard Lands" }
+  },
+  {
+    "key": "wh3_main_combi_region_bitter_bay",
+    "cqi": 117,
+    "settlement": { "cqi": 117, "x": 884, "y": 404 },
+    "name": "Bitter Bay",
+    "province": { "key": "wh3_main_combi_province_broken_teeth", "name": "Broken Teeth" }
+  },
+  {
+    "key": "wh3_main_combi_region_stormhenge",
+    "cqi": 118,
+    "settlement": { "cqi": 118, "x": 568, "y": 354 },
+    "name": "Stormhenge",
+    "province": {
+      "key": "wh3_main_combi_province_southern_badlands",
+      "name": "Southern Badlands"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_akendorf",
+    "cqi": 119,
+    "settlement": { "cqi": 119, "x": 678, "y": 540 },
+    "name": "Akendorf",
+    "province": {
+      "key": "wh3_main_combi_province_eastern_border_princes",
+      "name": "Eastern Border Princes"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_turtle_gate",
+    "cqi": 120,
+    "settlement": { "cqi": 120, "x": 1246, "y": 665 },
+    "name": "Turtle Gate",
+    "province": {
+      "key": "wh3_main_combi_province_eastern_great_bastion",
+      "name": "Eastern Great Bastion"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_karak_hirn",
+    "cqi": 121,
+    "settlement": { "cqi": 121, "x": 590, "y": 536 },
+    "name": "Karak Hirn",
+    "province": { "key": "wh3_main_combi_province_black_mountains", "name": "Black Mountains" }
+  },
+  {
+    "key": "wh3_main_combi_region_cragroth_deep",
+    "cqi": 122,
+    "settlement": { "cqi": 122, "x": 103, "y": 766 },
+    "name": "Cragroth Deep",
+    "province": { "key": "wh3_main_combi_province_the_black_flood", "name": "The Black Flood" }
+  },
+  {
+    "key": "cr_combi_region_nippon_1_2",
+    "cqi": 123,
+    "settlement": { "cqi": 123, "x": 1453, "y": 365 },
+    "name": "Temple of the Orange Simca",
+    "province": { "key": "cr_combi_province_nippon_1", "name": "Hokusei Arc" }
+  },
+  {
+    "key": "cr_combi_region_nippon_3_2",
+    "cqi": 124,
+    "settlement": { "cqi": 124, "x": 1425, "y": 232 },
+    "name": "Miyukihama",
+    "province": { "key": "cr_combi_province_nippon_3", "name": "Sun's Origin" }
+  },
+  {
+    "key": "cr_combi_region_estragons_island",
+    "cqi": 125,
+    "settlement": { "cqi": 125, "x": 319, "y": 397 },
+    "name": "Isla de Estragon",
+    "province": { "key": "cr_combi_province_zermuda_triangle", "name": "Zarmuda Triangle" }
+  },
+  {
+    "key": "wh3_main_combi_region_petrified_forest",
+    "cqi": 126,
+    "settlement": { "cqi": 126, "x": 77, "y": 557 },
+    "name": "Petrified Forest",
+    "province": { "key": "wh3_main_combi_province_titan_peaks", "name": "Titan Peaks" }
+  },
+  {
+    "key": "wh3_main_combi_region_oakenhammer",
+    "cqi": 127,
+    "settlement": { "cqi": 127, "x": 715, "y": 590 },
+    "name": "Oakenhammer",
+    "province": { "key": "wh3_main_combi_province_black_water", "name": "Black Water" }
+  },
+  {
+    "key": "wh3_main_combi_region_the_copper_landing",
+    "cqi": 128,
+    "settlement": { "cqi": 128, "x": 113, "y": 172 },
+    "name": "The Copper Landing",
+    "province": { "key": "wh3_main_combi_province_copper_desert", "name": "Copper Desert" }
+  },
+  {
+    "key": "cr_combi_region_avags_camp",
+    "cqi": 129,
+    "settlement": { "cqi": 129, "x": 1415, "y": 773 },
+    "name": "Avags Aerie",
+    "province": { "key": "cr_combi_province_far_steppe_2", "name": "Grave of Scythia" }
+  },
+  {
+    "key": "wh3_main_combi_region_dusk_peaks",
+    "cqi": 130,
+    "settlement": { "cqi": 130, "x": 281, "y": 105 },
+    "name": "Dusk Peaks",
+    "province": { "key": "wh3_main_combi_province_the_capes", "name": "The Capes" }
+  },
+  {
+    "key": "wh3_main_combi_region_the_witchwood",
+    "cqi": 131,
+    "settlement": { "cqi": 131, "x": 66, "y": 660 },
+    "name": "The Witchwood",
+    "province": { "key": "wh3_main_combi_province_the_witchwood", "name": "The Witchwood" }
+  },
+  {
+    "key": "cr_combi_region_ind_2_3",
+    "cqi": 132,
+    "settlement": { "cqi": 132, "x": 1217, "y": 331 },
+    "name": "Shantivara",
+    "province": { "key": "cr_combi_province_ind_2", "name": "Mountains of Heaven" }
+  },
+  {
+    "key": "wh3_main_combi_region_hag_hall",
+    "cqi": 133,
+    "settlement": { "cqi": 133, "x": 106, "y": 644 },
+    "name": "Hag Hall",
+    "province": { "key": "wh3_main_combi_province_doom_glades", "name": "Doom Glades" }
+  },
+  {
+    "key": "wh3_dlc20_combi_region_glacier_encampment",
+    "cqi": 134,
+    "settlement": { "cqi": 134, "x": 79, "y": 903 },
+    "name": "Glacier Encampment",
+    "province": {
+      "key": "wh3_main_combi_province_ironfrost_glacier",
+      "name": "Ironfrost Glacier"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_karak_angazhar",
+    "cqi": 135,
+    "settlement": { "cqi": 135, "x": 629, "y": 531 },
+    "name": "Karak Angazhar",
+    "province": {
+      "key": "wh3_main_combi_province_eastern_border_princes",
+      "name": "Eastern Border Princes"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_karak_norn",
+    "cqi": 136,
+    "settlement": { "cqi": 136, "x": 534, "y": 571 },
+    "name": "Karak Norn",
+    "province": {
+      "key": "wh3_main_combi_province_southern_grey_mountains",
+      "name": "Southern Grey Mountains"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_montfort",
+    "cqi": 137,
+    "settlement": { "cqi": 137, "x": 474, "y": 593 },
+    "name": "Montfort",
+    "province": { "key": "wh3_main_combi_province_bastonne", "name": "Bastonne" }
+  },
+  {
+    "key": "wh3_main_combi_region_bitterstone_mine",
+    "cqi": 138,
+    "settlement": { "cqi": 138, "x": 660, "y": 451 },
+    "name": "Bitterstone Mine",
+    "province": { "key": "wh3_main_combi_province_western_badlands", "name": "Western Badlands" }
+  },
+  {
+    "key": "cr_combi_region_ihan_2_2",
+    "cqi": 139,
+    "settlement": { "cqi": 139, "x": 1398, "y": 559 },
+    "name": "Cheonsu",
+    "province": { "key": "cr_combi_province_ihan_2", "name": "South Ihan" }
+  },
+  {
+    "key": "wh3_main_combi_region_great_desert_of_araby",
+    "cqi": 140,
+    "settlement": { "cqi": 140, "x": 487, "y": 267 },
+    "name": "Great Desert of Araby",
+    "province": {
+      "key": "wh3_main_combi_province_great_desert_of_araby",
+      "name": "Great Desert of Araby"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_kislev",
+    "cqi": 141,
+    "settlement": { "cqi": 141, "x": 719, "y": 736 },
+    "name": "Kislev",
+    "province": { "key": "wh3_main_combi_province_river_urskoy", "name": "River Urskoy" }
+  },
+  {
+    "key": "wh3_main_combi_region_iron_storm",
+    "cqi": 142,
+    "settlement": { "cqi": 142, "x": 1198, "y": 710 },
+    "name": "Iron Storm",
+    "province": { "key": "wh3_main_combi_province_eastern_steppes", "name": "Steppe's Edge" }
+  },
+  {
+    "key": "wh3_main_combi_region_stormvrack_mount",
+    "cqi": 143,
+    "settlement": { "cqi": 143, "x": 809, "y": 828 },
+    "name": "Stormvrack Mount",
+    "province": { "key": "wh3_main_combi_province_the_skull_road", "name": "The Skull Road" }
+  },
+  {
+    "key": "wh3_main_combi_region_karak_bhufdar",
+    "cqi": 144,
+    "settlement": { "cqi": 144, "x": 529, "y": 499 },
+    "name": "Karak Bhufdar",
+    "province": { "key": "wh3_main_combi_province_the_vaults", "name": "The Vaults" }
+  },
+  {
+    "key": "wh3_main_combi_region_barak_varr",
+    "cqi": 145,
+    "settlement": { "cqi": 145, "x": 672, "y": 512 },
+    "name": "Barak Varr",
+    "province": {
+      "key": "wh3_main_combi_province_blood_river_valley",
+      "name": "Blood River Valley"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_karak_raziak",
+    "cqi": 146,
+    "settlement": { "cqi": 146, "x": 759, "y": 669 },
+    "name": "Karak Raziak",
+    "province": {
+      "key": "wh3_main_combi_province_northern_worlds_edge_mountains",
+      "name": "Northern World's Edge Mountains"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_circle_of_destruction",
+    "cqi": 147,
+    "settlement": { "cqi": 147, "x": 159, "y": 757 },
+    "name": "Circle of Destruction",
+    "province": { "key": "wh3_main_combi_province_obsidian_peaks", "name": "Obsidian Peaks" }
+  },
+  {
+    "key": "wh3_main_combi_region_lashiek",
+    "cqi": 148,
+    "settlement": { "cqi": 148, "x": 448, "y": 315 },
+    "name": "Lashiek",
+    "province": {
+      "key": "wh3_main_combi_province_land_of_assassins",
+      "name": "Land of Assassins"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_yetchitch",
+    "cqi": 149,
+    "settlement": { "cqi": 149, "x": 742, "y": 798 },
+    "name": "Yetchitch",
+    "province": { "key": "wh3_main_combi_province_eastern_oblast", "name": "Eastern Oblast" }
+  },
+  {
+    "key": "wh3_main_combi_region_parravon",
+    "cqi": 150,
+    "settlement": { "cqi": 150, "x": 483, "y": 575 },
+    "name": "Parravon",
+    "province": {
+      "key": "wh3_main_combi_province_forest_of_chalons",
+      "name": "Forest of Chalons"
+    }
+  },
+  {
+    "key": "cr_combi_region_thorkinsons_island",
+    "cqi": 151,
+    "settlement": { "cqi": 151, "x": 373, "y": 199 },
+    "name": "Thorkinson's Island",
+    "province": { "key": "cr_combi_province_thorkinsons_island", "name": "Thorkinson's Island" }
+  },
+  {
+    "key": "wh3_main_combi_region_isle_of_wights",
+    "cqi": 152,
+    "settlement": { "cqi": 152, "x": 351, "y": 723 },
+    "name": "Isle of Wights",
+    "province": { "key": "wh3_main_combi_province_albion", "name": "Albion" }
+  },
+  {
+    "key": "wh3_main_combi_region_the_blood_hall",
+    "cqi": 153,
+    "settlement": { "cqi": 153, "x": 26, "y": 332 },
+    "name": "The Blood Hall",
+    "province": {
+      "key": "wh3_main_combi_province_jungles_of_green_mist",
+      "name": "Jungles of Green Mist"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_macu_peaks",
+    "cqi": 154,
+    "settlement": { "cqi": 154, "x": 53, "y": 457 },
+    "name": "Macu Peaks",
+    "province": {
+      "key": "wh3_main_combi_province_isthmus_of_lustria",
+      "name": "Isthmus of Lustria"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_wissenburg",
+    "cqi": 155,
+    "settlement": { "cqi": 155, "x": 577, "y": 586 },
+    "name": "Wissenburg",
+    "province": { "key": "wh3_main_combi_province_wissenland", "name": "Wissenland" }
+  },
+  {
+    "key": "cr_combi_region_ind_5_3",
+    "cqi": 156,
+    "settlement": { "cqi": 156, "x": 1163, "y": 271 },
+    "name": "Vrindavanis",
+    "province": { "key": "cr_combi_province_ind_5", "name": "Central Ind" }
+  },
+  {
+    "key": "wh3_main_combi_region_karak_azgal",
+    "cqi": 157,
+    "settlement": { "cqi": 157, "x": 714, "y": 395 },
+    "name": "Karak Azgal",
+    "province": { "key": "wh3_main_combi_province_blightwater", "name": "Blightwater" }
+  },
+  {
+    "key": "wh3_main_combi_region_tyrant_peak",
+    "cqi": 158,
+    "settlement": { "cqi": 158, "x": 21, "y": 573 },
+    "name": "Tyrant Peak",
+    "province": { "key": "wh3_main_combi_province_ashen_coast", "name": "Ashen Coast" }
+  },
+  {
+    "key": "cr_combi_region_nippon_1_1",
+    "cqi": 159,
+    "settlement": { "cqi": 159, "x": 1479, "y": 429 },
+    "name": "Mizushima",
+    "province": { "key": "cr_combi_province_nippon_1", "name": "Hokusei Arc" }
+  },
+  {
+    "key": "wh3_main_combi_region_karag_dron",
+    "cqi": 160,
+    "settlement": { "cqi": 160, "x": 752, "y": 517 },
+    "name": "Karag Dron",
+    "province": { "key": "wh3_main_combi_province_death_pass", "name": "Death Pass" }
+  },
+  {
+    "key": "cr_combi_region_seagrave_port",
+    "cqi": 161,
+    "settlement": { "cqi": 161, "x": 1534, "y": 737 },
+    "name": "Seagrave Port",
+    "province": { "key": "cr_combi_province_far_steppe_1", "name": "West Hungaria" }
+  },
+  {
+    "key": "wh3_main_combi_region_bridge_of_heaven",
+    "cqi": 162,
+    "settlement": { "cqi": 162, "x": 1231, "y": 497 },
+    "name": "Bridge of Heaven",
+    "province": {
+      "key": "wh3_main_combi_province_celestial_riverlands",
+      "name": "Celestial Riverlands"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_tlanxla",
+    "cqi": 163,
+    "settlement": { "cqi": 163, "x": 125, "y": 331 },
+    "name": "Tlanxla",
+    "province": { "key": "wh3_main_combi_province_scorpion_coast", "name": "Piranha Swamps" }
+  },
+  {
+    "key": "wh3_main_combi_region_dok_karaz",
+    "cqi": 164,
+    "settlement": { "cqi": 164, "x": 668, "y": 497 },
+    "name": "Dok Karaz",
+    "province": {
+      "key": "wh3_main_combi_province_blood_river_valley",
+      "name": "Blood River Valley"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_crookback_mountain",
+    "cqi": 165,
+    "settlement": { "cqi": 165, "x": 844, "y": 520 },
+    "name": "Crookback Mountain",
+    "province": {
+      "key": "wh3_main_combi_province_the_desolation_of_azgorh",
+      "name": "The Desolation of Azgorh"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_foundry_of_bones",
+    "cqi": 166,
+    "settlement": { "cqi": 166, "x": 1295, "y": 697 },
+    "name": "Foundry of Bones",
+    "province": { "key": "wh3_main_combi_province_the_red_wastes", "name": "The Red Wastes" }
+  },
+  {
+    "key": "wh3_main_combi_region_wreckers_point",
+    "cqi": 167,
+    "settlement": { "cqi": 167, "x": 474, "y": 748 },
+    "name": "Wrecker's Point",
+    "province": { "key": "wh3_main_combi_province_the_misty_hills", "name": "The Misty Hills" }
+  },
+  {
+    "key": "wh3_main_combi_region_zavastra",
+    "cqi": 168,
+    "settlement": { "cqi": 168, "x": 674, "y": 736 },
+    "name": "Zavastra",
+    "province": { "key": "wh3_main_combi_province_southern_oblast", "name": "Southern Oblast" }
+  },
+  {
+    "key": "wh3_dlc20_combi_region_krudenwald",
+    "cqi": 169,
+    "settlement": { "cqi": 169, "x": 574, "y": 716 },
+    "name": "Krudenwald",
+    "province": { "key": "wh3_main_combi_province_hochland", "name": "Hochland" }
+  },
+  {
+    "key": "wh3_main_combi_region_flayed_rock",
+    "cqi": 170,
+    "settlement": { "cqi": 170, "x": 992, "y": 471 },
+    "name": "Flayed Rock",
+    "province": { "key": "wh3_main_combi_province_gnoblar_country", "name": "Gnoblar Country" }
+  },
+  {
+    "key": "wh3_main_combi_region_celestial_monastery",
+    "cqi": 171,
+    "settlement": { "cqi": 171, "x": 1234, "y": 533 },
+    "name": "Celestial Monastery",
+    "province": { "key": "wh3_main_combi_province_celestial_lake", "name": "Celestial Lake" }
+  },
+  {
+    "key": "wh3_main_combi_region_tor_sethai",
+    "cqi": 172,
+    "settlement": { "cqi": 172, "x": 206, "y": 530 },
+    "name": "Tor Sethai",
+    "province": { "key": "wh3_main_combi_province_caledor", "name": "Caledor" }
+  },
+  {
+    "key": "wh3_main_combi_region_bilbali",
+    "cqi": 173,
+    "settlement": { "cqi": 173, "x": 399, "y": 480 },
+    "name": "Bilbali",
+    "province": { "key": "wh3_main_combi_province_irrana_mountains", "name": "Irrana Mountains" }
+  },
+  {
+    "key": "cr_combi_region_elithis_1_2",
+    "cqi": 174,
+    "settlement": { "cqi": 174, "x": 1471, "y": 164 },
+    "name": "Tower of the Rising Sun",
+    "province": { "key": "cr_combi_province_elithis_3", "name": "North Isle" }
+  },
+  {
+    "key": "wh3_main_combi_region_xing_po",
+    "cqi": 175,
+    "settlement": { "cqi": 175, "x": 1200, "y": 571 },
+    "name": "Xing Po",
+    "province": {
+      "key": "wh3_main_combi_province_forests_of_the_moon",
+      "name": "Forests of the Moon"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_shiyamas_rest",
+    "cqi": 176,
+    "settlement": { "cqi": 176, "x": 1269, "y": 460 },
+    "name": "Shiyama's Rest",
+    "province": { "key": "wh3_main_combi_province_nongchang_basin", "name": "Nongchang Basin" }
+  },
+  {
+    "key": "wh3_main_combi_region_mount_thug",
+    "cqi": 177,
+    "settlement": { "cqi": 177, "x": 1053, "y": 461 },
+    "name": "Shambletown",
+    "province": { "key": "wh3_main_combi_province_gnoblar_country", "name": "Gnoblar Country" }
+  },
+  {
+    "key": "wh3_main_combi_region_zvorak",
+    "cqi": 178,
+    "settlement": { "cqi": 178, "x": 581, "y": 490 },
+    "name": "Zvorak",
+    "province": {
+      "key": "wh3_main_combi_province_western_border_princes",
+      "name": "Western Border Princes"
+    }
+  },
+  {
+    "key": "cr_combi_region_hobhome",
+    "cqi": 179,
+    "settlement": { "cqi": 179, "x": 1129, "y": 784 },
+    "name": "Hobhome",
+    "province": { "key": "cr_combi_province_near_steppe_3", "name": "Green Steppes" }
+  },
+  {
+    "key": "wh3_main_combi_region_nuja",
+    "cqi": 180,
+    "settlement": { "cqi": 180, "x": 381, "y": 426 },
+    "name": "Nuja",
+    "province": { "key": "wh3_main_combi_province_estalia", "name": "Estalia" }
+  },
+  {
+    "key": "cr_combi_region_nippon_4_1",
+    "cqi": 181,
+    "settlement": { "cqi": 181, "x": 1506, "y": 377 },
+    "name": "Umikaze",
+    "province": { "key": "cr_combi_province_nippon_4", "name": "Hokurikudo" }
+  },
+  {
+    "key": "wh3_main_combi_region_altar_of_spawns",
+    "cqi": 182,
+    "settlement": { "cqi": 182, "x": 650, "y": 871 },
+    "name": "Altar of Spawns",
+    "province": { "key": "wh3_main_combi_province_mountains_of_hel", "name": "Mountains of Hel" }
+  },
+  {
+    "key": "wh3_main_combi_region_shrine_of_the_alchemist",
+    "cqi": 183,
+    "settlement": { "cqi": 183, "x": 1124, "y": 599 },
+    "name": "Shrine of the Alchemist",
+    "province": { "key": "wh3_main_combi_province_warpstone_desert", "name": "Warpstone Desert" }
+  },
+  {
+    "key": "wh3_main_combi_region_monolith_of_bubonicus",
+    "cqi": 184,
+    "settlement": { "cqi": 184, "x": 853, "y": 848 },
+    "name": "Monolith of Bubonicus",
+    "province": {
+      "key": "wh3_main_combi_province_the_blood_marshes",
+      "name": "The Blood Marshes"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_the_twisted_glade",
+    "cqi": 185,
+    "settlement": { "cqi": 185, "x": 208, "y": 692 },
+    "name": "The Twisted Glade",
+    "province": { "key": "wh3_main_combi_province_the_clawed_coast", "name": "The Clawed Coast" }
+  },
+  {
+    "key": "wh3_main_combi_region_terracotta_graveyard",
+    "cqi": 186,
+    "settlement": { "cqi": 186, "x": 1200, "y": 631 },
+    "name": "Terracotta Graveyard",
+    "province": {
+      "key": "wh3_main_combi_province_lands_of_stone_and_steel",
+      "name": "Lands of Stone and Steel"
+    }
+  },
+  {
+    "key": "cr_combi_region_ihan_3_3",
+    "cqi": 187,
+    "settlement": { "cqi": 187, "x": 1467, "y": 677 },
+    "name": "Heomulgul",
+    "province": { "key": "cr_combi_province_ihan_3", "name": "East Ihan" }
+  },
+  {
+    "key": "wh3_main_combi_region_chupayotl",
+    "cqi": 188,
+    "settlement": { "cqi": 188, "x": 251, "y": 163 },
+    "name": "Chupayotl",
+    "province": { "key": "wh3_main_combi_province_culchan_plains", "name": "Culchan Plains" }
+  },
+  {
+    "key": "cr_combi_region_khuresh_5_2",
+    "cqi": 189,
+    "settlement": { "cqi": 189, "x": 1296, "y": 246 },
+    "name": "Floating Gardens",
+    "province": { "key": "cr_combi_province_khuresh_5", "name": "The Lost Jungle" }
+  },
+  {
+    "key": "wh3_main_combi_region_konquata",
+    "cqi": 190,
+    "settlement": { "cqi": 190, "x": 345, "y": 745 },
+    "name": "Konquata",
+    "province": { "key": "wh3_main_combi_province_albion", "name": "Albion" }
+  },
+  {
+    "key": "wh3_main_combi_region_rothkar_spire",
+    "cqi": 191,
+    "settlement": { "cqi": 191, "x": 13, "y": 733 },
+    "name": "Rothkar Spire",
+    "province": { "key": "wh3_main_combi_province_red_desert", "name": "Red Desert" }
+  },
+  {
+    "key": "wh3_main_combi_region_rasetra",
+    "cqi": 192,
+    "settlement": { "cqi": 192, "x": 766, "y": 287 },
+    "name": "Rasetra",
+    "province": {
+      "key": "wh3_main_combi_province_crater_of_the_waking_dead",
+      "name": "Crater of the Waking Dead"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_southern_outpost",
+    "cqi": 193,
+    "settlement": { "cqi": 193, "x": 1280, "y": 328 },
+    "name": "Southern Outpost",
+    "province": {
+      "key": "wh3_main_combi_province_cathayan_hinterlands",
+      "name": "Khuresh Frontier"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_the_tower_of_flies",
+    "cqi": 194,
+    "settlement": { "cqi": 194, "x": 684, "y": 921 },
+    "name": "The Tower of Flies",
+    "province": {
+      "key": "wh3_main_combi_province_the_noisome_tumour",
+      "name": "The Noisome Tumour"
+    }
+  },
+  {
+    "key": "cr_combi_region_ind_4_1",
+    "cqi": 195,
+    "settlement": { "cqi": 195, "x": 1186, "y": 332 },
+    "name": "Eye of the Tiger",
+    "province": { "key": "cr_combi_province_ind_4", "name": "Shambani Foothills" }
+  },
+  {
+    "key": "wh3_main_combi_region_the_black_pit",
+    "cqi": 196,
+    "settlement": { "cqi": 196, "x": 510, "y": 705 },
+    "name": "The Black Pit",
+    "province": { "key": "wh3_main_combi_province_the_misty_hills", "name": "The Misty Hills" }
+  },
+  {
+    "key": "wh3_main_combi_region_plesk",
+    "cqi": 197,
+    "settlement": { "cqi": 197, "x": 765, "y": 754 },
+    "name": "Plesk",
+    "province": { "key": "wh3_main_combi_province_eastern_oblast", "name": "Eastern Oblast" }
+  },
+  {
+    "key": "cr_combi_region_khuresh_3_1",
+    "cqi": 198,
+    "settlement": { "cqi": 198, "x": 1403, "y": 275 },
+    "name": "Honai",
+    "province": { "key": "cr_combi_province_khuresh_3", "name": "Whispering Jungle" }
+  },
+  {
+    "key": "cr_combi_region_ind_3_1",
+    "cqi": 199,
+    "settlement": { "cqi": 199, "x": 1126, "y": 351 },
+    "name": "Temple of She'ar Khawn",
+    "province": { "key": "cr_combi_province_ind_3", "name": "Land of a Thousand Gods" }
+  },
+  {
+    "key": "wh3_main_combi_region_po_mei",
+    "cqi": 200,
+    "settlement": { "cqi": 200, "x": 1228, "y": 649 },
+    "name": "Po Mei",
+    "province": {
+      "key": "wh3_main_combi_province_lands_of_stone_and_steel",
+      "name": "Lands of Stone and Steel"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_fort_jakova",
+    "cqi": 201,
+    "settlement": { "cqi": 201, "x": 740, "y": 702 },
+    "name": "Fort Jakova",
+    "province": { "key": "wh3_main_combi_province_southern_oblast", "name": "Southern Oblast" }
+  },
+  {
+    "key": "wh3_main_combi_region_the_haunted_forest",
+    "cqi": 202,
+    "settlement": { "cqi": 202, "x": 1066, "y": 418 },
+    "name": "The Haunted Forest",
+    "province": {
+      "key": "wh3_main_combi_province_the_haunted_forest",
+      "name": "The Haunted Forest"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_sulpharets",
+    "cqi": 203,
+    "settlement": { "cqi": 203, "x": 22, "y": 532 },
+    "name": "Sulpharets",
+    "province": { "key": "wh3_main_combi_province_ashen_coast", "name": "Ashen Coast" }
+  },
+  {
+    "key": "wh3_main_combi_region_graeling_moot",
+    "cqi": 204,
+    "settlement": { "cqi": 204, "x": 479, "y": 829 },
+    "name": "Graeling Moot",
+    "province": {
+      "key": "wh3_main_combi_province_mountains_of_naglfari",
+      "name": "Mountains of Naglfari"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_kings_glade",
+    "cqi": 205,
+    "settlement": { "cqi": 205, "x": 512, "y": 519 },
+    "name": "King's Glade",
+    "province": { "key": "wh3_main_combi_province_talsyn", "name": "Talsyn" }
+  },
+  {
+    "key": "wh3_main_combi_region_the_blood_swamps",
+    "cqi": 206,
+    "settlement": { "cqi": 206, "x": 239, "y": 235 },
+    "name": "The Blood Swamps",
+    "province": { "key": "wh3_main_combi_province_mosquito_swamps", "name": "Mosquito Swamps" }
+  },
+  {
+    "key": "wh3_main_combi_region_eagle_eyries",
+    "cqi": 207,
+    "settlement": { "cqi": 207, "x": 962, "y": 665 },
+    "name": "Eagle Eyries",
+    "province": { "key": "wh3_main_combi_province_gash_kadrak", "name": "Gash Kadrak" }
+  },
+  {
+    "key": "wh3_main_combi_region_dargoth",
+    "cqi": 208,
+    "settlement": { "cqi": 208, "x": 249, "y": 858 },
+    "name": "Dargoth",
+    "province": { "key": "wh3_main_combi_province_deadwood", "name": "Deadwood" }
+  },
+  {
+    "key": "cr_combi_region_ihan_3_2",
+    "cqi": 209,
+    "settlement": { "cqi": 209, "x": 1473, "y": 637 },
+    "name": "Noleuhaesan",
+    "province": { "key": "cr_combi_province_ihan_3", "name": "East Ihan" }
+  },
+  {
+    "key": "wh3_main_combi_region_the_howling_citadel",
+    "cqi": 210,
+    "settlement": { "cqi": 210, "x": 790, "y": 913 },
+    "name": "The Howling Citadel",
+    "province": { "key": "wh3_main_combi_province_bloodfire_falls", "name": "Bloodfire Falls" }
+  },
+  {
+    "key": "wh3_main_combi_region_brionne",
+    "cqi": 211,
+    "settlement": { "cqi": 211, "x": 420, "y": 527 },
+    "name": "Brionne",
+    "province": { "key": "wh3_main_combi_province_carcassonne", "name": "Carcassonne" }
+  },
+  {
+    "key": "wh3_main_combi_region_morgheim",
+    "cqi": 212,
+    "settlement": { "cqi": 212, "x": 685, "y": 409 },
+    "name": "Morgheim",
+    "province": {
+      "key": "wh3_main_combi_province_marshes_of_madness",
+      "name": "Marshes of Madness"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_tower_of_gorgoth",
+    "cqi": 213,
+    "settlement": { "cqi": 213, "x": 904, "y": 527 },
+    "name": "Tower of Gorgoth",
+    "province": { "key": "wh3_main_combi_province_the_wolf_lands", "name": "The Wolf Lands" }
+  },
+  {
+    "key": "wh3_main_combi_region_weng_chang",
+    "cqi": 214,
+    "settlement": { "cqi": 214, "x": 1172, "y": 609 },
+    "name": "Weng Chang",
+    "province": {
+      "key": "wh3_main_combi_province_lands_of_stone_and_steel",
+      "name": "Lands of Stone and Steel"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_eldar_spire",
+    "cqi": 215,
+    "settlement": { "cqi": 215, "x": 15, "y": 815 },
+    "name": "Eldar Spire",
+    "province": { "key": "wh3_main_combi_province_iron_coast", "name": "Iron Coast" }
+  },
+  {
+    "key": "cr_combi_region_ind_5_1",
+    "cqi": 216,
+    "settlement": { "cqi": 216, "x": 1135, "y": 273 },
+    "name": "Temple of Gilgadresh",
+    "province": { "key": "cr_combi_province_ind_5", "name": "Central Ind" }
+  },
+  {
+    "key": "wh3_main_combi_region_myrmidens",
+    "cqi": 217,
+    "settlement": { "cqi": 217, "x": 572, "y": 434 },
+    "name": "Myrmidens",
+    "province": {
+      "key": "wh3_main_combi_province_western_border_princes",
+      "name": "Western Border Princes"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_nan_gau",
+    "cqi": 218,
+    "settlement": { "cqi": 218, "x": 1138, "y": 656 },
+    "name": "Nan-Gau",
+    "province": { "key": "wh3_main_combi_province_gunpowder_road", "name": "Gunpowder Road" }
+  },
+  {
+    "key": "wh3_main_combi_region_bloodpeak",
+    "cqi": 219,
+    "settlement": { "cqi": 219, "x": 1043, "y": 600 },
+    "name": "Bloodpeak",
+    "province": { "key": "wh3_main_combi_province_bone_road", "name": "Bone Road" }
+  },
+  {
+    "key": "wh3_main_combi_region_chimai",
+    "cqi": 220,
+    "settlement": { "cqi": 220, "x": 1313, "y": 521 },
+    "name": "Chimai",
+    "province": { "key": "wh3_main_combi_province_jade_river_delta", "name": "Jade River Delta" }
+  },
+  {
+    "key": "wh3_main_combi_region_the_dust_gate",
+    "cqi": 221,
+    "settlement": { "cqi": 221, "x": 140, "y": 156 },
+    "name": "The Dust Gate",
+    "province": { "key": "wh3_main_combi_province_copper_desert", "name": "Copper Desert" }
+  },
+  {
+    "key": "wh3_main_combi_region_fort_soll",
+    "cqi": 222,
+    "settlement": { "cqi": 222, "x": 582, "y": 542 },
+    "name": "Fort Soll",
+    "province": {
+      "key": "wh3_main_combi_province_winters_teeth_pass",
+      "name": "Winter's Teeth Pass"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_monolith_of_flesh",
+    "cqi": 223,
+    "settlement": { "cqi": 223, "x": 600, "y": 894 },
+    "name": "The Monolith of Flesh",
+    "province": { "key": "wh3_main_combi_province_mountains_of_hel", "name": "Mountains of Hel" }
+  },
+  {
+    "key": "cr_combi_region_lions_den",
+    "cqi": 224,
+    "settlement": { "cqi": 224, "x": 1033, "y": 170 },
+    "name": "The Lion's Den",
+    "province": { "key": "cr_combi_province_ind_6", "name": "Ind's End" }
+  },
+  {
+    "key": "wh3_main_combi_region_grung_zint",
+    "cqi": 225,
+    "settlement": { "cqi": 225, "x": 434, "y": 650 },
+    "name": "Grung Zint",
+    "province": {
+      "key": "wh3_main_combi_province_northern_grey_mountains",
+      "name": "Northern Grey Mountains"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_isle_of_the_crimson_skull",
+    "cqi": 226,
+    "settlement": { "cqi": 226, "x": 62, "y": 407 },
+    "name": "Isle of the Crimson Skull",
+    "province": { "key": "wh3_main_combi_province_aymara_swamps", "name": "Aymara Swamps" }
+  },
+  {
+    "key": "wh3_main_combi_region_winter_pyre",
+    "cqi": 227,
+    "settlement": { "cqi": 227, "x": 678, "y": 866 },
+    "name": "Winter Pyre",
+    "province": { "key": "wh3_main_combi_province_mountains_of_hel", "name": "Mountains of Hel" }
+  },
+  {
+    "key": "wh3_main_combi_region_ubersreik",
+    "cqi": 228,
+    "settlement": { "cqi": 228, "x": 505, "y": 614 },
+    "name": "Ubersreik",
+    "province": { "key": "wh3_main_combi_province_reikland", "name": "Reikland" }
+  },
+  {
+    "key": "wh3_main_combi_region_xlanzec",
+    "cqi": 229,
+    "settlement": { "cqi": 229, "x": 241, "y": 109 },
+    "name": "Xlanzec",
+    "province": {
+      "key": "wh3_main_combi_province_the_night_forest_road",
+      "name": "The Night Forest Road"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_karag_dromar",
+    "cqi": 230,
+    "settlement": { "cqi": 230, "x": 675, "y": 562 },
+    "name": "Karag Dromar",
+    "province": { "key": "wh3_main_combi_province_black_water", "name": "Black Water" }
+  },
+  {
+    "key": "wh3_main_combi_region_whitepeak",
+    "cqi": 231,
+    "settlement": { "cqi": 231, "x": 171, "y": 571 },
+    "name": "Whitepeak",
+    "province": { "key": "wh3_main_combi_province_tiranoc", "name": "Tiranoc" }
+  },
+  {
+    "key": "wh3_main_combi_region_eschen",
+    "cqi": 232,
+    "settlement": { "cqi": 232, "x": 714, "y": 635 },
+    "name": "Eschen",
+    "province": {
+      "key": "wh3_main_combi_province_southern_sylvania",
+      "name": "Southern Sylvania"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_thrice_cursed_peak",
+    "cqi": 233,
+    "settlement": { "cqi": 233, "x": 151, "y": 172 },
+    "name": "Thrice-cursed Peak",
+    "province": { "key": "wh3_main_combi_province_spine_of_sotek", "name": "Spine of Sotek" }
+  },
+  {
+    "key": "wh3_main_combi_region_nuln",
+    "cqi": 234,
+    "settlement": { "cqi": 234, "x": 553, "y": 607 },
+    "name": "Nuln",
+    "province": { "key": "wh3_main_combi_province_wissenland", "name": "Wissenland" }
+  },
+  {
+    "key": "cr_combi_region_nippon_2_2",
+    "cqi": 235,
+    "settlement": { "cqi": 235, "x": 1474, "y": 298 },
+    "name": "Hikariya",
+    "province": { "key": "cr_combi_province_nippon_2", "name": "Samurai's Domain" }
+  },
+  {
+    "key": "cr_combi_region_mausoleum_of_khengai_khan",
+    "cqi": 236,
+    "settlement": { "cqi": 236, "x": 1185, "y": 780 },
+    "name": "Morcar's Rest",
+    "province": { "key": "cr_combi_province_near_steppe_3", "name": "Green Steppes" }
+  },
+  {
+    "key": "wh3_main_combi_region_eagle_gate",
+    "cqi": 237,
+    "settlement": { "cqi": 237, "x": 189, "y": 572 },
+    "name": "Eagle Gate",
+    "province": { "key": "wh3_main_combi_province_eagle_gate", "name": "Eagle Gate" }
+  },
+  {
+    "key": "wh3_main_combi_region_skavenblight",
+    "cqi": 238,
+    "settlement": { "cqi": 238, "x": 465, "y": 461 },
+    "name": "Skavenblight",
+    "province": {
+      "key": "wh3_main_combi_province_the_blighted_marshes",
+      "name": "The Blighted Marshes"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_mistnar",
+    "cqi": 239,
+    "settlement": { "cqi": 239, "x": 331, "y": 634 },
+    "name": "Mistnar",
+    "province": { "key": "wh3_main_combi_province_cothique", "name": "Cothique" }
+  },
+  {
+    "key": "cr_combi_region_akhaba",
+    "cqi": 240,
+    "settlement": { "cqi": 240, "x": 500, "y": 244 },
+    "name": "Akhaba",
+    "province": { "key": "cr_combi_province_suns_anvil", "name": "Sun's Anvil" }
+  },
+  {
+    "key": "wh3_main_combi_region_city_of_the_shugengan",
+    "cqi": 241,
+    "settlement": { "cqi": 241, "x": 1295, "y": 614 },
+    "name": "City of the Shugengan",
+    "province": { "key": "wh3_main_combi_province_imperial_road", "name": "Imperial Road" }
+  },
+  {
+    "key": "wh3_main_combi_region_floating_pyramid",
+    "cqi": 242,
+    "settlement": { "cqi": 242, "x": 104, "y": 394 },
+    "name": "Floating Pyramid",
+    "province": { "key": "wh3_main_combi_province_aymara_swamps", "name": "Aymara Swamps" }
+  },
+  {
+    "key": "wh3_main_combi_region_tor_elasor",
+    "cqi": 243,
+    "settlement": { "cqi": 243, "x": 911, "y": 78 },
+    "name": "Tor Elasor",
+    "province": { "key": "wh3_main_combi_province_eastern_colonies", "name": "Eastern Colonies" }
+  },
+  {
+    "key": "wh3_main_combi_region_crag_halls_of_findol",
+    "cqi": 244,
+    "settlement": { "cqi": 244, "x": 528, "y": 544 },
+    "name": "Crag Halls of Findol",
+    "province": { "key": "wh3_main_combi_province_wydrioth", "name": "Wydrioth" }
+  },
+  {
+    "key": "wh3_main_combi_region_gateway_to_khuresh",
+    "cqi": 245,
+    "settlement": { "cqi": 245, "x": 1257, "y": 349 },
+    "name": "Gateway to Khuresh",
+    "province": {
+      "key": "wh3_main_combi_province_cathayan_hinterlands",
+      "name": "Khuresh Frontier"
+    }
+  },
+  {
+    "key": "wh3_dlc20_combi_region_glacial_gardens",
+    "cqi": 246,
+    "settlement": { "cqi": 246, "x": 173, "y": 892 },
+    "name": "The Glacial Gardens",
+    "province": {
+      "key": "wh3_dlc20_combi_province_frigid_wasteland",
+      "name": "The Frigid Wasteland"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_castle_drakenhof",
+    "cqi": 247,
+    "settlement": { "cqi": 247, "x": 716, "y": 612 },
+    "name": "Castle Drakenhof",
+    "province": {
+      "key": "wh3_main_combi_province_southern_sylvania",
+      "name": "Southern Sylvania"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_karak_azgaraz",
+    "cqi": 248,
+    "settlement": { "cqi": 248, "x": 505, "y": 592 },
+    "name": "Karak Azgaraz",
+    "province": {
+      "key": "wh3_main_combi_province_southern_grey_mountains",
+      "name": "Southern Grey Mountains"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_the_frozen_city",
+    "cqi": 249,
+    "settlement": { "cqi": 249, "x": 284, "y": 872 },
+    "name": "The Frozen City",
+    "province": { "key": "wh3_main_combi_province_deadwood", "name": "Deadwood" }
+  },
+  {
+    "key": "wh3_main_combi_region_zanbaijin",
+    "cqi": 250,
+    "settlement": { "cqi": 250, "x": 1002, "y": 838 },
+    "name": "Zanbaijin",
+    "province": { "key": "wh3_main_combi_province_kdatha", "name": "K'datha" }
+  },
+  {
+    "key": "wh3_main_combi_region_swartzhafen",
+    "cqi": 251,
+    "settlement": { "cqi": 251, "x": 674, "y": 593 },
+    "name": "Swartzhafen",
+    "province": {
+      "key": "wh3_main_combi_province_southern_sylvania",
+      "name": "Southern Sylvania"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_citadel_of_lead",
+    "cqi": 252,
+    "settlement": { "cqi": 252, "x": 355, "y": 763 },
+    "name": "Citadel of Lead",
+    "province": { "key": "wh3_main_combi_province_albion", "name": "Albion" }
+  },
+  {
+    "key": "wh3_main_combi_region_stonemine_tower",
+    "cqi": 253,
+    "settlement": { "cqi": 253, "x": 626, "y": 482 },
+    "name": "Stonemine Tower",
+    "province": { "key": "wh3_main_combi_province_western_badlands", "name": "Western Badlands" }
+  },
+  {
+    "key": "wh3_main_combi_region_pahuax",
+    "cqi": 254,
+    "settlement": { "cqi": 254, "x": 92, "y": 430 },
+    "name": "Pahuax",
+    "province": {
+      "key": "wh3_main_combi_province_jungles_of_pahualaxa",
+      "name": "Jungles of Pahualaxa"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_doom_glade",
+    "cqi": 255,
+    "settlement": { "cqi": 255, "x": 809, "y": 282 },
+    "name": "Doom Glade",
+    "province": {
+      "key": "wh3_main_combi_province_crater_of_the_waking_dead",
+      "name": "Crater of the Waking Dead"
+    }
+  },
+  {
+    "key": "cr_combi_region_isles_of_the_monkey_king",
+    "cqi": 256,
+    "settlement": { "cqi": 256, "x": 1170, "y": 172 },
+    "name": "Ulliogtha Outpost",
+    "province": {
+      "key": "cr_combi_province_isles_of_the_monkey_king",
+      "name": "Isles of the Monkey King"
+    }
+  },
+  {
+    "key": "cr_combi_region_xeich_lus_last_stand",
+    "cqi": 257,
+    "settlement": { "cqi": 257, "x": 1381, "y": 758 },
+    "name": "Xeich-Lu's Last Stand",
+    "province": { "key": "cr_combi_province_far_steppe_2", "name": "Grave of Scythia" }
+  },
+  {
+    "key": "wh3_main_combi_region_hidden_landing",
+    "cqi": 258,
+    "settlement": { "cqi": 258, "x": 1373, "y": 325 },
+    "name": "Hidden Landing",
+    "province": {
+      "key": "wh3_main_combi_province_cathayan_hinterlands",
+      "name": "Khuresh Frontier"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_xlanhuapec",
+    "cqi": 259,
+    "settlement": { "cqi": 259, "x": 215, "y": 264 },
+    "name": "Xlanhuapec",
+    "province": { "key": "wh3_main_combi_province_mosquito_swamps", "name": "Mosquito Swamps" }
+  },
+  {
+    "key": "wh3_main_combi_region_montenas",
+    "cqi": 260,
+    "settlement": { "cqi": 260, "x": 414, "y": 454 },
+    "name": "Montenas",
+    "province": { "key": "wh3_main_combi_province_irrana_mountains", "name": "Irrana Mountains" }
+  },
+  {
+    "key": "wh3_main_combi_region_mount_squighorn",
+    "cqi": 261,
+    "settlement": { "cqi": 261, "x": 779, "y": 535 },
+    "name": "Mount Squighorn",
+    "province": { "key": "wh3_main_combi_province_the_silver_road", "name": "The Silver Road" }
+  },
+  {
+    "key": "wh3_main_combi_region_pillar_of_skulls",
+    "cqi": 262,
+    "settlement": { "cqi": 262, "x": 876, "y": 802 },
+    "name": "Pillar of Skulls",
+    "province": { "key": "wh3_main_combi_province_the_skull_road", "name": "The Skull Road" }
+  },
+  {
+    "key": "wh3_main_combi_region_tor_anroc",
+    "cqi": 263,
+    "settlement": { "cqi": 263, "x": 178, "y": 593 },
+    "name": "Tor Anroc",
+    "province": { "key": "wh3_main_combi_province_tiranoc", "name": "Tiranoc" }
+  },
+  {
+    "key": "wh3_main_combi_region_red_fortress",
+    "cqi": 264,
+    "settlement": { "cqi": 264, "x": 1317, "y": 663 },
+    "name": "Red Fortress",
+    "province": { "key": "wh3_main_combi_province_the_red_wastes", "name": "The Red Wastes" }
+  },
+  {
+    "key": "wh3_main_combi_region_spektazuma",
+    "cqi": 265,
+    "settlement": { "cqi": 265, "x": 87, "y": 378 },
+    "name": "Spektazuma",
+    "province": {
+      "key": "wh3_main_combi_province_the_creeping_jungle",
+      "name": "The Creeping Jungle"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_castle_of_splendour",
+    "cqi": 266,
+    "settlement": { "cqi": 266, "x": 754, "y": 48 },
+    "name": "Castle of Splendour",
+    "province": {
+      "key": "wh3_main_combi_province_the_daemonium_hills",
+      "name": "The Daemonium Hills"
+    }
+  },
+  {
+    "key": "cr_combi_region_nippon_5_3",
+    "cqi": 267,
+    "settlement": { "cqi": 267, "x": 1532, "y": 219 },
+    "name": "Emishi Village",
+    "province": { "key": "cr_combi_province_nippon_5", "name": "Eastern Circuit" }
+  },
+  {
+    "key": "wh3_main_combi_region_monolith_of_borkill_the_bloody_handed",
+    "cqi": 268,
+    "settlement": { "cqi": 268, "x": 450, "y": 801 },
+    "name": "Monolith of Borkill the Bloody-Handed",
+    "province": {
+      "key": "wh3_main_combi_province_vanaheim_mountains",
+      "name": "Vanaheim Mountains"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_tower_of_lysean",
+    "cqi": 269,
+    "settlement": { "cqi": 269, "x": 228, "y": 526 },
+    "name": "Tower of Lysean",
+    "province": { "key": "wh3_main_combi_province_eataine", "name": "Eataine" }
+  },
+  {
+    "key": "wh3_main_combi_region_the_silvered_tower_of_sorcerers",
+    "cqi": 270,
+    "settlement": { "cqi": 270, "x": 377, "y": 937 },
+    "name": "The Silvered Tower of Sorcerers",
+    "province": { "key": "wh3_main_combi_province_northern_wastes", "name": "Northern Wastes" }
+  },
+  {
+    "key": "wh3_main_combi_region_hag_graef",
+    "cqi": 271,
+    "settlement": { "cqi": 271, "x": 139, "y": 787 },
+    "name": "Hag Graef",
+    "province": { "key": "wh3_main_combi_province_the_black_flood", "name": "The Black Flood" }
+  },
+  {
+    "key": "wh3_main_combi_region_jade_wind_mountain",
+    "cqi": 272,
+    "settlement": { "cqi": 272, "x": 1284, "y": 558 },
+    "name": "Jade Wind Mountain",
+    "province": {
+      "key": "wh3_main_combi_province_forests_of_the_moon",
+      "name": "Forests of the Moon"
+    }
+  },
+  {
+    "key": "cr_combi_region_khuresh_6_3",
+    "cqi": 273,
+    "settlement": { "cqi": 273, "x": 1346, "y": 236 },
+    "name": "Tuy Boa",
+    "province": { "key": "cr_combi_province_khuresh_6", "name": "Cochincathay" }
+  },
+  {
+    "key": "cr_combi_region_ind_3_3",
+    "cqi": 274,
+    "settlement": { "cqi": 274, "x": 1147, "y": 329 },
+    "name": "Rajyapuram",
+    "province": { "key": "cr_combi_province_ind_3", "name": "Land of a Thousand Gods" }
+  },
+  {
+    "key": "wh3_main_combi_region_kraka_drak",
+    "cqi": 275,
+    "settlement": { "cqi": 275, "x": 709, "y": 841 },
+    "name": "Kraka Drak",
+    "province": {
+      "key": "wh3_main_combi_province_gianthome_mountains",
+      "name": "Gianthome Mountains"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_tor_surpindar",
+    "cqi": 276,
+    "settlement": { "cqi": 276, "x": 612, "y": 77 },
+    "name": "Tor Surpindar",
+    "province": { "key": "wh3_main_combi_province_dawns_landing", "name": "Dawn's Landing" }
+  },
+  {
+    "key": "wh3_main_combi_region_grimtop",
+    "cqi": 277,
+    "settlement": { "cqi": 277, "x": 1050, "y": 489 },
+    "name": "Grimtop",
+    "province": { "key": "wh3_main_combi_province_ivory_road", "name": "Ivory Road" }
+  },
+  {
+    "key": "cr_combi_region_ihan_1_3",
+    "cqi": 278,
+    "settlement": { "cqi": 278, "x": 1400, "y": 616 },
+    "name": "Wolhae",
+    "province": { "key": "cr_combi_province_ihan_1", "name": "North Ihan" }
+  },
+  {
+    "key": "wh3_main_combi_region_mount_silverspear",
+    "cqi": 279,
+    "settlement": { "cqi": 279, "x": 831, "y": 541 },
+    "name": "Mount Silverspear",
+    "province": {
+      "key": "wh3_main_combi_province_the_desolation_of_azgorh",
+      "name": "The Desolation of Azgorh"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_xen_wu",
+    "cqi": 280,
+    "settlement": { "cqi": 280, "x": 1123, "y": 525 },
+    "name": "Xen Wu",
+    "province": {
+      "key": "wh3_main_combi_province_wastelands_of_jinshen",
+      "name": "Wastelands of Jinshen"
+    }
+  },
+  {
+    "key": "cr_combi_region_nippon_4_2",
+    "cqi": 281,
+    "settlement": { "cqi": 281, "x": 1492, "y": 321 },
+    "name": "Asigawa",
+    "province": { "key": "cr_combi_province_nippon_4", "name": "Hokurikudo" }
+  },
+  {
+    "key": "wh3_main_combi_region_the_maw_gate",
+    "cqi": 282,
+    "settlement": { "cqi": 282, "x": 1065, "y": 514 },
+    "name": "The Maw Gate",
+    "province": { "key": "wh3_main_combi_province_ivory_road", "name": "Ivory Road" }
+  },
+  {
+    "key": "wh3_main_combi_region_galbaraz",
+    "cqi": 283,
+    "settlement": { "cqi": 283, "x": 624, "y": 377 },
+    "name": "Galbaraz",
+    "province": {
+      "key": "wh3_main_combi_province_southern_badlands",
+      "name": "Southern Badlands"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_fire_mouth",
+    "cqi": 284,
+    "settlement": { "cqi": 284, "x": 1007, "y": 596 },
+    "name": "Fire Mouth",
+    "province": { "key": "wh3_main_combi_province_bone_road", "name": "Bone Road" }
+  },
+  {
+    "key": "wh3_main_combi_region_erengrad",
+    "cqi": 285,
+    "settlement": { "cqi": 285, "x": 634, "y": 770 },
+    "name": "Erengrad",
+    "province": { "key": "wh3_main_combi_province_river_lynsk", "name": "River Lynsk" }
+  },
+  {
+    "key": "wh3_main_combi_region_waili_village",
+    "cqi": 286,
+    "settlement": { "cqi": 286, "x": 1267, "y": 383 },
+    "name": "Wai-Li Village",
+    "province": { "key": "wh3_main_combi_province_the_great_canal", "name": "The Great Canal" }
+  },
+  {
+    "key": "wh3_main_combi_region_zhanshi",
+    "cqi": 287,
+    "settlement": { "cqi": 287, "x": 1275, "y": 519 },
+    "name": "Zhanshi",
+    "province": { "key": "wh3_main_combi_province_celestial_lake", "name": "Celestial Lake" }
+  },
+  {
+    "key": "wh3_main_combi_region_sump_pit",
+    "cqi": 288,
+    "settlement": { "cqi": 288, "x": 806, "y": 433 },
+    "name": "Death Pit",
+    "province": {
+      "key": "wh3_main_combi_province_southern_worlds_edge_mountains",
+      "name": "Southern World's Edge Mountains"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_lahmia",
+    "cqi": 289,
+    "settlement": { "cqi": 289, "x": 798, "y": 347 },
+    "name": "Lahmia",
+    "province": {
+      "key": "wh3_main_combi_province_crater_of_the_waking_dead",
+      "name": "Crater of the Waking Dead"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_the_monoliths",
+    "cqi": 290,
+    "settlement": { "cqi": 290, "x": 203, "y": 755 },
+    "name": "The Monoliths",
+    "province": { "key": "wh3_main_combi_province_granite_hills", "name": "Granite Hills" }
+  },
+  {
+    "key": "wh3_main_combi_region_the_volary",
+    "cqi": 291,
+    "settlement": { "cqi": 291, "x": 1111, "y": 716 },
+    "name": "The Volary",
+    "province": {
+      "key": "wh3_main_combi_province_stonesky_foothills",
+      "name": "Stonesky Foothills"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_altar_of_the_horned_rat",
+    "cqi": 292,
+    "settlement": { "cqi": 292, "x": 245, "y": 206 },
+    "name": "Altar of the Horned Rat",
+    "province": {
+      "key": "wh3_main_combi_province_headhunters_jungle",
+      "name": "Headhunter's Jungle"
+    }
+  },
+  {
+    "key": "cr_combi_region_ihan_2_1",
+    "cqi": 293,
+    "settlement": { "cqi": 293, "x": 1396, "y": 529 },
+    "name": "Hwajeong",
+    "province": { "key": "cr_combi_province_ihan_2", "name": "South Ihan" }
+  },
+  {
+    "key": "wh3_main_combi_region_pack_ice_bay",
+    "cqi": 294,
+    "settlement": { "cqi": 294, "x": 452, "y": 759 },
+    "name": "Pack Ice Bay",
+    "province": {
+      "key": "wh3_main_combi_province_ice_tooth_mountains",
+      "name": "Ice Tooth Mountains"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_mount_grey_hag",
+    "cqi": 295,
+    "settlement": { "cqi": 295, "x": 879, "y": 515 },
+    "name": "Mount Grey Hag",
+    "province": {
+      "key": "wh3_main_combi_province_the_desolation_of_azgorh",
+      "name": "The Desolation of Azgorh"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_altar_of_ultimate_darkness",
+    "cqi": 296,
+    "settlement": { "cqi": 296, "x": 44, "y": 842 },
+    "name": "Altar of Ultimate Darkness",
+    "province": { "key": "wh3_main_combi_province_iron_coast", "name": "Iron Coast" }
+  },
+  {
+    "key": "wh3_main_combi_region_clarak_spire",
+    "cqi": 297,
+    "settlement": { "cqi": 297, "x": 16, "y": 650 },
+    "name": "Clarak Spire",
+    "province": { "key": "wh3_main_combi_province_red_desert", "name": "Red Desert" }
+  },
+  {
+    "key": "wh3_main_combi_region_rackdo_gorge",
+    "cqi": 298,
+    "settlement": { "cqi": 298, "x": 55, "y": 812 },
+    "name": "Rackdo Gorge",
+    "province": { "key": "wh3_main_combi_province_iron_mountains", "name": "Iron Mountains" }
+  },
+  {
+    "key": "wh3_main_combi_region_languille",
+    "cqi": 299,
+    "settlement": { "cqi": 299, "x": 384, "y": 661 },
+    "name": "L'Anguille",
+    "province": {
+      "key": "wh3_main_combi_province_marches_of_couronne",
+      "name": "Marches of Couronne"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_infernius",
+    "cqi": 300,
+    "settlement": { "cqi": 300, "x": 430, "y": 946 },
+    "name": "Infernius",
+    "province": { "key": "wh3_main_combi_province_northern_wastes", "name": "Northern Wastes" }
+  },
+  {
+    "key": "wh3_main_combi_region_luccini",
+    "cqi": 301,
+    "settlement": { "cqi": 301, "x": 505, "y": 410 },
+    "name": "Luccini",
+    "province": { "key": "wh3_main_combi_province_tilea", "name": "Tilea" }
+  },
+  {
+    "key": "wh3_main_combi_region_fuming_serpent",
+    "cqi": 302,
+    "settlement": { "cqi": 302, "x": 286, "y": 232 },
+    "name": "Fuming Serpent",
+    "province": { "key": "wh3_main_combi_province_volcanic_islands", "name": "Volcanic Islands" }
+  },
+  {
+    "key": "wh3_main_combi_region_silver_pinnacle",
+    "cqi": 303,
+    "settlement": { "cqi": 303, "x": 824, "y": 660 },
+    "name": "Silver Pinnacle",
+    "province": {
+      "key": "wh3_main_combi_province_the_blasted_wastes",
+      "name": "The Blasted Wastes"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_li_temple",
+    "cqi": 304,
+    "settlement": { "cqi": 304, "x": 1339, "y": 449 },
+    "name": "Li Temple",
+    "province": { "key": "wh3_main_combi_province_mount_li", "name": "Mount Li" }
+  },
+  {
+    "key": "cr_combi_region_tong_war_monolith",
+    "cqi": 305,
+    "settlement": { "cqi": 305, "x": 1219, "y": 795 },
+    "name": "Tong War Monolith",
+    "province": { "key": "cr_combi_province_far_steppe_3", "name": "Deep Steppes" }
+  },
+  {
+    "key": "wh3_main_combi_region_chill_road",
+    "cqi": 306,
+    "settlement": { "cqi": 306, "x": 130, "y": 833 },
+    "name": "The Chill Road",
+    "province": { "key": "wh3_main_combi_province_spiteful_peaks", "name": "Spiteful Peaks" }
+  },
+  {
+    "key": "wh3_main_combi_region_village_of_the_moon",
+    "cqi": 307,
+    "settlement": { "cqi": 307, "x": 1251, "y": 551 },
+    "name": "Village of the Moon",
+    "province": {
+      "key": "wh3_main_combi_province_forests_of_the_moon",
+      "name": "Forests of the Moon"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_mine_of_the_bearded_skulls",
+    "cqi": 308,
+    "settlement": { "cqi": 308, "x": 120, "y": 217 },
+    "name": "Mine of the Bearded Skulls",
+    "province": { "key": "wh3_main_combi_province_spine_of_sotek", "name": "Spine of Sotek" }
+  },
+  {
+    "key": "wh3_main_combi_region_hergig",
+    "cqi": 309,
+    "settlement": { "cqi": 309, "x": 601, "y": 702 },
+    "name": "Hergig",
+    "province": { "key": "wh3_main_combi_province_hochland", "name": "Hochland" }
+  },
+  {
+    "key": "wh3_main_combi_region_naggarond",
+    "cqi": 310,
+    "settlement": { "cqi": 310, "x": 112, "y": 813 },
+    "name": "Naggarond",
+    "province": { "key": "wh3_main_combi_province_iron_foothills", "name": "Iron Foothills" }
+  },
+  {
+    "key": "wh3_main_combi_region_vale_of_titans",
+    "cqi": 311,
+    "settlement": { "cqi": 311, "x": 1060, "y": 560 },
+    "name": "Vale of Titans",
+    "province": { "key": "wh3_main_combi_province_bone_road", "name": "Bone Road" }
+  },
+  {
+    "key": "cr_combi_region_ihan_1_1",
+    "cqi": 312,
+    "settlement": { "cqi": 312, "x": 1393, "y": 682 },
+    "name": "Doom Crag",
+    "province": { "key": "cr_combi_province_ihan_1", "name": "North Ihan" }
+  },
+  {
+    "key": "wh3_main_combi_region_the_forbidden_citadel",
+    "cqi": 313,
+    "settlement": { "cqi": 313, "x": 619, "y": 849 },
+    "name": "The Forbidden Citadel",
+    "province": { "key": "wh3_main_combi_province_mountains_of_hel", "name": "Mountains of Hel" }
+  },
+  {
+    "key": "wh3_main_combi_region_karak_kadrin",
+    "cqi": 314,
+    "settlement": { "cqi": 314, "x": 748, "y": 644 },
+    "name": "Karak Kadrin",
+    "province": { "key": "wh3_main_combi_province_peak_pass", "name": "Peak Pass" }
+  },
+  {
+    "key": "wh3_main_combi_region_martek",
+    "cqi": 315,
+    "settlement": { "cqi": 315, "x": 489, "y": 317 },
+    "name": "Martek",
+    "province": { "key": "wh3_main_combi_province_atalan_mountains", "name": "Atalan Mountains" }
+  },
+  {
+    "key": "wh3_main_combi_region_fateweavers_crevasse",
+    "cqi": 316,
+    "settlement": { "cqi": 316, "x": 510, "y": 27 },
+    "name": "Fateweaver's Crevasse",
+    "province": {
+      "key": "wh3_main_combi_province_the_abyssal_glacier",
+      "name": "The Abyssal Glacier"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_gorger_rock",
+    "cqi": 317,
+    "settlement": { "cqi": 317, "x": 997, "y": 678 },
+    "name": "Gorger Rock",
+    "province": { "key": "wh3_main_combi_province_gash_kadrak", "name": "Gash Kadrak" }
+  },
+  {
+    "key": "cr_combi_region_sud",
+    "cqi": 318,
+    "settlement": { "cqi": 318, "x": 459, "y": 245 },
+    "name": "Sud",
+    "province": { "key": "cr_combi_province_suns_anvil", "name": "Sun's Anvil" }
+  },
+  {
+    "key": "wh3_main_combi_region_the_twisted_towers",
+    "cqi": 319,
+    "settlement": { "cqi": 319, "x": 485, "y": 939 },
+    "name": "The Twisted Towers",
+    "province": { "key": "wh3_main_combi_province_the_cold_mires", "name": "The Cold Mires" }
+  },
+  {
+    "key": "wh3_main_combi_region_nahuontl",
+    "cqi": 320,
+    "settlement": { "cqi": 320, "x": 562, "y": 146 },
+    "name": "Nahuontl",
+    "province": { "key": "wh3_main_combi_province_central_jungles", "name": "Central Jungles" }
+  },
+  {
+    "key": "cr_combi_region_melay",
+    "cqi": 321,
+    "settlement": { "cqi": 321, "x": 1369, "y": 77 },
+    "name": "Melay",
+    "province": { "key": "cr_combi_province_melay", "name": "Melay" }
+  },
+  {
+    "key": "wh3_main_combi_region_icespewer",
+    "cqi": 322,
+    "settlement": { "cqi": 322, "x": 969, "y": 713 },
+    "name": "Icespewer",
+    "province": { "key": "wh3_main_combi_province_path_to_the_east", "name": "Path to the East" }
+  },
+  {
+    "key": "wh3_main_combi_region_tor_koruali",
+    "cqi": 323,
+    "settlement": { "cqi": 323, "x": 331, "y": 606 },
+    "name": "Tor Koruali",
+    "province": { "key": "wh3_main_combi_province_cothique", "name": "Cothique" }
+  },
+  {
+    "key": "wh3_main_combi_region_tralinia",
+    "cqi": 324,
+    "settlement": { "cqi": 324, "x": 344, "y": 562 },
+    "name": "Tralinia",
+    "province": { "key": "wh3_main_combi_province_northern_yvresse", "name": "Northern Yvresse" }
+  },
+  {
+    "key": "wh3_main_combi_region_palace_of_princes",
+    "cqi": 325,
+    "settlement": { "cqi": 325, "x": 404, "y": 893 },
+    "name": "Palace of Princes",
+    "province": { "key": "wh3_main_combi_province_the_cold_mires", "name": "The Cold Mires" }
+  },
+  {
+    "key": "wh3_main_combi_region_fort_straghov",
+    "cqi": 326,
+    "settlement": { "cqi": 326, "x": 670, "y": 806 },
+    "name": "Fort Straghov",
+    "province": { "key": "wh3_main_combi_province_troll_country", "name": "Troll Country" }
+  },
+  {
+    "key": "wh3_main_combi_region_fortress_of_the_damned",
+    "cqi": 327,
+    "settlement": { "cqi": 327, "x": 375, "y": 870 },
+    "name": "Fortress of the Damned",
+    "province": { "key": "wh3_main_combi_province_the_shard_lands", "name": "The Shard Lands" }
+  },
+  {
+    "key": "wh3_main_combi_region_phoenix_gate",
+    "cqi": 328,
+    "settlement": { "cqi": 328, "x": 245, "y": 619 },
+    "name": "Phoenix Gate",
+    "province": { "key": "wh3_main_combi_province_phoenix_gate", "name": "Phoenix Gate" }
+  },
+  {
+    "key": "wh3_main_combi_region_karak_dum",
+    "cqi": 329,
+    "settlement": { "cqi": 329, "x": 887, "y": 764 },
+    "name": "Karak Dum",
+    "province": { "key": "wh3_main_combi_province_the_skull_road", "name": "The Skull Road" }
+  },
+  {
+    "key": "cr_combi_region_khuresh_4_1",
+    "cqi": 330,
+    "settlement": { "cqi": 330, "x": 1233, "y": 193 },
+    "name": "Abode of the Naga Queens",
+    "province": { "key": "cr_combi_province_khuresh_4", "name": "Bloodied Coast" }
+  },
+  {
+    "key": "wh3_main_combi_region_temple_of_heimkel",
+    "cqi": 331,
+    "settlement": { "cqi": 331, "x": 788, "y": 791 },
+    "name": "Temple of Heimkel",
+    "province": {
+      "key": "wh3_main_combi_province_goromadny_mountains",
+      "name": "Goromadny Mountains"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_the_godless_crater",
+    "cqi": 332,
+    "settlement": { "cqi": 332, "x": 235, "y": 22 },
+    "name": "The Godless Crater",
+    "province": {
+      "key": "wh3_main_combi_province_the_ice_fire_plains",
+      "name": "The Ice-Fire Plains"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_the_southern_sentinels",
+    "cqi": 333,
+    "settlement": { "cqi": 333, "x": 224, "y": 133 },
+    "name": "The Southern Sentinels",
+    "province": { "key": "wh3_main_combi_province_culchan_plains", "name": "Culchan Plains" }
+  },
+  {
+    "key": "wh3_main_combi_region_tor_dranil",
+    "cqi": 334,
+    "settlement": { "cqi": 334, "x": 198, "y": 627 },
+    "name": "Tor Dranil",
+    "province": { "key": "wh3_main_combi_province_nagarythe", "name": "Nagarythe" }
+  },
+  {
+    "key": "wh3_main_combi_region_vauls_anvil_ulthuan",
+    "cqi": 335,
+    "settlement": { "cqi": 335, "x": 204, "y": 511 },
+    "name": "Vaul's Anvil",
+    "province": { "key": "wh3_main_combi_province_caledor", "name": "Caledor" }
+  },
+  {
+    "key": "wh3_main_combi_region_shang_yang",
+    "cqi": 336,
+    "settlement": { "cqi": 336, "x": 1127, "y": 554 },
+    "name": "Shang-Yang",
+    "province": { "key": "wh3_main_combi_province_warpstone_desert", "name": "Warpstone Desert" }
+  },
+  {
+    "key": "wh3_main_combi_region_temple_avenue_of_gold",
+    "cqi": 337,
+    "settlement": { "cqi": 337, "x": 718, "y": 120 },
+    "name": "Temple Avenue of Gold",
+    "province": {
+      "key": "wh3_main_combi_province_the_jungles_of_the_gods",
+      "name": "The Jungles of the Gods"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_karag_orrud",
+    "cqi": 338,
+    "settlement": { "cqi": 338, "x": 720, "y": 309 },
+    "name": "Karag Orrud",
+    "province": { "key": "wh3_main_combi_province_devils_backbone", "name": "Devil's Backbone" }
+  },
+  {
+    "key": "wh3_main_combi_region_altar_of_the_crimson_harvest",
+    "cqi": 339,
+    "settlement": { "cqi": 339, "x": 503, "y": 783 },
+    "name": "Altar of the Crimson Harvest",
+    "province": {
+      "key": "wh3_main_combi_province_ice_tooth_mountains",
+      "name": "Ice Tooth Mountains"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_the_gates_of_zharr",
+    "cqi": 340,
+    "settlement": { "cqi": 340, "x": 916, "y": 564 },
+    "name": "The Gates of Zharr",
+    "province": { "key": "wh3_main_combi_province_the_wolf_lands", "name": "The Wolf Lands" }
+  },
+  {
+    "key": "wh3_main_combi_region_dringorackaz",
+    "cqi": 341,
+    "settlement": { "cqi": 341, "x": 756, "y": 416 },
+    "name": "Dringorackaz",
+    "province": { "key": "wh3_main_combi_province_eastern_badlands", "name": "Eastern Badlands" }
+  },
+  {
+    "key": "wh3_main_combi_region_castle_von_rauken",
+    "cqi": 342,
+    "settlement": { "cqi": 342, "x": 646, "y": 752 },
+    "name": "Castle von Rauken",
+    "province": { "key": "wh3_main_combi_province_ostland", "name": "Ostland" }
+  },
+  {
+    "key": "wh3_main_combi_region_griffon_gate",
+    "cqi": 343,
+    "settlement": { "cqi": 343, "x": 196, "y": 594 },
+    "name": "Griffon Gate",
+    "province": { "key": "wh3_main_combi_province_griffon_gate", "name": "Griffon Gate" }
+  },
+  {
+    "key": "wh3_main_combi_region_khazid_irkulaz",
+    "cqi": 344,
+    "settlement": { "cqi": 344, "x": 800, "y": 676 },
+    "name": "Khazid Irkulaz",
+    "province": {
+      "key": "wh3_main_combi_province_northern_worlds_edge_mountains",
+      "name": "Northern World's Edge Mountains"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_the_skull_carvers_abode",
+    "cqi": 345,
+    "settlement": { "cqi": 345, "x": 664, "y": 12 },
+    "name": "The Skull-Carver's Abode",
+    "province": {
+      "key": "wh3_main_combi_province_the_abyssal_glacier",
+      "name": "The Abyssal Glacier"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_mountain_pass",
+    "cqi": 346,
+    "settlement": { "cqi": 346, "x": 1322, "y": 335 },
+    "name": "Mountain Pass",
+    "province": {
+      "key": "wh3_main_combi_province_cathayan_hinterlands",
+      "name": "Khuresh Frontier"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_altar_of_facades",
+    "cqi": 347,
+    "settlement": { "cqi": 347, "x": 826, "y": 30 },
+    "name": "Altar of Facades",
+    "province": {
+      "key": "wh3_main_combi_province_the_daemonium_hills",
+      "name": "The Daemonium Hills"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_nagashizzar",
+    "cqi": 348,
+    "settlement": { "cqi": 348, "x": 848, "y": 405 },
+    "name": "Nagashizzar",
+    "province": { "key": "wh3_main_combi_province_broken_teeth", "name": "Broken Teeth" }
+  },
+  {
+    "key": "wh3_main_combi_region_sartosa",
+    "cqi": 349,
+    "settlement": { "cqi": 349, "x": 492, "y": 390 },
+    "name": "Sartosa",
+    "province": { "key": "wh3_main_combi_province_pirates_current", "name": "Pirate's Current" }
+  },
+  {
+    "key": "wh3_main_combi_region_dietershafen",
+    "cqi": 350,
+    "settlement": { "cqi": 350, "x": 526, "y": 762 },
+    "name": "Dietershafen",
+    "province": { "key": "wh3_main_combi_province_nordland", "name": "Nordland" }
+  },
+  {
+    "key": "wh3_main_combi_region_fu_chow",
+    "cqi": 351,
+    "settlement": { "cqi": 351, "x": 1354, "y": 504 },
+    "name": "Fu-Chow",
+    "province": { "key": "wh3_main_combi_province_jade_river_delta", "name": "Jade River Delta" }
+  },
+  {
+    "key": "wh3_main_combi_region_grotrilexs_glare_lighthouse",
+    "cqi": 352,
+    "settlement": { "cqi": 352, "x": 412, "y": 51 },
+    "name": "Grotrilex's Glare Lighthouse",
+    "province": {
+      "key": "wh3_main_combi_province_the_southern_wastes",
+      "name": "The Southern Wastes"
+    }
+  },
+  {
+    "key": "cr_combi_region_ind_6_1",
+    "cqi": 353,
+    "settlement": { "cqi": 353, "x": 1086, "y": 235 },
+    "name": "Temple of Brahmir",
+    "province": { "key": "cr_combi_province_ind_6", "name": "Ind's End" }
+  },
+  {
+    "key": "cr_combi_region_elithis_1_5",
+    "cqi": 354,
+    "settlement": { "cqi": 354, "x": 1480, "y": 23 },
+    "name": "Starsand Port",
+    "province": { "key": "cr_combi_province_elithis_1", "name": "Lost Isles of Elithis" }
+  },
+  {
+    "key": "wh3_main_combi_region_shrine_of_loec",
+    "cqi": 355,
+    "settlement": { "cqi": 355, "x": 311, "y": 511 },
+    "name": "Shrine of Loec",
+    "province": { "key": "wh3_main_combi_province_southern_yvresse", "name": "Southern Yvresse" }
+  },
+  {
+    "key": "cr_combi_region_bone_island",
+    "cqi": 356,
+    "settlement": { "cqi": 356, "x": 95, "y": 80 },
+    "name": "Crimson Hideout",
+    "province": { "key": "cr_combi_province_bone_island", "name": "Bone Island" }
+  },
+  {
+    "key": "wh3_main_combi_region_massif_orcal",
+    "cqi": 357,
+    "settlement": { "cqi": 357, "x": 458, "y": 567 },
+    "name": "Massif Orcal",
+    "province": {
+      "key": "wh3_main_combi_province_barrows_of_cuileux",
+      "name": "Barrows of Cuileux"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_karak_ziflin",
+    "cqi": 358,
+    "settlement": { "cqi": 358, "x": 476, "y": 608 },
+    "name": "Karak Ziflin",
+    "province": {
+      "key": "wh3_main_combi_province_northern_grey_mountains",
+      "name": "Northern Grey Mountains"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_plain_of_spiders",
+    "cqi": 359,
+    "settlement": { "cqi": 359, "x": 40, "y": 677 },
+    "name": "Plain of Spiders",
+    "province": { "key": "wh3_main_combi_province_red_desert", "name": "Red Desert" }
+  },
+  {
+    "key": "wh3_main_combi_region_teotiqua",
+    "cqi": 360,
+    "settlement": { "cqi": 360, "x": 740, "y": 187 },
+    "name": "Teotiqua",
+    "province": { "key": "wh3_main_combi_province_the_golden_pass", "name": "The Golden Pass" }
+  },
+  {
+    "key": "wh3_main_combi_region_nan_li",
+    "cqi": 361,
+    "settlement": { "cqi": 361, "x": 1143, "y": 626 },
+    "name": "Nan-Li",
+    "province": { "key": "wh3_main_combi_province_gunpowder_road", "name": "Gunpowder Road" }
+  },
+  {
+    "key": "wh3_main_combi_region_the_awakening",
+    "cqi": 362,
+    "settlement": { "cqi": 362, "x": 276, "y": 262 },
+    "name": "The Awakening",
+    "province": { "key": "wh3_main_combi_province_vampire_coast", "name": "Jungle of Webs" }
+  },
+  {
+    "key": "wh3_main_combi_region_wizard_caliphs_palace",
+    "cqi": 363,
+    "settlement": { "cqi": 363, "x": 437, "y": 269 },
+    "name": "Wizard Caliph's Palace",
+    "province": {
+      "key": "wh3_main_combi_province_land_of_assassins",
+      "name": "Land of Assassins"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_slavers_point",
+    "cqi": 364,
+    "settlement": { "cqi": 364, "x": 238, "y": 753 },
+    "name": "Slaver's Point",
+    "province": { "key": "wh3_main_combi_province_the_broken_lands", "name": "The Broken Lands" }
+  },
+  {
+    "key": "cr_combi_region_zermuda",
+    "cqi": 365,
+    "settlement": { "cqi": 365, "x": 205, "y": 393 },
+    "name": "Zarmuda",
+    "province": { "key": "cr_combi_province_zermuda_triangle", "name": "Zarmuda Triangle" }
+  },
+  {
+    "key": "wh3_main_combi_region_castle_carcassonne",
+    "cqi": 366,
+    "settlement": { "cqi": 366, "x": 465, "y": 503 },
+    "name": "Castle Carcassonne",
+    "province": { "key": "wh3_main_combi_province_carcassonne", "name": "Carcassonne" }
+  },
+  {
+    "key": "wh3_main_combi_region_springs_of_eternal_life",
+    "cqi": 367,
+    "settlement": { "cqi": 367, "x": 628, "y": 268 },
+    "name": "Springs of Eternal Life",
+    "province": { "key": "wh3_main_combi_province_land_of_the_dead", "name": "Land of the Dead" }
+  },
+  {
+    "key": "wh3_main_combi_region_qiang",
+    "cqi": 368,
+    "settlement": { "cqi": 368, "x": 1112, "y": 468 },
+    "name": "Qiang",
+    "province": {
+      "key": "wh3_main_combi_province_wastelands_of_jinshen",
+      "name": "Wastelands of Jinshen"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_agrul_migdhal",
+    "cqi": 369,
+    "settlement": { "cqi": 369, "x": 653, "y": 331 },
+    "name": "Agrul Migdhal",
+    "province": { "key": "wh3_main_combi_province_barrier_idols", "name": "The Barrier Idols" }
+  },
+  {
+    "key": "wh3_main_combi_region_vauls_anvil_loren",
+    "cqi": 370,
+    "settlement": { "cqi": 370, "x": 502, "y": 551 },
+    "name": "Vaul's Anvil",
+    "province": { "key": "wh3_main_combi_province_torgovann", "name": "Torgovann" }
+  },
+  {
+    "key": "wh3_main_combi_region_caverns_of_sotek",
+    "cqi": 371,
+    "settlement": { "cqi": 371, "x": 673, "y": 106 },
+    "name": "Caverns of Sotek",
+    "province": {
+      "key": "wh3_main_combi_province_the_jungles_of_the_gods",
+      "name": "The Jungles of the Gods"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_avethir",
+    "cqi": 372,
+    "settlement": { "cqi": 372, "x": 187, "y": 546 },
+    "name": "Avethir",
+    "province": { "key": "wh3_main_combi_province_tiranoc", "name": "Tiranoc" }
+  },
+  {
+    "key": "wh3_main_combi_region_forest_of_arnheim",
+    "cqi": 373,
+    "settlement": { "cqi": 373, "x": 110, "y": 601 },
+    "name": "Forest of Arnheim",
+    "province": { "key": "wh3_main_combi_province_the_bleak_coast", "name": "The Bleak Coast" }
+  },
+  {
+    "key": "wh3_main_combi_region_plain_of_tuskers",
+    "cqi": 374,
+    "settlement": { "cqi": 374, "x": 560, "y": 229 },
+    "name": "Plain of Tuskers",
+    "province": {
+      "key": "wh3_main_combi_province_land_of_the_dervishes",
+      "name": "Land of the Dervishes"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_steingart",
+    "cqi": 375,
+    "settlement": { "cqi": 375, "x": 620, "y": 565 },
+    "name": "Steingart",
+    "province": { "key": "wh3_main_combi_province_solland", "name": "Solland" }
+  },
+  {
+    "key": "wh3_main_combi_region_bleak_hold_fortress",
+    "cqi": 376,
+    "settlement": { "cqi": 376, "x": 89, "y": 618 },
+    "name": "Bleak Hold Fortress",
+    "province": { "key": "wh3_main_combi_province_the_bleak_coast", "name": "The Bleak Coast" }
+  },
+  {
+    "key": "wh3_main_combi_region_tower_of_the_sun",
+    "cqi": 377,
+    "settlement": { "cqi": 377, "x": 981, "y": 133 },
+    "name": "Tower of the Sun",
+    "province": { "key": "wh3_main_combi_province_eastern_colonies", "name": "Eastern Colonies" }
+  },
+  {
+    "key": "wh3_main_combi_region_the_daemons_stump",
+    "cqi": 378,
+    "settlement": { "cqi": 378, "x": 969, "y": 546 },
+    "name": "The Daemon's Stump",
+    "province": { "key": "wh3_main_combi_province_the_wolf_lands", "name": "The Wolf Lands" }
+  },
+  {
+    "key": "cr_combi_region_nippon_2_3",
+    "cqi": 379,
+    "settlement": { "cqi": 379, "x": 1478, "y": 346 },
+    "name": "Hidden Ninja Village",
+    "province": { "key": "cr_combi_province_nippon_2", "name": "Samurai's Domain" }
+  },
+  {
+    "key": "wh3_main_combi_region_khymerica_spire",
+    "cqi": 380,
+    "settlement": { "cqi": 380, "x": 29, "y": 705 },
+    "name": "Khymerica Spire",
+    "province": { "key": "wh3_main_combi_province_red_desert", "name": "Red Desert" }
+  },
+  {
+    "key": "wh3_main_combi_region_elisia",
+    "cqi": 381,
+    "settlement": { "cqi": 381, "x": 299, "y": 640 },
+    "name": "Elisia",
+    "province": { "key": "wh3_main_combi_province_chrace", "name": "Chrace" }
+  },
+  {
+    "key": "wh3_main_combi_region_the_star_tower",
+    "cqi": 382,
+    "settlement": { "cqi": 382, "x": 280, "y": 214 },
+    "name": "The Star Tower",
+    "province": { "key": "wh3_main_combi_province_volcanic_islands", "name": "Volcanic Islands" }
+  },
+  {
+    "key": "wh3_main_combi_region_zhufbar",
+    "cqi": 383,
+    "settlement": { "cqi": 383, "x": 737, "y": 595 },
+    "name": "Zhufbar",
+    "province": { "key": "wh3_main_combi_province_black_water", "name": "Black Water" }
+  },
+  {
+    "key": "wh3_main_combi_region_sabre_mountain",
+    "cqi": 384,
+    "settlement": { "cqi": 384, "x": 935, "y": 700 },
+    "name": "Sabre Mountain",
+    "province": { "key": "wh3_main_combi_province_path_to_the_east", "name": "Path to the East" }
+  },
+  {
+    "key": "wh3_main_combi_region_venom_glade",
+    "cqi": 385,
+    "settlement": { "cqi": 385, "x": 142, "y": 709 },
+    "name": "Venom Glade",
+    "province": { "key": "wh3_main_combi_province_obsidian_peaks", "name": "Obsidian Peaks" }
+  },
+  {
+    "key": "wh3_main_combi_region_fort_ostrosk",
+    "cqi": 386,
+    "settlement": { "cqi": 386, "x": 680, "y": 786 },
+    "name": "Fort Ostrosk",
+    "province": { "key": "wh3_main_combi_province_troll_country", "name": "Troll Country" }
+  },
+  {
+    "key": "cr_combi_region_khuresh_4_3",
+    "cqi": 387,
+    "settlement": { "cqi": 387, "x": 1261, "y": 178 },
+    "name": "S'lon Nests",
+    "province": { "key": "cr_combi_province_khuresh_4", "name": "Bloodied Coast" }
+  },
+  {
+    "key": "wh3_main_combi_region_great_skull_lakes",
+    "cqi": 388,
+    "settlement": { "cqi": 388, "x": 853, "y": 692 },
+    "name": "Great Skull Lakes",
+    "province": { "key": "wh3_main_combi_province_zorn_uzkul", "name": "Zorn Uzkul" }
+  },
+  {
+    "key": "wh3_main_combi_region_pfeildorf",
+    "cqi": 389,
+    "settlement": { "cqi": 389, "x": 588, "y": 571 },
+    "name": "Pfeildorf",
+    "province": { "key": "wh3_main_combi_province_solland", "name": "Solland" }
+  },
+  {
+    "key": "wh3_main_combi_region_scarpels_lair",
+    "cqi": 390,
+    "settlement": { "cqi": 390, "x": 15, "y": 600 },
+    "name": "Scarpel's Lair",
+    "province": { "key": "wh3_main_combi_province_ashen_coast", "name": "Ashen Coast" }
+  },
+  {
+    "key": "wh3_main_combi_region_clar_karond",
+    "cqi": 391,
+    "settlement": { "cqi": 391, "x": 117, "y": 726 },
+    "name": "Clar Karond",
+    "province": { "key": "wh3_main_combi_province_obsidian_peaks", "name": "Obsidian Peaks" }
+  },
+  {
+    "key": "wh3_main_combi_region_bhagar",
+    "cqi": 392,
+    "settlement": { "cqi": 392, "x": 598, "y": 246 },
+    "name": "Bhagar",
+    "province": { "key": "wh3_main_combi_province_shifting_sands", "name": "Shifting Sands" }
+  },
+  {
+    "key": "wh3_main_combi_region_karak_izor",
+    "cqi": 393,
+    "settlement": { "cqi": 393, "x": 559, "y": 505 },
+    "name": "Karak Izor",
+    "province": { "key": "wh3_main_combi_province_the_vaults", "name": "The Vaults" }
+  },
+  {
+    "key": "wh3_main_combi_region_grey_rock_point",
+    "cqi": 394,
+    "settlement": { "cqi": 394, "x": 106, "y": 543 },
+    "name": "Grey Rock Point",
+    "province": { "key": "wh3_main_combi_province_titan_peaks", "name": "Titan Peaks" }
+  },
+  {
+    "key": "cr_combi_region_ihan_2_3",
+    "cqi": 395,
+    "settlement": { "cqi": 395, "x": 1395, "y": 586 },
+    "name": "Mount Haneulja",
+    "province": { "key": "cr_combi_province_ihan_2", "name": "South Ihan" }
+  },
+  {
+    "key": "wh3_main_combi_region_mordheim",
+    "cqi": 396,
+    "settlement": { "cqi": 396, "x": 675, "y": 661 },
+    "name": "Mordheim",
+    "province": { "key": "wh3_main_combi_province_ostermark", "name": "Ostermark" }
+  },
+  {
+    "key": "cr_combi_region_ind_6_2",
+    "cqi": 397,
+    "settlement": { "cqi": 397, "x": 1047, "y": 201 },
+    "name": "Tarangnagar",
+    "province": { "key": "cr_combi_province_ind_6", "name": "Ind's End" }
+  },
+  {
+    "key": "wh3_main_combi_region_ice_rock_gorge",
+    "cqi": 398,
+    "settlement": { "cqi": 398, "x": 74, "y": 645 },
+    "name": "Ice Rock Gorge",
+    "province": { "key": "wh3_main_combi_province_ironsand_desert", "name": "Ironsand Desert" }
+  },
+  {
+    "key": "wh3_main_combi_region_helmgart",
+    "cqi": 399,
+    "settlement": { "cqi": 399, "x": 487, "y": 603 },
+    "name": "Helmgart",
+    "province": { "key": "wh3_main_combi_province_axe_bite_pass", "name": "Axe Bite Pass" }
+  },
+  {
+    "key": "wh3_main_combi_region_the_black_forests",
+    "cqi": 400,
+    "settlement": { "cqi": 400, "x": 207, "y": 725 },
+    "name": "The Black Forests",
+    "province": { "key": "wh3_main_combi_province_the_clawed_coast", "name": "The Clawed Coast" }
+  },
+  {
+    "key": "cr_combi_region_elithis_2_1",
+    "cqi": 401,
+    "settlement": { "cqi": 401, "x": 1501, "y": 55 },
+    "name": "The Far Place",
+    "province": { "key": "cr_combi_province_elithis_2", "name": "Elithisian Grove" }
+  },
+  {
+    "key": "wh3_main_combi_region_skrap_towers",
+    "cqi": 402,
+    "settlement": { "cqi": 402, "x": 1014, "y": 449 },
+    "name": "Skrap Towers",
+    "province": { "key": "wh3_main_combi_province_gnoblar_country", "name": "Gnoblar Country" }
+  },
+  {
+    "key": "wh3_main_combi_region_ka_sabar",
+    "cqi": 403,
+    "settlement": { "cqi": 403, "x": 642, "y": 247 },
+    "name": "Ka-Sabar",
+    "province": { "key": "wh3_main_combi_province_shifting_sands", "name": "Shifting Sands" }
+  },
+  {
+    "key": "wh3_main_combi_region_sudenburg",
+    "cqi": 404,
+    "settlement": { "cqi": 404, "x": 550, "y": 254 },
+    "name": "Sudenburg",
+    "province": {
+      "key": "wh3_main_combi_province_land_of_the_dervishes",
+      "name": "Land of the Dervishes"
+    }
+  },
+  {
+    "key": "cr_combi_region_khuresh_4_2",
+    "cqi": 405,
+    "settlement": { "cqi": 405, "x": 1247, "y": 234 },
+    "name": "Kobras Training Grounds",
+    "province": { "key": "cr_combi_province_khuresh_4", "name": "Bloodied Coast" }
+  },
+  {
+    "key": "wh3_main_combi_region_ming_zhu",
+    "cqi": 406,
+    "settlement": { "cqi": 406, "x": 1242, "y": 612 },
+    "name": "Ming Zhu",
+    "province": { "key": "wh3_main_combi_province_imperial_road", "name": "Imperial Road" }
+  },
+  {
+    "key": "wh3_main_combi_region_pigbarter",
+    "cqi": 407,
+    "settlement": { "cqi": 407, "x": 971, "y": 458 },
+    "name": "Pigbarter",
+    "province": { "key": "wh3_main_combi_province_mouth_of_ruin", "name": "Scalded Delta" }
+  },
+  {
+    "key": "wh3_main_combi_region_plain_of_dogs",
+    "cqi": 408,
+    "settlement": { "cqi": 408, "x": 40, "y": 633 },
+    "name": "Plain of Dogs",
+    "province": { "key": "wh3_main_combi_province_ironsand_desert", "name": "Ironsand Desert" }
+  },
+  {
+    "key": "wh3_main_combi_region_ash_ridge_mountains",
+    "cqi": 409,
+    "settlement": { "cqi": 409, "x": 862, "y": 459 },
+    "name": "Ash Ridge Mountains",
+    "province": {
+      "key": "wh3_main_combi_province_the_plain_of_bones",
+      "name": "The Plain of Bones"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_the_moon_shard",
+    "cqi": 410,
+    "settlement": { "cqi": 410, "x": 134, "y": 567 },
+    "name": "The Moon Shard",
+    "province": { "key": "wh3_main_combi_province_the_bleak_coast", "name": "The Bleak Coast" }
+  },
+  {
+    "key": "wh3_main_combi_region_vulture_mountain",
+    "cqi": 411,
+    "settlement": { "cqi": 411, "x": 454, "y": 289 },
+    "name": "Vulture Mountain",
+    "province": { "key": "wh3_main_combi_province_atalan_mountains", "name": "Atalan Mountains" }
+  },
+  {
+    "key": "wh3_main_combi_region_black_fortress",
+    "cqi": 412,
+    "settlement": { "cqi": 412, "x": 950, "y": 479 },
+    "name": "Black Fortress",
+    "province": {
+      "key": "wh3_main_combi_province_the_howling_wastes",
+      "name": "The Howling Wastes"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_the_challenge_stone",
+    "cqi": 413,
+    "settlement": { "cqi": 413, "x": 1021, "y": 726 },
+    "name": "The Challenge Stone",
+    "province": { "key": "wh3_main_combi_province_chimera_plateau", "name": "Chimera Plateau" }
+  },
+  {
+    "key": "wh3_main_combi_region_talabheim",
+    "cqi": 414,
+    "settlement": { "cqi": 414, "x": 604, "y": 690 },
+    "name": "Talabheim",
+    "province": { "key": "wh3_main_combi_province_talabecland", "name": "Talabecland" }
+  },
+  {
+    "key": "wh3_main_combi_region_baleful_hills",
+    "cqi": 415,
+    "settlement": { "cqi": 415, "x": 1190, "y": 503 },
+    "name": "Baleful Hills",
+    "province": {
+      "key": "wh3_main_combi_province_celestial_riverlands",
+      "name": "Celestial Riverlands"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_the_tower_of_khrakk",
+    "cqi": 416,
+    "settlement": { "cqi": 416, "x": 632, "y": 821 },
+    "name": "The Tower of Khrakk",
+    "province": {
+      "key": "wh3_main_combi_province_trollheim_mountains",
+      "name": "Trollheim Mountains"
+    }
+  },
+  {
+    "key": "cr_combi_region_khuresh_5_1",
+    "cqi": 417,
+    "settlement": { "cqi": 417, "x": 1306, "y": 215 },
+    "name": "Lost City of the Old Ones",
+    "province": { "key": "cr_combi_province_khuresh_5", "name": "The Lost Jungle" }
+  },
+  {
+    "key": "cr_combi_region_elithis_1_1",
+    "cqi": 418,
+    "settlement": { "cqi": 418, "x": 1443, "y": 49 },
+    "name": "Tor Elithis",
+    "province": { "key": "cr_combi_province_elithis_1", "name": "Lost Isles of Elithis" }
+  },
+  {
+    "key": "wh3_main_combi_region_soteks_trail",
+    "cqi": 419,
+    "settlement": { "cqi": 419, "x": 710, "y": 163 },
+    "name": "Sotek's Trail",
+    "province": {
+      "key": "wh3_main_combi_province_the_jungles_of_the_gods",
+      "name": "The Jungles of the Gods"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_spite_reach",
+    "cqi": 420,
+    "settlement": { "cqi": 420, "x": 190, "y": 845 },
+    "name": "Spite Reach",
+    "province": {
+      "key": "wh3_main_combi_province_the_road_of_skulls",
+      "name": "The Road of Skulls"
+    }
+  },
+  {
+    "key": "cr_combi_region_nippon_5_1",
+    "cqi": 421,
+    "settlement": { "cqi": 421, "x": 1524, "y": 297 },
+    "name": "Tsuranami",
+    "province": { "key": "cr_combi_province_nippon_5", "name": "Eastern Circuit" }
+  },
+  {
+    "key": "wh3_main_combi_region_okkams_forever_maze",
+    "cqi": 422,
+    "settlement": { "cqi": 422, "x": 709, "y": 28 },
+    "name": "Okkam's Forever Maze",
+    "province": {
+      "key": "wh3_main_combi_province_the_daemonium_hills",
+      "name": "The Daemonium Hills"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_brass_keep",
+    "cqi": 423,
+    "settlement": { "cqi": 423, "x": 592, "y": 737 },
+    "name": "Brass Keep",
+    "province": {
+      "key": "wh3_dlc20_combi_province_middle_mountains",
+      "name": "The Middle Mountains"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_norden",
+    "cqi": 424,
+    "settlement": { "cqi": 424, "x": 594, "y": 770 },
+    "name": "Norden",
+    "province": { "key": "wh3_main_combi_province_ostland", "name": "Ostland" }
+  },
+  {
+    "key": "wh3_main_combi_region_shrine_of_sotek",
+    "cqi": 425,
+    "settlement": { "cqi": 425, "x": 47, "y": 427 },
+    "name": "Shrine of Sotek",
+    "province": {
+      "key": "wh3_main_combi_province_jungles_of_pahualaxa",
+      "name": "Jungles of Pahualaxa"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_amblepeak",
+    "cqi": 426,
+    "settlement": { "cqi": 426, "x": 1027, "y": 546 },
+    "name": "Amblepeak",
+    "province": {
+      "key": "wh3_main_combi_province_mountains_of_mourn",
+      "name": "Mountains of Mourn"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_bamboo_crossing",
+    "cqi": 427,
+    "settlement": { "cqi": 427, "x": 1262, "y": 431 },
+    "name": "Bamboo Crossing",
+    "province": { "key": "wh3_main_combi_province_the_great_canal", "name": "The Great Canal" }
+  },
+  {
+    "key": "wh3_main_combi_region_the_falls_of_doom",
+    "cqi": 428,
+    "settlement": { "cqi": 428, "x": 910, "y": 652 },
+    "name": "The Falls of Doom",
+    "province": {
+      "key": "wh3_main_combi_province_the_plain_of_zharr",
+      "name": "The Plain of Zharr"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_the_cursed_jungle",
+    "cqi": 429,
+    "settlement": { "cqi": 429, "x": 744, "y": 215 },
+    "name": "The Cursed Jungle",
+    "province": {
+      "key": "wh3_main_combi_province_kingdom_of_beasts",
+      "name": "Kingdom of Beasts"
+    }
+  },
+  {
+    "key": "cr_combi_region_ind_1_1",
+    "cqi": 430,
+    "settlement": { "cqi": 430, "x": 1085, "y": 378 },
+    "name": "City of Spires",
+    "province": { "key": "cr_combi_province_ind_1", "name": "The Spice Route" }
+  },
+  {
+    "key": "wh3_main_combi_region_deff_gorge",
+    "cqi": 431,
+    "settlement": { "cqi": 431, "x": 717, "y": 354 },
+    "name": "Deff Gorge",
+    "province": { "key": "wh3_main_combi_province_barrier_idols", "name": "The Barrier Idols" }
+  },
+  {
+    "key": "cr_combi_region_sunken_island_of_the_gods",
+    "cqi": 432,
+    "settlement": { "cqi": 432, "x": 293, "y": 344 },
+    "name": "Sunken Island of the Gods",
+    "province": { "key": "cr_combi_province_zermuda_triangle", "name": "Zarmuda Triangle" }
+  },
+  {
+    "key": "wh3_main_combi_region_gnashraks_lair",
+    "cqi": 433,
+    "settlement": { "cqi": 433, "x": 792, "y": 643 },
+    "name": "Gnashrak's Lair",
+    "province": { "key": "wh3_main_combi_province_peak_pass", "name": "Peak Pass" }
+  },
+  {
+    "key": "wh3_main_combi_region_the_forest_of_decay",
+    "cqi": 434,
+    "settlement": { "cqi": 434, "x": 640, "y": 939 },
+    "name": "The Forest of Decay",
+    "province": {
+      "key": "wh3_main_combi_province_the_noisome_tumour",
+      "name": "The Noisome Tumour"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_tor_saroir",
+    "cqi": 435,
+    "settlement": { "cqi": 435, "x": 270, "y": 601 },
+    "name": "Tor Saroir",
+    "province": { "key": "wh3_main_combi_province_avelorn", "name": "Avelorn" }
+  },
+  {
+    "key": "wh3_main_combi_region_mount_gunbad",
+    "cqi": 436,
+    "settlement": { "cqi": 436, "x": 809, "y": 588 },
+    "name": "Mount Gunbad",
+    "province": { "key": "wh3_main_combi_province_deadrock_gap", "name": "Deadrock Gap" }
+  },
+  {
+    "key": "wh3_main_combi_region_dragonhorn_mines",
+    "cqi": 437,
+    "settlement": { "cqi": 437, "x": 647, "y": 424 },
+    "name": "Dragonhorn Mines",
+    "province": { "key": "wh3_main_combi_province_western_badlands", "name": "Western Badlands" }
+  },
+  {
+    "key": "wh3_main_combi_region_salzenmund",
+    "cqi": 438,
+    "settlement": { "cqi": 438, "x": 557, "y": 757 },
+    "name": "Salzenmund",
+    "province": { "key": "wh3_main_combi_province_nordland", "name": "Nordland" }
+  },
+  {
+    "key": "cr_combi_region_kuj_encampment",
+    "cqi": 439,
+    "settlement": { "cqi": 439, "x": 1371, "y": 711 },
+    "name": "Kuj Conclave",
+    "province": { "key": "cr_combi_province_near_steppe_1", "name": "The Black Wastes" }
+  },
+  {
+    "key": "wh3_main_combi_region_statues_of_the_gods",
+    "cqi": 440,
+    "settlement": { "cqi": 440, "x": 545, "y": 175 },
+    "name": "Statues of the Gods",
+    "province": { "key": "wh3_main_combi_province_western_jungles", "name": "Western Jungles" }
+  },
+  {
+    "key": "wh3_main_combi_region_monument_of_izzatal",
+    "cqi": 441,
+    "settlement": { "cqi": 441, "x": 105, "y": 352 },
+    "name": "Monument of Izzatal",
+    "province": {
+      "key": "wh3_main_combi_province_the_creeping_jungle",
+      "name": "The Creeping Jungle"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_temple_of_khaine",
+    "cqi": 442,
+    "settlement": { "cqi": 442, "x": 89, "y": 788 },
+    "name": "Temple of Khaine",
+    "province": { "key": "wh3_main_combi_province_the_black_flood", "name": "The Black Flood" }
+  },
+  {
+    "key": "wh3_main_combi_region_doomkeep",
+    "cqi": 443,
+    "settlement": { "cqi": 443, "x": 514, "y": 836 },
+    "name": "Doomkeep",
+    "province": {
+      "key": "wh3_main_combi_province_mountains_of_naglfari",
+      "name": "Mountains of Naglfari"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_nagenhof",
+    "cqi": 444,
+    "settlement": { "cqi": 444, "x": 717, "y": 682 },
+    "name": "Nagenhof",
+    "province": { "key": "wh3_main_combi_province_ostermark", "name": "Ostermark" }
+  },
+  {
+    "key": "wh3_main_combi_region_the_monolith_of_katam",
+    "cqi": 445,
+    "settlement": { "cqi": 445, "x": 451, "y": 864 },
+    "name": "The Monolith of Katam",
+    "province": {
+      "key": "wh3_main_combi_province_helspire_mountains",
+      "name": "Helspire Mountains"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_kaiax",
+    "cqi": 446,
+    "settlement": { "cqi": 446, "x": 191, "y": 118 },
+    "name": "Kaiax",
+    "province": {
+      "key": "wh3_main_combi_province_the_night_forest_road",
+      "name": "The Night Forest Road"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_the_burning_monolith",
+    "cqi": 447,
+    "settlement": { "cqi": 447, "x": 848, "y": 896 },
+    "name": "The Burning Monolith",
+    "province": { "key": "wh3_main_combi_province_bloodfire_falls", "name": "Bloodfire Falls" }
+  },
+  {
+    "key": "wh3_main_combi_region_karak_azorn",
+    "cqi": 448,
+    "settlement": { "cqi": 448, "x": 996, "y": 567 },
+    "name": "Karak Azorn",
+    "province": {
+      "key": "wh3_main_combi_province_mountains_of_mourn",
+      "name": "Mountains of Mourn"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_miragliano",
+    "cqi": 449,
+    "settlement": { "cqi": 449, "x": 497, "y": 456 },
+    "name": "Miragliano",
+    "province": { "key": "wh3_main_combi_province_tilea", "name": "Tilea" }
+  },
+  {
+    "key": "wh3_main_combi_region_khemri",
+    "cqi": 450,
+    "settlement": { "cqi": 450, "x": 612, "y": 289 },
+    "name": "Khemri",
+    "province": { "key": "wh3_main_combi_province_land_of_the_dead", "name": "Land of the Dead" }
+  },
+  {
+    "key": "cr_combi_region_yusak_camp",
+    "cqi": 451,
+    "settlement": { "cqi": 451, "x": 1314, "y": 722 },
+    "name": "Yusak Camp",
+    "province": { "key": "cr_combi_province_near_steppe_2", "name": "East Kurgania" }
+  },
+  {
+    "key": "wh3_main_combi_region_hualotal",
+    "cqi": 452,
+    "settlement": { "cqi": 452, "x": 99, "y": 309 },
+    "name": "Hualotal",
+    "province": {
+      "key": "wh3_main_combi_province_the_gwangee_valley",
+      "name": "The Gwangee Valley"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_pox_marsh",
+    "cqi": 453,
+    "settlement": { "cqi": 453, "x": 298, "y": 283 },
+    "name": "Pox Marsh",
+    "province": { "key": "wh3_main_combi_province_vampire_coast", "name": "Jungle of Webs" }
+  },
+  {
+    "key": "wh3_main_combi_region_aarnau",
+    "cqi": 454,
+    "settlement": { "cqi": 454, "x": 459, "y": 724 },
+    "name": "Aarnau",
+    "province": { "key": "wh3_main_combi_province_the_wasteland", "name": "The Wasteland" }
+  },
+  {
+    "key": "wh3_main_combi_region_argalis",
+    "cqi": 455,
+    "settlement": { "cqi": 455, "x": 538, "y": 417 },
+    "name": "Argalis",
+    "province": {
+      "key": "wh3_main_combi_province_western_border_princes",
+      "name": "Western Border Princes"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_worlds_edge_archway",
+    "cqi": 456,
+    "settlement": { "cqi": 456, "x": 819, "y": 563 },
+    "name": "World's Edge Archway",
+    "province": { "key": "wh3_main_combi_province_deadrock_gap", "name": "Deadrock Gap" }
+  },
+  {
+    "key": "wh3_main_combi_region_frozen_landing",
+    "cqi": 457,
+    "settlement": { "cqi": 457, "x": 761, "y": 820 },
+    "name": "Frozen Landing",
+    "province": {
+      "key": "wh3_main_combi_province_goromadny_mountains",
+      "name": "Goromadny Mountains"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_floating_village",
+    "cqi": 458,
+    "settlement": { "cqi": 458, "x": 683, "y": 372 },
+    "name": "Floating Village",
+    "province": {
+      "key": "wh3_main_combi_province_marshes_of_madness",
+      "name": "Marshes of Madness"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_barag_dawazbag",
+    "cqi": 459,
+    "settlement": { "cqi": 459, "x": 709, "y": 509 },
+    "name": "Barag Dawazbag",
+    "province": {
+      "key": "wh3_main_combi_province_blood_river_valley",
+      "name": "Blood River Valley"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_daemons_gate",
+    "cqi": 460,
+    "settlement": { "cqi": 460, "x": 463, "y": 57 },
+    "name": "Daemon's Gate",
+    "province": {
+      "key": "wh3_main_combi_province_the_southern_wastes",
+      "name": "The Southern Wastes"
+    }
+  },
+  {
+    "key": "cr_combi_region_ind_4_2",
+    "cqi": 461,
+    "settlement": { "cqi": 461, "x": 1201, "y": 292 },
+    "name": "Somnagiri",
+    "province": { "key": "cr_combi_province_ind_4", "name": "Shambani Foothills" }
+  },
+  {
+    "key": "wh3_main_combi_region_temple_of_tlencan",
+    "cqi": 462,
+    "settlement": { "cqi": 462, "x": 215, "y": 335 },
+    "name": "Bregonne",
+    "province": { "key": "wh3_main_combi_province_scorpion_coast", "name": "Piranha Swamps" }
+  },
+  {
+    "key": "wh3_main_combi_region_the_oak_of_ages",
+    "cqi": 463,
+    "settlement": { "cqi": 463, "x": 513, "y": 531 },
+    "name": "The Oak of Ages",
+    "province": { "key": "wh3_main_combi_province_yn_edri_eternos", "name": "Yn Edri Eternos" }
+  },
+  {
+    "key": "cr_combi_region_wei_tu_encampment",
+    "cqi": 464,
+    "settlement": { "cqi": 464, "x": 1527, "y": 796 },
+    "name": "Wei-Tu Stronghold",
+    "province": { "key": "cr_combi_province_far_steppe_1", "name": "West Hungaria" }
+  },
+  {
+    "key": "wh3_main_combi_region_ekrund",
+    "cqi": 465,
+    "settlement": { "cqi": 465, "x": 634, "y": 444 },
+    "name": "Ekrund",
+    "province": { "key": "wh3_main_combi_province_western_badlands", "name": "Western Badlands" }
+  },
+  {
+    "key": "wh3_main_combi_region_gryphon_wood",
+    "cqi": 466,
+    "settlement": { "cqi": 466, "x": 669, "y": 682 },
+    "name": "Gryphon Wood",
+    "province": { "key": "wh3_main_combi_province_gryphon_wood", "name": "Gryphon Wood" }
+  },
+  {
+    "key": "cr_combi_region_khuresh_3_2",
+    "cqi": 467,
+    "settlement": { "cqi": 467, "x": 1329, "y": 281 },
+    "name": "Treetop Village",
+    "province": { "key": "cr_combi_province_khuresh_3", "name": "Whispering Jungle" }
+  },
+  {
+    "key": "wh3_main_combi_region_uzkulak",
+    "cqi": 468,
+    "settlement": { "cqi": 468, "x": 854, "y": 723 },
+    "name": "Uzkulak",
+    "province": { "key": "wh3_main_combi_province_zorn_uzkul", "name": "Zorn Uzkul" }
+  },
+  {
+    "key": "wh3_main_combi_region_the_writhing_fortress",
+    "cqi": 469,
+    "settlement": { "cqi": 469, "x": 915, "y": 887 },
+    "name": "The Writhing Fortress",
+    "province": {
+      "key": "wh3_main_combi_province_the_blood_marshes",
+      "name": "The Blood Marshes"
+    }
+  },
+  {
+    "key": "cr_combi_region_wo_camp",
+    "cqi": 470,
+    "settlement": { "cqi": 470, "x": 1470, "y": 727 },
+    "name": "Wo Camp",
+    "province": { "key": "cr_combi_province_near_steppe_1", "name": "The Black Wastes" }
+  },
+  {
+    "key": "wh3_main_combi_region_arnheim",
+    "cqi": 471,
+    "settlement": { "cqi": 471, "x": 147, "y": 588 },
+    "name": "Arnheim",
+    "province": { "key": "wh3_main_combi_province_the_bleak_coast", "name": "The Bleak Coast" }
+  },
+  {
+    "key": "wh3_main_combi_region_port_reaver",
+    "cqi": 472,
+    "settlement": { "cqi": 472, "x": 98, "y": 481 },
+    "name": "Port Reaver",
+    "province": {
+      "key": "wh3_main_combi_province_the_isthmus_coast",
+      "name": "The Isthmus Coast"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_zlatlan",
+    "cqi": 473,
+    "settlement": { "cqi": 473, "x": 610, "y": 123 },
+    "name": "Zlatlan",
+    "province": { "key": "wh3_main_combi_province_southern_jungles", "name": "Southern Jungles" }
+  },
+  {
+    "key": "wh3_main_combi_region_gaean_vale",
+    "cqi": 474,
+    "settlement": { "cqi": 474, "x": 256, "y": 579 },
+    "name": "Gaean Vale",
+    "province": { "key": "wh3_main_combi_province_avelorn", "name": "Avelorn" }
+  },
+  {
+    "key": "wh3_main_combi_region_temple_of_elemental_winds",
+    "cqi": 475,
+    "settlement": { "cqi": 475, "x": 1156, "y": 441 },
+    "name": "Temple of Elemental Winds",
+    "province": {
+      "key": "wh3_main_combi_province_broken_lands_of_tian_li",
+      "name": "Broken Lands of Tian Li"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_yuatek",
+    "cqi": 476,
+    "settlement": { "cqi": 476, "x": 602, "y": 101 },
+    "name": "Yuatek",
+    "province": { "key": "wh3_main_combi_province_southern_jungles", "name": "Southern Jungles" }
+  },
+  {
+    "key": "wh3_main_combi_region_khazid_bordkarag",
+    "cqi": 477,
+    "settlement": { "cqi": 477, "x": 687, "y": 823 },
+    "name": "Lair of the Troll King",
+    "province": {
+      "key": "wh3_main_combi_province_gianthome_mountains",
+      "name": "Gianthome Mountains"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_fortress_of_dawn",
+    "cqi": 478,
+    "settlement": { "cqi": 478, "x": 545, "y": 68 },
+    "name": "Fortress of Dawn",
+    "province": { "key": "wh3_main_combi_province_dawns_landing", "name": "Dawn's Landing" }
+  },
+  {
+    "key": "wh3_main_combi_region_golden_ziggurat",
+    "cqi": 479,
+    "settlement": { "cqi": 479, "x": 37, "y": 282 },
+    "name": "Golden Ziggurat",
+    "province": { "key": "wh3_main_combi_province_the_turtle_isles", "name": "The Turtle Isles" }
+  },
+  {
+    "key": "wh3_main_combi_region_blood_mountain",
+    "cqi": 480,
+    "settlement": { "cqi": 480, "x": 420, "y": 923 },
+    "name": "Blood Mountain",
+    "province": { "key": "wh3_main_combi_province_northern_wastes", "name": "Northern Wastes" }
+  },
+  {
+    "key": "wh3_main_combi_region_fortress_of_eyes",
+    "cqi": 481,
+    "settlement": { "cqi": 481, "x": 1163, "y": 704 },
+    "name": "Fortress of Eyes",
+    "province": {
+      "key": "wh3_main_combi_province_stonesky_foothills",
+      "name": "Stonesky Foothills"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_bloodwind_keep",
+    "cqi": 482,
+    "settlement": { "cqi": 482, "x": 1244, "y": 719 },
+    "name": "Bloodwind Keep",
+    "province": { "key": "wh3_main_combi_province_eastern_steppes", "name": "Steppe's Edge" }
+  },
+  {
+    "key": "wh3_main_combi_region_tlaqua",
+    "cqi": 483,
+    "settlement": { "cqi": 483, "x": 544, "y": 203 },
+    "name": "Tlaqua",
+    "province": { "key": "wh3_main_combi_province_western_jungles", "name": "Western Jungles" }
+  },
+  {
+    "key": "wh3_main_combi_region_white_tower_of_hoeth",
+    "cqi": 484,
+    "settlement": { "cqi": 484, "x": 295, "y": 562 },
+    "name": "White Tower of Hoeth",
+    "province": { "key": "wh3_main_combi_province_saphery", "name": "Saphery" }
+  },
+  {
+    "key": "cr_combi_region_ind_2_1",
+    "cqi": 485,
+    "settlement": { "cqi": 485, "x": 1164, "y": 382 },
+    "name": "Caves of Fire",
+    "province": { "key": "cr_combi_province_ind_2", "name": "Mountains of Heaven" }
+  },
+  {
+    "key": "wh3_main_combi_region_evershale",
+    "cqi": 486,
+    "settlement": { "cqi": 486, "x": 240, "y": 595 },
+    "name": "Evershale",
+    "province": { "key": "wh3_main_combi_province_avelorn", "name": "Avelorn" }
+  },
+  {
+    "key": "wh3_main_combi_region_titans_notch",
+    "cqi": 487,
+    "settlement": { "cqi": 487, "x": 1047, "y": 635 },
+    "name": "Titan's Notch",
+    "province": {
+      "key": "wh3_main_combi_province_ancient_giant_lands",
+      "name": "Ancient Giant Lands"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_al_haikk",
+    "cqi": 488,
+    "settlement": { "cqi": 488, "x": 511, "y": 332 },
+    "name": "Al Haikk",
+    "province": { "key": "wh3_main_combi_province_coast_of_araby", "name": "Coast of Araby" }
+  },
+  {
+    "key": "wh3_main_combi_region_granite_spikes",
+    "cqi": 489,
+    "settlement": { "cqi": 489, "x": 1076, "y": 703 },
+    "name": "Granite Spikes",
+    "province": {
+      "key": "wh3_main_combi_province_stonesky_foothills",
+      "name": "Stonesky Foothills"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_karak_ungor",
+    "cqi": 490,
+    "settlement": { "cqi": 490, "x": 772, "y": 694 },
+    "name": "Karak Ungor",
+    "province": {
+      "key": "wh3_main_combi_province_northern_worlds_edge_mountains",
+      "name": "Northern World's Edge Mountains"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_itza",
+    "cqi": 491,
+    "settlement": { "cqi": 491, "x": 168, "y": 239 },
+    "name": "Itza",
+    "province": { "key": "wh3_main_combi_province_river_qurveza", "name": "River Qurveza" }
+  },
+  {
+    "key": "wh3_main_combi_region_shang_wu",
+    "cqi": 492,
+    "settlement": { "cqi": 492, "x": 1164, "y": 479 },
+    "name": "Shang-Wu",
+    "province": {
+      "key": "wh3_main_combi_province_celestial_riverlands",
+      "name": "Celestial Riverlands"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_weismund",
+    "cqi": 493,
+    "settlement": { "cqi": 493, "x": 529, "y": 681 },
+    "name": "Weismund",
+    "province": { "key": "wh3_main_combi_province_middenland", "name": "Middenland" }
+  },
+  {
+    "key": "wh3_main_combi_region_the_lost_palace",
+    "cqi": 494,
+    "settlement": { "cqi": 494, "x": 570, "y": 19 },
+    "name": "The Lost Palace",
+    "province": {
+      "key": "wh3_main_combi_province_the_abyssal_glacier",
+      "name": "The Abyssal Glacier"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_wellsprings_of_eternity",
+    "cqi": 495,
+    "settlement": { "cqi": 495, "x": 71, "y": 357 },
+    "name": "Wellsprings of Eternity",
+    "province": {
+      "key": "wh3_main_combi_province_jungles_of_green_mist",
+      "name": "Jungles of Green Mist"
+    }
+  },
+  {
+    "key": "cr_combi_region_tomb_of_the_barking_dogs",
+    "cqi": 496,
+    "settlement": { "cqi": 496, "x": 1422, "y": 727 },
+    "name": "Tomb of the Barking Dogs",
+    "province": { "key": "cr_combi_province_near_steppe_1", "name": "The Black Wastes" }
+  },
+  {
+    "key": "wh3_main_combi_region_dragons_crossroad",
+    "cqi": 497,
+    "settlement": { "cqi": 497, "x": 1221, "y": 684 },
+    "name": "Dragon's Crossroad",
+    "province": { "key": "wh3_main_combi_province_eastern_steppes", "name": "Steppe's Edge" }
+  },
+  {
+    "key": "wh3_main_combi_region_wurtbad",
+    "cqi": 498,
+    "settlement": { "cqi": 498, "x": 607, "y": 634 },
+    "name": "Wurtbad",
+    "province": { "key": "wh3_main_combi_province_stirland", "name": "Stirland" }
+  },
+  {
+    "key": "cr_combi_region_nippon_3_1",
+    "cqi": 499,
+    "settlement": { "cqi": 499, "x": 1484, "y": 216 },
+    "name": "Palace of the Divine Sun",
+    "province": { "key": "cr_combi_province_nippon_3", "name": "Sun's Origin" }
+  },
+  {
+    "key": "wh3_main_combi_region_dread_rock",
+    "cqi": 500,
+    "settlement": { "cqi": 500, "x": 972, "y": 399 },
+    "name": "Dread Rock",
+    "province": { "key": "wh3_main_combi_province_the_dragon_isles", "name": "The Dragon Isles" }
+  },
+  {
+    "key": "cr_combi_region_khuresh_2_3",
+    "cqi": 501,
+    "settlement": { "cqi": 501, "x": 1264, "y": 267 },
+    "name": "S'Slararet Grove",
+    "province": { "key": "cr_combi_province_khuresh_2", "name": "Forest of Broken Fangs" }
+  },
+  {
+    "key": "wh3_main_combi_region_sunken_khernarch",
+    "cqi": 502,
+    "settlement": { "cqi": 502, "x": 647, "y": 362 },
+    "name": "Sunken Khernarch",
+    "province": {
+      "key": "wh3_main_combi_province_marshes_of_madness",
+      "name": "Marshes of Madness"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_subatuun",
+    "cqi": 503,
+    "settlement": { "cqi": 503, "x": 146, "y": 201 },
+    "name": "Subatuun",
+    "province": { "key": "wh3_main_combi_province_the_lost_valley", "name": "The Lost Valley" }
+  },
+  {
+    "key": "wh3_main_combi_region_ashrak",
+    "cqi": 504,
+    "settlement": { "cqi": 504, "x": 135, "y": 862 },
+    "name": "Ashrak",
+    "province": { "key": "wh3_main_combi_province_spiteful_peaks", "name": "Spiteful Peaks" }
+  },
+  {
+    "key": "wh3_main_combi_region_har_kaldra",
+    "cqi": 505,
+    "settlement": { "cqi": 505, "x": 81, "y": 847 },
+    "name": "Har Kaldra",
+    "province": { "key": "wh3_main_combi_province_iron_foothills", "name": "Iron Foothills" }
+  },
+  {
+    "key": "wh3_main_combi_region_temple_of_skulls",
+    "cqi": 506,
+    "settlement": { "cqi": 506, "x": 771, "y": 248 },
+    "name": "Temple of Skulls",
+    "province": {
+      "key": "wh3_main_combi_province_kingdom_of_beasts",
+      "name": "Kingdom of Beasts"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_chaqua",
+    "cqi": 507,
+    "settlement": { "cqi": 507, "x": 174, "y": 273 },
+    "name": "Chaqua",
+    "province": {
+      "key": "wh3_main_combi_province_the_gwangee_valley",
+      "name": "The Gwangee Valley"
+    }
+  },
+  {
+    "key": "cr_combi_region_hendaye",
+    "cqi": 508,
+    "settlement": { "cqi": 508, "x": 384, "y": 689 },
+    "name": "Hendaye",
+    "province": {
+      "key": "wh3_main_combi_province_marches_of_couronne",
+      "name": "Marches of Couronne"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_karak_vrag",
+    "cqi": 509,
+    "settlement": { "cqi": 509, "x": 1010, "y": 656 },
+    "name": "Karak Vrag",
+    "province": { "key": "wh3_main_combi_province_gash_kadrak", "name": "Gash Kadrak" }
+  },
+  {
+    "key": "wh3_main_combi_region_fallen_king_mountain",
+    "cqi": 510,
+    "settlement": { "cqi": 510, "x": 788, "y": 627 },
+    "name": "Fallen King Mountain",
+    "province": { "key": "wh3_main_combi_province_rib_peaks", "name": "Rib Peaks" }
+  },
+  {
+    "key": "wh3_main_combi_region_bordeleaux",
+    "cqi": 511,
+    "settlement": { "cqi": 511, "x": 393, "y": 580 },
+    "name": "Bordeleaux",
+    "province": { "key": "wh3_main_combi_province_river_brienne", "name": "River Brienne" }
+  },
+  {
+    "key": "wh3_main_combi_region_sun_tree_glades",
+    "cqi": 512,
+    "settlement": { "cqi": 512, "x": 609, "y": 180 },
+    "name": "Sun-Tree Glades",
+    "province": { "key": "wh3_main_combi_province_central_jungles", "name": "Central Jungles" }
+  },
+  {
+    "key": "wh3_main_combi_region_karaz_a_karak",
+    "cqi": 513,
+    "settlement": { "cqi": 513, "x": 736, "y": 549 },
+    "name": "Karaz-a-Karak",
+    "province": { "key": "wh3_main_combi_province_the_silver_road", "name": "The Silver Road" }
+  },
+  {
+    "key": "cr_combi_region_khuresh_6_1",
+    "cqi": 514,
+    "settlement": { "cqi": 514, "x": 1385, "y": 169 },
+    "name": "S'Saigon",
+    "province": { "key": "cr_combi_province_khuresh_6", "name": "Cochincathay" }
+  },
+  {
+    "key": "wh3_main_combi_region_vitevo",
+    "cqi": 515,
+    "settlement": { "cqi": 515, "x": 709, "y": 711 },
+    "name": "Vitevo",
+    "province": { "key": "wh3_main_combi_province_southern_oblast", "name": "Southern Oblast" }
+  },
+  {
+    "key": "wh3_main_combi_region_the_golden_tower",
+    "cqi": 516,
+    "settlement": { "cqi": 516, "x": 680, "y": 198 },
+    "name": "The Golden Tower",
+    "province": { "key": "wh3_main_combi_province_the_golden_pass", "name": "The Golden Pass" }
+  },
+  {
+    "key": "wh3_main_combi_region_lyonesse",
+    "cqi": 517,
+    "settlement": { "cqi": 517, "x": 362, "y": 631 },
+    "name": "Lyonesse",
+    "province": {
+      "key": "wh3_main_combi_province_coast_of_lyonesse",
+      "name": "Coast of Lyonesse"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_vauls_anvil_naggaroth",
+    "cqi": 518,
+    "settlement": { "cqi": 518, "x": 126, "y": 670 },
+    "name": "Vaul's Anvil",
+    "province": { "key": "wh3_main_combi_province_doom_glades", "name": "Doom Glades" }
+  },
+  {
+    "key": "wh3_main_combi_region_hoteks_column",
+    "cqi": 519,
+    "settlement": { "cqi": 519, "x": 173, "y": 718 },
+    "name": "Hotek's Column",
+    "province": { "key": "wh3_main_combi_province_the_clawed_coast", "name": "The Clawed Coast" }
+  },
+  {
+    "key": "wh3_main_combi_region_drackla_spire",
+    "cqi": 520,
+    "settlement": { "cqi": 520, "x": 21, "y": 781 },
+    "name": "Drackla Spire",
+    "province": { "key": "wh3_main_combi_province_iron_coast", "name": "Iron Coast" }
+  },
+  {
+    "key": "wh3_dlc23_combi_region_uzkulak_port",
+    "cqi": 521,
+    "settlement": { "cqi": 521, "x": 859, "y": 740 },
+    "name": "Fort Dwarrslav",
+    "province": {
+      "key": "wh3_main_combi_province_goromadny_mountains",
+      "name": "Goromadny Mountains"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_marienburg",
+    "cqi": 522,
+    "settlement": { "cqi": 522, "x": 452, "y": 657 },
+    "name": "Marienburg",
+    "province": { "key": "wh3_main_combi_province_the_wasteland", "name": "The Wasteland" }
+  },
+  {
+    "key": "wh3_main_combi_region_sorcerers_islands",
+    "cqi": 523,
+    "settlement": { "cqi": 523, "x": 420, "y": 309 },
+    "name": "Sorcerers' Islands",
+    "province": {
+      "key": "wh3_main_combi_province_land_of_assassins",
+      "name": "Land of Assassins"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_ruins_end",
+    "cqi": 524,
+    "settlement": { "cqi": 524, "x": 947, "y": 427 },
+    "name": "Ruin's End",
+    "province": { "key": "wh3_main_combi_province_mouth_of_ruin", "name": "Scalded Delta" }
+  },
+  {
+    "key": "wh3_main_combi_region_valley_of_horns",
+    "cqi": 525,
+    "settlement": { "cqi": 525, "x": 1000, "y": 523 },
+    "name": "Valley of Horns",
+    "province": {
+      "key": "wh3_main_combi_province_mountains_of_mourn",
+      "name": "Mountains of Mourn"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_floating_mountain",
+    "cqi": 526,
+    "settlement": { "cqi": 526, "x": 1025, "y": 790 },
+    "name": "Floating Mountain",
+    "province": { "key": "wh3_main_combi_province_chimera_plateau", "name": "Chimera Plateau" }
+  },
+  {
+    "key": "wh3_main_combi_region_tobaro",
+    "cqi": 527,
+    "settlement": { "cqi": 527, "x": 467, "y": 443 },
+    "name": "Tobaro",
+    "province": { "key": "wh3_main_combi_province_estalia", "name": "Estalia" }
+  },
+  {
+    "key": "wh3_main_combi_region_valayas_sorrow",
+    "cqi": 528,
+    "settlement": { "cqi": 528, "x": 737, "y": 446 },
+    "name": "Valaya's Sorrow",
+    "province": { "key": "wh3_main_combi_province_eight_peaks", "name": "Eight Peaks" }
+  },
+  {
+    "key": "wh3_main_combi_region_black_tower_of_arkhan",
+    "cqi": 529,
+    "settlement": { "cqi": 529, "x": 550, "y": 294 },
+    "name": "Black Tower of Arkhan",
+    "province": { "key": "wh3_main_combi_province_the_cracked_land", "name": "The Cracked Land" }
+  },
+  {
+    "key": "wh3_main_combi_region_haichai",
+    "cqi": 530,
+    "settlement": { "cqi": 530, "x": 1352, "y": 622 },
+    "name": "Haichai",
+    "province": { "key": "wh3_main_combi_province_plains_of_xen", "name": "Plains of Xen" }
+  },
+  {
+    "key": "wh3_main_combi_region_mount_arachnos",
+    "cqi": 531,
+    "settlement": { "cqi": 531, "x": 713, "y": 267 },
+    "name": "Mount Arachnos",
+    "province": {
+      "key": "wh3_main_combi_province_southlands_worlds_edge_mountains",
+      "name": "Southlands World's Edge Mountains"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_port_of_secrets",
+    "cqi": 532,
+    "settlement": { "cqi": 532, "x": 718, "y": 900 },
+    "name": "Port of Secrets",
+    "province": {
+      "key": "wh3_main_combi_province_plain_of_illusions",
+      "name": "Plain of Illusions"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_desolation_of_nagash",
+    "cqi": 533,
+    "settlement": { "cqi": 533, "x": 819, "y": 411 },
+    "name": "Desolation of Nagash",
+    "province": { "key": "wh3_main_combi_province_broken_teeth", "name": "Broken Teeth" }
+  },
+  {
+    "key": "wh3_main_combi_region_altdorf",
+    "cqi": 534,
+    "settlement": { "cqi": 534, "x": 527, "y": 648 },
+    "name": "Altdorf",
+    "province": { "key": "wh3_main_combi_province_reikland", "name": "Reikland" }
+  },
+  {
+    "key": "wh3_dlc23_combi_region_blasted_expanse",
+    "cqi": 535,
+    "settlement": { "cqi": 535, "x": 858, "y": 634 },
+    "name": "The Blasted Expanse",
+    "province": {
+      "key": "wh3_main_combi_province_the_blasted_wastes",
+      "name": "The Blasted Wastes"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_quittax",
+    "cqi": 536,
+    "settlement": { "cqi": 536, "x": 142, "y": 301 },
+    "name": "Qu'ittax",
+    "province": {
+      "key": "wh3_main_combi_province_the_gwangee_valley",
+      "name": "The Gwangee Valley"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_troll_fjord",
+    "cqi": 537,
+    "settlement": { "cqi": 537, "x": 386, "y": 795 },
+    "name": "Troll Fjord",
+    "province": {
+      "key": "wh3_main_combi_province_vanaheim_mountains",
+      "name": "Vanaheim Mountains"
+    }
+  },
+  {
+    "key": "cr_combi_region_the_bloodrift",
+    "cqi": 538,
+    "settlement": { "cqi": 538, "x": 1216, "y": 848 },
+    "name": "The Bloodrift",
+    "province": { "key": "cr_combi_province_far_steppe_3", "name": "Deep Steppes" }
+  },
+  {
+    "key": "wh3_main_combi_region_zhizhu",
+    "cqi": 539,
+    "settlement": { "cqi": 539, "x": 1321, "y": 584 },
+    "name": "Zhi-Zhu",
+    "province": { "key": "wh3_main_combi_province_plains_of_xen", "name": "Plains of Xen" }
+  },
+  {
+    "key": "wh3_main_combi_region_mount_athull",
+    "cqi": 540,
+    "settlement": { "cqi": 540, "x": 299, "y": 36 },
+    "name": "Mount Athull",
+    "province": {
+      "key": "wh3_main_combi_province_the_ice_fire_plains",
+      "name": "The Ice-Fire Plains"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_oreons_camp",
+    "cqi": 541,
+    "settlement": { "cqi": 541, "x": 641, "y": 216 },
+    "name": "Oreon's Camp",
+    "province": {
+      "key": "wh3_main_combi_province_heart_of_the_jungle",
+      "name": "Heart of the Jungle"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_the_gallows_tree",
+    "cqi": 542,
+    "settlement": { "cqi": 542, "x": 975, "y": 819 },
+    "name": "The Gallows Tree",
+    "province": { "key": "wh3_main_combi_province_kdatha", "name": "K'datha" }
+  },
+  {
+    "key": "wh3_main_combi_region_black_crag",
+    "cqi": 543,
+    "settlement": { "cqi": 543, "x": 753, "y": 483 },
+    "name": "Black Crag",
+    "province": { "key": "wh3_main_combi_province_death_pass", "name": "Death Pass" }
+  },
+  {
+    "key": "wh3_main_combi_region_couronne",
+    "cqi": 544,
+    "settlement": { "cqi": 544, "x": 410, "y": 675 },
+    "name": "Couronne",
+    "province": {
+      "key": "wh3_main_combi_province_marches_of_couronne",
+      "name": "Marches of Couronne"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_pools_of_despair",
+    "cqi": 545,
+    "settlement": { "cqi": 545, "x": 523, "y": 304 },
+    "name": "Pools of Despair",
+    "province": { "key": "wh3_main_combi_province_the_cracked_land", "name": "The Cracked Land" }
+  },
+  {
+    "key": "wh3_main_combi_region_citadel_of_dusk",
+    "cqi": 546,
+    "settlement": { "cqi": 546, "x": 302, "y": 89 },
+    "name": "Citadel of Dusk",
+    "province": { "key": "wh3_main_combi_province_the_capes", "name": "The Capes" }
+  },
+  {
+    "key": "cr_combi_region_khuresh_7_3",
+    "cqi": 547,
+    "settlement": { "cqi": 547, "x": 1333, "y": 145 },
+    "name": "Nighthaven Marsh",
+    "province": { "key": "cr_combi_province_khuresh_7", "name": "Khureshi Hills" }
+  },
+  {
+    "key": "wh3_main_combi_region_nonchang",
+    "cqi": 548,
+    "settlement": { "cqi": 548, "x": 1271, "y": 493 },
+    "name": "Nongchang",
+    "province": { "key": "wh3_main_combi_province_nongchang_basin", "name": "Nongchang Basin" }
+  },
+  {
+    "key": "wh3_main_combi_region_eilhart",
+    "cqi": 549,
+    "settlement": { "cqi": 549, "x": 482, "y": 639 },
+    "name": "Eilhart",
+    "province": { "key": "wh3_main_combi_province_reikland", "name": "Reikland" }
+  },
+  {
+    "key": "wh3_main_combi_region_fort_oberstyre",
+    "cqi": 550,
+    "settlement": { "cqi": 550, "x": 668, "y": 621 },
+    "name": "Fort Oberstyre",
+    "province": {
+      "key": "wh3_main_combi_province_northern_sylvania",
+      "name": "Northern Sylvania"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_fyrus",
+    "cqi": 551,
+    "settlement": { "cqi": 551, "x": 495, "y": 350 },
+    "name": "Fyrus",
+    "province": { "key": "wh3_main_combi_province_coast_of_araby", "name": "Coast of Araby" }
+  },
+  {
+    "key": "cr_combi_region_khuresh_7_2",
+    "cqi": 552,
+    "settlement": { "cqi": 552, "x": 1265, "y": 108 },
+    "name": "S’Nethen Eyes",
+    "province": { "key": "cr_combi_province_khuresh_7", "name": "Khureshi Hills" }
+  },
+  {
+    "key": "wh3_main_combi_region_great_turtle_isle",
+    "cqi": 553,
+    "settlement": { "cqi": 553, "x": 31, "y": 250 },
+    "name": "Great Turtle Isle",
+    "province": { "key": "wh3_main_combi_province_the_turtle_isles", "name": "The Turtle Isles" }
+  },
+  {
+    "key": "wh3_main_combi_region_ancient_city_of_quintex",
+    "cqi": 554,
+    "settlement": { "cqi": 554, "x": 73, "y": 592 },
+    "name": "Ancient City of Quintex",
+    "province": { "key": "wh3_main_combi_province_titan_peaks", "name": "Titan Peaks" }
+  },
+  {
+    "key": "wh3_main_combi_region_magritta",
+    "cqi": 555,
+    "settlement": { "cqi": 555, "x": 417, "y": 428 },
+    "name": "Magritta",
+    "province": { "key": "wh3_main_combi_province_estalia", "name": "Estalia" }
+  },
+  {
+    "key": "wh3_main_combi_region_the_never_ending_chasm",
+    "cqi": 556,
+    "settlement": { "cqi": 556, "x": 281, "y": 18 },
+    "name": "The Never-ending Chasm",
+    "province": {
+      "key": "wh3_main_combi_province_the_ice_fire_plains",
+      "name": "The Ice-Fire Plains"
+    }
+  },
+  {
+    "key": "cr_combi_region_the_mawhunt",
+    "cqi": 557,
+    "settlement": { "cqi": 557, "x": 1216, "y": 744 },
+    "name": "The Mawhunt",
+    "province": { "key": "cr_combi_province_near_steppe_3", "name": "Green Steppes" }
+  },
+  {
+    "key": "wh3_main_combi_region_castle_bastonne",
+    "cqi": 558,
+    "settlement": { "cqi": 558, "x": 428, "y": 602 },
+    "name": "Castle Bastonne",
+    "province": { "key": "wh3_main_combi_province_bastonne", "name": "Bastonne" }
+  },
+  {
+    "key": "wh3_main_combi_region_varenka_hills",
+    "cqi": 559,
+    "settlement": { "cqi": 559, "x": 702, "y": 529 },
+    "name": "Varenka Hills",
+    "province": {
+      "key": "wh3_main_combi_province_blood_river_valley",
+      "name": "Blood River Valley"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_shroktak_mount",
+    "cqi": 560,
+    "settlement": { "cqi": 560, "x": 57, "y": 768 },
+    "name": "Shroktak Mount",
+    "province": { "key": "wh3_main_combi_province_iron_mountains", "name": "Iron Mountains" }
+  },
+  {
+    "key": "wh3_main_combi_region_black_rock",
+    "cqi": 561,
+    "settlement": { "cqi": 561, "x": 583, "y": 938 },
+    "name": "Black Rock",
+    "province": {
+      "key": "wh3_main_combi_province_the_eternal_lagoon",
+      "name": "The Eternal Lagoon"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_black_pyramid_of_nagash",
+    "cqi": 562,
+    "settlement": { "cqi": 562, "x": 579, "y": 283 },
+    "name": "Black Pyramid of Nagash",
+    "province": {
+      "key": "wh3_main_combi_province_great_mortis_delta",
+      "name": "Great Mortis Delta"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_eye_of_the_panther",
+    "cqi": 563,
+    "settlement": { "cqi": 563, "x": 481, "y": 307 },
+    "name": "Eye of the Panther",
+    "province": { "key": "wh3_main_combi_province_atalan_mountains", "name": "Atalan Mountains" }
+  },
+  {
+    "key": "wh3_dlc23_combi_region_gash_kadrak",
+    "cqi": 564,
+    "settlement": { "cqi": 564, "x": 943, "y": 601 },
+    "name": "Vale of Woe",
+    "province": {
+      "key": "wh3_main_combi_province_the_plain_of_zharr",
+      "name": "The Plain of Zharr"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_crooked_fang_fort",
+    "cqi": 565,
+    "settlement": { "cqi": 565, "x": 731, "y": 416 },
+    "name": "Crooked Fang Fort",
+    "province": { "key": "wh3_main_combi_province_eastern_badlands", "name": "Eastern Badlands" }
+  },
+  {
+    "key": "wh3_main_combi_region_the_great_arena",
+    "cqi": 566,
+    "settlement": { "cqi": 566, "x": 155, "y": 816 },
+    "name": "The Great Arena",
+    "province": { "key": "wh3_main_combi_province_spiteful_peaks", "name": "Spiteful Peaks" }
+  },
+  {
+    "key": "wh3_main_combi_region_lybaras",
+    "cqi": 567,
+    "settlement": { "cqi": 567, "x": 825, "y": 317 },
+    "name": "Lybaras",
+    "province": {
+      "key": "wh3_main_combi_province_crater_of_the_waking_dead",
+      "name": "Crater of the Waking Dead"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_mangrove_coast",
+    "cqi": 568,
+    "settlement": { "cqi": 568, "x": 263, "y": 137 },
+    "name": "Mangrove Coast",
+    "province": { "key": "wh3_main_combi_province_culchan_plains", "name": "Culchan Plains" }
+  },
+  {
+    "key": "wh3_main_combi_region_grenzstadt",
+    "cqi": 569,
+    "settlement": { "cqi": 569, "x": 648, "y": 573 },
+    "name": "Grenzstadt",
+    "province": { "key": "wh3_main_combi_province_averland", "name": "Averland" }
+  },
+  {
+    "key": "wh3_main_combi_region_howling_rock",
+    "cqi": 570,
+    "settlement": { "cqi": 570, "x": 869, "y": 592 },
+    "name": "Howling Rock",
+    "province": {
+      "key": "wh3_main_combi_province_the_blasted_wastes",
+      "name": "The Blasted Wastes"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_fort_bergbres",
+    "cqi": 571,
+    "settlement": { "cqi": 571, "x": 449, "y": 636 },
+    "name": "Fort Bergbres",
+    "province": { "key": "wh3_main_combi_province_gisoreux_gap", "name": "Gisoreux Gap" }
+  },
+  {
+    "key": "wh3_main_combi_region_misty_mountain",
+    "cqi": 572,
+    "settlement": { "cqi": 572, "x": 782, "y": 385 },
+    "name": "Misty Mountain",
+    "province": { "key": "wh3_main_combi_province_blightwater", "name": "Blightwater" }
+  },
+  {
+    "key": "wh3_main_combi_region_black_creek_spire",
+    "cqi": 573,
+    "settlement": { "cqi": 573, "x": 269, "y": 768 },
+    "name": "Black Creek Spire",
+    "province": { "key": "wh3_main_combi_province_the_broken_lands", "name": "The Broken Lands" }
+  },
+  {
+    "key": "wh3_main_combi_region_jungles_of_chian",
+    "cqi": 574,
+    "settlement": { "cqi": 574, "x": 1303, "y": 386 },
+    "name": "Jungles of Chi'an",
+    "province": { "key": "wh3_main_combi_province_jungles_of_chian", "name": "Jungles of Chi'an" }
+  },
+  {
+    "key": "wh3_main_combi_region_karak_azul",
+    "cqi": 575,
+    "settlement": { "cqi": 575, "x": 799, "y": 452 },
+    "name": "Karak Azul",
+    "province": {
+      "key": "wh3_main_combi_province_southern_worlds_edge_mountains",
+      "name": "Southern World's Edge Mountains"
+    }
+  },
+  {
+    "key": "cr_combi_region_khuresh_6_2",
+    "cqi": 576,
+    "settlement": { "cqi": 576, "x": 1352, "y": 197 },
+    "name": "Vehnom Penh",
+    "province": { "key": "cr_combi_province_khuresh_6", "name": "Cochincathay" }
+  },
+  {
+    "key": "wh3_main_combi_region_igerov",
+    "cqi": 577,
+    "settlement": { "cqi": 577, "x": 751, "y": 729 },
+    "name": "Igerov",
+    "province": { "key": "wh3_main_combi_province_southern_oblast", "name": "Southern Oblast" }
+  },
+  {
+    "key": "wh3_main_combi_region_grom_peak",
+    "cqi": 578,
+    "settlement": { "cqi": 578, "x": 768, "y": 589 },
+    "name": "Grom Peak",
+    "province": { "key": "wh3_main_combi_province_rib_peaks", "name": "Rib Peaks" }
+  },
+  {
+    "key": "wh3_main_combi_region_marks_of_the_old_ones",
+    "cqi": 579,
+    "settlement": { "cqi": 579, "x": 225, "y": 184 },
+    "name": "Marks of the Old Ones",
+    "province": {
+      "key": "wh3_main_combi_province_headhunters_jungle",
+      "name": "Headhunter's Jungle"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_the_high_sentinel",
+    "cqi": 580,
+    "settlement": { "cqi": 580, "x": 120, "y": 404 },
+    "name": "The High Sentinel",
+    "province": { "key": "wh3_main_combi_province_aymara_swamps", "name": "Aymara Swamps" }
+  },
+  {
+    "key": "wh3_dlc20_combi_region_dragons_death",
+    "cqi": 581,
+    "settlement": { "cqi": 581, "x": 1035, "y": 756 },
+    "name": "Dragon's Death",
+    "province": { "key": "wh3_main_combi_province_chimera_plateau", "name": "Chimera Plateau" }
+  },
+  {
+    "key": "cr_combi_region_elithis_1_4",
+    "cqi": 582,
+    "settlement": { "cqi": 582, "x": 1473, "y": 91 },
+    "name": "Tower of the Setting Moon",
+    "province": { "key": "cr_combi_province_elithis_1", "name": "Lost Isles of Elithis" }
+  },
+  {
+    "key": "wh3_main_combi_region_naglfari_plain",
+    "cqi": 583,
+    "settlement": { "cqi": 583, "x": 552, "y": 838 },
+    "name": "Naglfari Plain",
+    "province": {
+      "key": "wh3_main_combi_province_mountains_of_naglfari",
+      "name": "Mountains of Naglfari"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_axlotl",
+    "cqi": 584,
+    "settlement": { "cqi": 584, "x": 207, "y": 231 },
+    "name": "Axlotl",
+    "province": { "key": "wh3_main_combi_province_mosquito_swamps", "name": "Mosquito Swamps" }
+  },
+  {
+    "key": "wh3_main_combi_region_middenstag",
+    "cqi": 585,
+    "settlement": { "cqi": 585, "x": 568, "y": 690 },
+    "name": "Middenstag",
+    "province": { "key": "wh3_main_combi_province_middenland", "name": "Middenland" }
+  },
+  {
+    "key": "wh3_main_combi_region_mousillon",
+    "cqi": 586,
+    "settlement": { "cqi": 586, "x": 382, "y": 605 },
+    "name": "Mousillon",
+    "province": {
+      "key": "wh3_main_combi_province_coast_of_lyonesse",
+      "name": "Coast of Lyonesse"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_tor_finu",
+    "cqi": 587,
+    "settlement": { "cqi": 587, "x": 299, "y": 585 },
+    "name": "Tor Finu",
+    "province": { "key": "wh3_main_combi_province_saphery", "name": "Saphery" }
+  },
+  {
+    "key": "wh3_main_combi_region_novchozy",
+    "cqi": 588,
+    "settlement": { "cqi": 588, "x": 782, "y": 768 },
+    "name": "Novchozy",
+    "province": { "key": "wh3_main_combi_province_eastern_oblast", "name": "Eastern Oblast" }
+  },
+  {
+    "key": "cr_combi_region_tancred_castle",
+    "cqi": 589,
+    "settlement": { "cqi": 589, "x": 436, "y": 688 },
+    "name": "Tancred Castle",
+    "province": {
+      "key": "wh3_main_combi_province_marches_of_couronne",
+      "name": "Marches of Couronne"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_aquitaine",
+    "cqi": 590,
+    "settlement": { "cqi": 590, "x": 421, "y": 569 },
+    "name": "Aquitaine",
+    "province": { "key": "wh3_main_combi_province_river_brienne", "name": "River Brienne" }
+  },
+  {
+    "key": "wh3_main_combi_region_the_fortress_of_vorag",
+    "cqi": 591,
+    "settlement": { "cqi": 591, "x": 889, "y": 438 },
+    "name": "The Fortress of Vorag",
+    "province": {
+      "key": "wh3_main_combi_province_the_plain_of_bones",
+      "name": "The Plain of Bones"
+    }
+  },
+  {
+    "key": "cr_combi_region_ind_2_2",
+    "cqi": 592,
+    "settlement": { "cqi": 592, "x": 1173, "y": 357 },
+    "name": "Nandakshi",
+    "province": { "key": "cr_combi_province_ind_2", "name": "Mountains of Heaven" }
+  },
+  {
+    "key": "wh3_main_combi_region_the_crystal_spires",
+    "cqi": 593,
+    "settlement": { "cqi": 593, "x": 749, "y": 926 },
+    "name": "The Crystal Spires",
+    "province": {
+      "key": "wh3_main_combi_province_plain_of_illusions",
+      "name": "Plain of Illusions"
+    }
+  },
+  {
+    "key": "cr_combi_region_elithis_1_3",
+    "cqi": 594,
+    "settlement": { "cqi": 594, "x": 1436, "y": 124 },
+    "name": "Lianllach Outpost",
+    "province": { "key": "cr_combi_province_elithis_3", "name": "North Isle" }
+  },
+  {
+    "key": "wh3_main_combi_region_tower_of_the_stars",
+    "cqi": 595,
+    "settlement": { "cqi": 595, "x": 936, "y": 173 },
+    "name": "Tower of the Stars",
+    "province": { "key": "wh3_main_combi_province_eastern_colonies", "name": "Eastern Colonies" }
+  },
+  {
+    "key": "wh3_main_combi_region_wei_jin",
+    "cqi": 596,
+    "settlement": { "cqi": 596, "x": 1276, "y": 649 },
+    "name": "Wei-Jin",
+    "province": { "key": "wh3_main_combi_province_imperial_road", "name": "Imperial Road" }
+  },
+  {
+    "key": "wh3_main_combi_region_gronti_mingol",
+    "cqi": 597,
+    "settlement": { "cqi": 597, "x": 585, "y": 413 },
+    "name": "Gronti Mingol",
+    "province": {
+      "key": "wh3_main_combi_province_southern_badlands",
+      "name": "Southern Badlands"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_karak_krakaten",
+    "cqi": 598,
+    "settlement": { "cqi": 598, "x": 1003, "y": 491 },
+    "name": "Karak Krakaten",
+    "province": { "key": "wh3_main_combi_province_ivory_road", "name": "Ivory Road" }
+  },
+  {
+    "key": "wh3_main_combi_region_longship_graveyard",
+    "cqi": 599,
+    "settlement": { "cqi": 599, "x": 543, "y": 789 },
+    "name": "Longship Graveyard",
+    "province": {
+      "key": "wh3_main_combi_province_ice_tooth_mountains",
+      "name": "Ice Tooth Mountains"
+    }
+  },
+  {
+    "key": "cr_combi_region_gates_of_calith_2",
+    "cqi": 600,
+    "settlement": { "cqi": 600, "x": 1275, "y": 27 },
+    "name": "Tor Larha",
+    "province": { "key": "cr_combi_province_gates_of_calith", "name": "Gates of Calith" }
+  },
+  {
+    "key": "wh3_main_combi_region_kradtommen",
+    "cqi": 601,
+    "settlement": { "cqi": 601, "x": 747, "y": 392 },
+    "name": "Kradtommen",
+    "province": { "key": "wh3_main_combi_province_blightwater", "name": "Blightwater" }
+  },
+  {
+    "key": "wh3_main_combi_region_xhotl",
+    "cqi": 602,
+    "settlement": { "cqi": 602, "x": 133, "y": 238 },
+    "name": "Xhotl",
+    "province": { "key": "wh3_main_combi_province_river_qurveza", "name": "River Qurveza" }
+  },
+  {
+    "key": "cr_combi_region_khuresh_2_1",
+    "cqi": 603,
+    "settlement": { "cqi": 603, "x": 1245, "y": 293 },
+    "name": "Fangkok",
+    "province": { "key": "cr_combi_province_khuresh_2", "name": "Forest of Broken Fangs" }
+  },
+  {
+    "key": "wh3_main_combi_region_forest_of_gloom",
+    "cqi": 604,
+    "settlement": { "cqi": 604, "x": 703, "y": 549 },
+    "name": "Forest of Gloom",
+    "province": { "key": "wh3_main_combi_province_forest_of_gloom", "name": "Forest of Gloom" }
+  },
+  {
+    "key": "wh3_main_combi_region_laurelorn_forest",
+    "cqi": 605,
+    "settlement": { "cqi": 605, "x": 527, "y": 730 },
+    "name": "Laurelorn Forest",
+    "province": { "key": "wh3_main_combi_province_the_witchs_wood", "name": "Laurelorn Forest" }
+  },
+  {
+    "key": "wh3_main_combi_region_great_hall_of_greasus",
+    "cqi": 606,
+    "settlement": { "cqi": 606, "x": 1030, "y": 503 },
+    "name": "Great Hall of Greasus",
+    "province": { "key": "wh3_main_combi_province_ivory_road", "name": "Ivory Road" }
+  },
+  {
+    "key": "wh3_main_combi_region_xahutec",
+    "cqi": 607,
+    "settlement": { "cqi": 607, "x": 204, "y": 307 },
+    "name": "Xahutec",
+    "province": { "key": "wh3_main_combi_province_scorpion_coast", "name": "Piranha Swamps" }
+  },
+  {
+    "key": "cr_combi_region_man_churia",
+    "cqi": 608,
+    "settlement": { "cqi": 608, "x": 1494, "y": 772 },
+    "name": "Man-Churia",
+    "province": { "key": "cr_combi_province_far_steppe_1", "name": "West Hungaria" }
+  },
+  {
+    "key": "cr_combi_region_ind_1_3",
+    "cqi": 609,
+    "settlement": { "cqi": 609, "x": 1124, "y": 398 },
+    "name": "Vajrapur",
+    "province": { "key": "cr_combi_province_ind_1", "name": "The Spice Route" }
+  },
+  {
+    "key": "wh3_main_combi_region_tai_tzu",
+    "cqi": 610,
+    "settlement": { "cqi": 610, "x": 1175, "y": 554 },
+    "name": "Tai Tzu",
+    "province": { "key": "wh3_main_combi_province_warpstone_desert", "name": "Warpstone Desert" }
+  },
+  {
+    "key": "wh3_main_combi_region_serpent_jetty",
+    "cqi": 611,
+    "settlement": { "cqi": 611, "x": 416, "y": 848 },
+    "name": "Serpent Jetty",
+    "province": {
+      "key": "wh3_main_combi_province_helspire_mountains",
+      "name": "Helspire Mountains"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_the_folly_of_malofex",
+    "cqi": 612,
+    "settlement": { "cqi": 612, "x": 470, "y": 908 },
+    "name": "The Folly of Malofex",
+    "province": { "key": "wh3_main_combi_province_the_cold_mires", "name": "The Cold Mires" }
+  },
+  {
+    "key": "wh3_main_combi_region_the_sacred_pools",
+    "cqi": 613,
+    "settlement": { "cqi": 613, "x": 153, "y": 261 },
+    "name": "The Sacred Pools",
+    "province": { "key": "wh3_main_combi_province_the_sacred_pools", "name": "The Sacred Pools" }
+  },
+  {
+    "key": "wh3_main_combi_region_the_blighted_grove",
+    "cqi": 614,
+    "settlement": { "cqi": 614, "x": 560, "y": 953 },
+    "name": "The Blighted Grove",
+    "province": {
+      "key": "wh3_main_combi_province_the_eternal_lagoon",
+      "name": "The Eternal Lagoon"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_temple_of_kara",
+    "cqi": 615,
+    "settlement": { "cqi": 615, "x": 152, "y": 366 },
+    "name": "Temple of Kara",
+    "province": {
+      "key": "wh3_main_combi_province_the_creeping_jungle",
+      "name": "The Creeping Jungle"
+    }
+  },
+  {
+    "key": "cr_combi_region_nippon_5_2",
+    "cqi": 616,
+    "settlement": { "cqi": 616, "x": 1536, "y": 244 },
+    "name": "Kujikawa",
+    "province": { "key": "cr_combi_province_nippon_5", "name": "Eastern Circuit" }
+  },
+  {
+    "key": "wh3_main_combi_region_fallen_gates",
+    "cqi": 617,
+    "settlement": { "cqi": 617, "x": 44, "y": 510 },
+    "name": "Fallen Gates",
+    "province": {
+      "key": "wh3_main_combi_province_isthmus_of_lustria",
+      "name": "Isthmus of Lustria"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_zoishenk",
+    "cqi": 618,
+    "settlement": { "cqi": 618, "x": 645, "y": 794 },
+    "name": "Zoishenk",
+    "province": { "key": "wh3_main_combi_province_troll_country", "name": "Troll Country" }
+  },
+  {
+    "key": "wh3_main_combi_region_unicorn_gate",
+    "cqi": 619,
+    "settlement": { "cqi": 619, "x": 216, "y": 611 },
+    "name": "Unicorn Gate",
+    "province": { "key": "wh3_main_combi_province_unicorn_gate", "name": "Unicorn Gate" }
+  },
+  {
+    "key": "wh3_main_combi_region_oyxl",
+    "cqi": 620,
+    "settlement": { "cqi": 620, "x": 183, "y": 187 },
+    "name": "Oyxl",
+    "province": { "key": "wh3_main_combi_province_the_lost_valley", "name": "The Lost Valley" }
+  },
+  {
+    "key": "cr_combi_region_genaina",
+    "cqi": 621,
+    "settlement": { "cqi": 621, "x": 182, "y": 346 },
+    "name": "Genaina",
+    "province": { "key": "cr_combi_province_amazonia", "name": "Amazonia" }
+  },
+  {
+    "key": "wh3_main_combi_region_dai_cheng",
+    "cqi": 622,
+    "settlement": { "cqi": 622, "x": 1371, "y": 381 },
+    "name": "Dai Cheng",
+    "province": { "key": "wh3_main_combi_province_serpent_estuary", "name": "Serpent Estuary" }
+  },
+  {
+    "key": "wh3_dlc23_combi_region_fort_dorznye_vort",
+    "cqi": 623,
+    "settlement": { "cqi": 623, "x": 885, "y": 692 },
+    "name": "Fort Dorznye-vort",
+    "province": { "key": "wh3_main_combi_province_zorn_uzkul", "name": "Zorn Uzkul" }
+  },
+  {
+    "key": "wh3_main_combi_region_zharr_naggrund",
+    "cqi": 624,
+    "settlement": { "cqi": 624, "x": 943, "y": 628 },
+    "name": "Zharr-Naggrund",
+    "province": {
+      "key": "wh3_main_combi_province_the_plain_of_zharr",
+      "name": "The Plain of Zharr"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_dotternbach",
+    "cqi": 625,
+    "settlement": { "cqi": 625, "x": 546, "y": 583 },
+    "name": "Dotternbach",
+    "province": { "key": "wh3_main_combi_province_wissenland", "name": "Wissenland" }
+  },
+  {
+    "key": "cr_combi_region_tokmars_encampment",
+    "cqi": 626,
+    "settlement": { "cqi": 626, "x": 1192, "y": 820 },
+    "name": "Tokmars Encampment",
+    "province": { "key": "cr_combi_province_far_steppe_3", "name": "Deep Steppes" }
+  },
+  {
+    "key": "wh3_main_combi_region_the_tower_of_torment",
+    "cqi": 627,
+    "settlement": { "cqi": 627, "x": 760, "y": 858 },
+    "name": "The Tower of Torment",
+    "province": { "key": "wh3_main_combi_province_bloodfire_falls", "name": "Bloodfire Falls" }
+  },
+  {
+    "key": "wh3_main_combi_region_li_zhu",
+    "cqi": 628,
+    "settlement": { "cqi": 628, "x": 1367, "y": 470 },
+    "name": "Li Zhu",
+    "province": { "key": "wh3_main_combi_province_mount_li", "name": "Mount Li" }
+  },
+  {
+    "key": "wh3_main_combi_region_elessaeli",
+    "cqi": 629,
+    "settlement": { "cqi": 629, "x": 317, "y": 532 },
+    "name": "Elessaeli",
+    "province": { "key": "wh3_main_combi_province_southern_yvresse", "name": "Southern Yvresse" }
+  },
+  {
+    "key": "wh3_main_combi_region_the_bleeding_spire",
+    "cqi": 630,
+    "settlement": { "cqi": 630, "x": 923, "y": 837 },
+    "name": "The Bleeding Spire",
+    "province": {
+      "key": "wh3_main_combi_province_the_blood_marshes",
+      "name": "The Blood Marshes"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_the_high_place",
+    "cqi": 631,
+    "settlement": { "cqi": 631, "x": 795, "y": 550 },
+    "name": "The High Place",
+    "province": { "key": "wh3_main_combi_province_deadrock_gap", "name": "Deadrock Gap" }
+  },
+  {
+    "key": "wh3_main_combi_region_mahrak",
+    "cqi": 632,
+    "settlement": { "cqi": 632, "x": 772, "y": 320 },
+    "name": "Mahrak",
+    "province": { "key": "wh3_main_combi_province_devils_backbone", "name": "Devil's Backbone" }
+  },
+  {
+    "key": "wh3_main_combi_region_blacklight_tower",
+    "cqi": 633,
+    "settlement": { "cqi": 633, "x": 210, "y": 793 },
+    "name": "Blacklight Tower",
+    "province": { "key": "wh3_main_combi_province_granite_hills", "name": "Granite Hills" }
+  },
+  {
+    "key": "wh3_main_combi_region_the_galleons_graveyard",
+    "cqi": 634,
+    "settlement": { "cqi": 634, "x": 257, "y": 448 },
+    "name": "The Galleon's Graveyard",
+    "province": { "key": "wh3_main_combi_province_the_great_ocean", "name": "The Great Ocean" }
+  },
+  {
+    "key": "wh3_main_combi_region_kauark",
+    "cqi": 635,
+    "settlement": { "cqi": 635, "x": 202, "y": 872 },
+    "name": "Kauark",
+    "province": {
+      "key": "wh3_main_combi_province_the_road_of_skulls",
+      "name": "The Road of Skulls"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_ssildra_tor",
+    "cqi": 636,
+    "settlement": { "cqi": 636, "x": 64, "y": 535 },
+    "name": "Ss'ildra Tor",
+    "province": { "key": "wh3_main_combi_province_titan_peaks", "name": "Titan Peaks" }
+  },
+  {
+    "key": "wh3_main_combi_region_volcanos_heart",
+    "cqi": 637,
+    "settlement": { "cqi": 637, "x": 697, "y": 941 },
+    "name": "Volcano's Heart",
+    "province": {
+      "key": "wh3_main_combi_province_plain_of_illusions",
+      "name": "Plain of Illusions"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_antoch",
+    "cqi": 638,
+    "settlement": { "cqi": 638, "x": 604, "y": 219 },
+    "name": "Antoch",
+    "province": { "key": "wh3_main_combi_province_shifting_sands", "name": "Shifting Sands" }
+  },
+  {
+    "key": "wh3_main_combi_region_karak_vlag",
+    "cqi": 639,
+    "settlement": { "cqi": 639, "x": 817, "y": 756 },
+    "name": "Karak Vlag",
+    "province": {
+      "key": "wh3_main_combi_province_goromadny_mountains",
+      "name": "Goromadny Mountains"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_blackstone_post",
+    "cqi": 640,
+    "settlement": { "cqi": 640, "x": 457, "y": 623 },
+    "name": "Blackstone Post",
+    "province": {
+      "key": "wh3_main_combi_province_northern_grey_mountains",
+      "name": "Northern Grey Mountains"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_quetza",
+    "cqi": 641,
+    "settlement": { "cqi": 641, "x": 186, "y": 219 },
+    "name": "Quetza",
+    "province": { "key": "wh3_main_combi_province_river_qurveza", "name": "River Qurveza" }
+  },
+  {
+    "key": "wh3_main_combi_region_shrine_of_ladrielle",
+    "cqi": 642,
+    "settlement": { "cqi": 642, "x": 224, "y": 777 },
+    "name": "Shrine of Ladrielle",
+    "province": { "key": "wh3_main_combi_province_granite_hills", "name": "Granite Hills" }
+  },
+  {
+    "key": "cr_combi_region_gates_of_calith_1",
+    "cqi": 643,
+    "settlement": { "cqi": 643, "x": 1285, "y": 58 },
+    "name": "Fortress of Calith",
+    "province": { "key": "cr_combi_province_gates_of_calith", "name": "Gates of Calith" }
+  },
+  {
+    "key": "wh3_main_combi_region_karak_eight_peaks",
+    "cqi": 644,
+    "settlement": { "cqi": 644, "x": 761, "y": 459 },
+    "name": "Karak Eight Peaks",
+    "province": { "key": "wh3_main_combi_province_eight_peaks", "name": "Eight Peaks" }
+  },
+  {
+    "key": "wh3_main_combi_region_snake_gate",
+    "cqi": 645,
+    "settlement": { "cqi": 645, "x": 1175, "y": 665 },
+    "name": "Snake Gate",
+    "province": {
+      "key": "wh3_main_combi_province_western_great_bastion",
+      "name": "Western Great Bastion"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_wolfenburg",
+    "cqi": 646,
+    "settlement": { "cqi": 646, "x": 624, "y": 727 },
+    "name": "Wolfenburg",
+    "province": { "key": "wh3_main_combi_province_ostland", "name": "Ostland" }
+  },
+  {
+    "key": "wh3_main_combi_region_waldenhof",
+    "cqi": 647,
+    "settlement": { "cqi": 647, "x": 720, "y": 648 },
+    "name": "Waldenhof",
+    "province": {
+      "key": "wh3_main_combi_province_northern_sylvania",
+      "name": "Northern Sylvania"
+    }
+  },
+  {
+    "key": "cr_combi_region_ind_4_3",
+    "cqi": 648,
+    "settlement": { "cqi": 648, "x": 1168, "y": 296 },
+    "name": "Chandrahara",
+    "province": { "key": "cr_combi_province_ind_4", "name": "Shambani Foothills" }
+  },
+  {
+    "key": "wh3_main_combi_region_dragon_fang_mount",
+    "cqi": 649,
+    "settlement": { "cqi": 649, "x": 970, "y": 350 },
+    "name": "Dragon Fang Mount",
+    "province": { "key": "wh3_main_combi_province_the_dragon_isles", "name": "The Dragon Isles" }
+  },
+  {
+    "key": "wh3_main_combi_region_the_pillars_of_grungni",
+    "cqi": 650,
+    "settlement": { "cqi": 650, "x": 762, "y": 547 },
+    "name": "The Pillars of Grungni",
+    "province": { "key": "wh3_main_combi_province_the_silver_road", "name": "The Silver Road" }
+  },
+  {
+    "key": "wh3_main_combi_region_angerrial",
+    "cqi": 651,
+    "settlement": { "cqi": 651, "x": 269, "y": 529 },
+    "name": "Angerrial",
+    "province": { "key": "wh3_main_combi_province_eataine", "name": "Eataine" }
+  },
+  {
+    "key": "wh3_main_combi_region_karak_zorn",
+    "cqi": 652,
+    "settlement": { "cqi": 652, "x": 682, "y": 221 },
+    "name": "Karak Zorn",
+    "province": {
+      "key": "wh3_main_combi_province_southlands_worlds_edge_mountains",
+      "name": "Southlands World's Edge Mountains"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_volulltrax",
+    "cqi": 653,
+    "settlement": { "cqi": 653, "x": 630, "y": 24 },
+    "name": "Volulltrax",
+    "province": {
+      "key": "wh3_main_combi_province_the_abyssal_glacier",
+      "name": "The Abyssal Glacier"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_tor_yvresse",
+    "cqi": 654,
+    "settlement": { "cqi": 654, "x": 316, "y": 574 },
+    "name": "Tor Yvresse",
+    "province": { "key": "wh3_main_combi_province_northern_yvresse", "name": "Northern Yvresse" }
+  },
+  {
+    "key": "wh3_main_combi_region_kemperbad",
+    "cqi": 655,
+    "settlement": { "cqi": 655, "x": 565, "y": 637 },
+    "name": "Kemperbad",
+    "province": { "key": "wh3_main_combi_province_talabecland", "name": "Talabecland" }
+  },
+  {
+    "key": "wh3_main_combi_region_gor_gazan",
+    "cqi": 656,
+    "settlement": { "cqi": 656, "x": 589, "y": 333 },
+    "name": "Gor Gazan",
+    "province": { "key": "wh3_main_combi_province_barrier_idols", "name": "The Barrier Idols" }
+  },
+  {
+    "key": "wh3_main_combi_region_kappelburg",
+    "cqi": 657,
+    "settlement": { "cqi": 657, "x": 653, "y": 708 },
+    "name": "Kappelburg",
+    "province": { "key": "wh3_main_combi_province_talabecland", "name": "Talabecland" }
+  },
+  {
+    "key": "wh3_main_combi_region_krugenheim",
+    "cqi": 658,
+    "settlement": { "cqi": 658, "x": 634, "y": 654 },
+    "name": "Krugenheim",
+    "province": { "key": "wh3_main_combi_province_talabecland", "name": "Talabecland" }
+  },
+  {
+    "key": "wh3_main_combi_region_nagrar",
+    "cqi": 659,
+    "settlement": { "cqi": 659, "x": 271, "y": 836 },
+    "name": "Nagrar",
+    "province": { "key": "wh3_main_combi_province_deadwood", "name": "Deadwood" }
+  },
+  {
+    "key": "wh3_main_combi_region_varg_camp",
+    "cqi": 660,
+    "settlement": { "cqi": 660, "x": 514, "y": 874 },
+    "name": "Varg Camp",
+    "province": {
+      "key": "wh3_main_combi_province_helspire_mountains",
+      "name": "Helspire Mountains"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_castle_templehof",
+    "cqi": 661,
+    "settlement": { "cqi": 661, "x": 686, "y": 628 },
+    "name": "Castle Templehof",
+    "province": {
+      "key": "wh3_main_combi_province_northern_sylvania",
+      "name": "Northern Sylvania"
+    }
+  },
+  {
+    "key": "wh3_main_combi_region_shi_long",
+    "cqi": 662,
+    "settlement": { "cqi": 662, "x": 1239, "y": 460 },
+    "name": "Shi Long",
+    "province": {
+      "key": "wh3_main_combi_province_celestial_riverlands",
+      "name": "Celestial Riverlands"
+    }
+  }
+]

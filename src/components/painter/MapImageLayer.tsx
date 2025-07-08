@@ -10,7 +10,7 @@ const MapImageLayer = () => {
     console.log("🖼️ Adding map image layer:", campaign.map.image);
     console.log("📏 Map bounds:", bounds);
 
-    const imageOverlay = L.imageOverlay(campaign.map.image, bounds, {});
+    const imageOverlay = L.imageOverlay(campaign.map.image, bounds, { opacity: 0.5 });
     const onLoad = new Promise<void>((resolve) => {
       imageOverlay.on('load', () => {
         console.log("✅ Map base image loaded");
