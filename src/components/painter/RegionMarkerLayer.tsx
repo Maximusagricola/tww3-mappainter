@@ -19,24 +19,17 @@ const useStyles = makeStyles({
     top: -48,
   },
   marker: {
-    height: 24,
-    width: 24,
     flexShrink: 0,
+    pointerEvents: 'auto',
     filter: 'drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.6))',
     '&:hover': {
       filter: 'drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.4))',
     },
   },
   '@keyframes arrowBounce': {
-    '0%': {
-      transform: 'translateY(-4px)',
-    },
-    '50%': {
-      transform: 'translateY(-16px)',
-    },
-    '100%': {
-      transform: 'translateY(-4px)',
-    },
+    '0%': { transform: 'translateY(-4px)' },
+    '50%': { transform: 'translateY(-16px)' },
+    '100%': { transform: 'translateY(-4px)' },
   },
 });
 
@@ -50,13 +43,31 @@ const RegionMarkerLayer = () => {
 
     const markers = Object.values(campaign.regions).map((region: any) => {
       const { y, x } = region.settlement;
+      const flippedY = campaign.map.height - y;
+
       const el = document.createElement('div');
       el.setAttribute(
         'style',
-        'display: flex; height: 0; width: 0; align-items: center; justify-content: center; position: relative;'
+        `
+          display: flex;
+          height: 0;
+          width: 0;
+          align-items: center;
+          justify-content: center;
+          position: relative;
+          pointer-events: none;
+          transform: scale(1);
+        `
       );
+
       const icon = createPortalMarker({ element: el });
-      const marker = L.marker([y, x], { icon });
+
+      const marker = L.marker([flippedY, x], {
+        icon,
+        zIndexOffset: 500,
+        riseOnHover: true,
+      });
+
       elements.push([el, region]);
       return marker;
     });
@@ -91,8 +102,7 @@ function createPortalMarker(options: any) {
   return new PortalMarker(options);
 }
 
-const RegionMarker = (props: { regionKey: string }) => {
-  const { regionKey } = props;
+const RegionMarker = ({ regionKey }: { regionKey: string }) => {
   const classes = useStyles();
   const { icon, showPointerArrow, onClickMarker } = useRegionMarker(regionKey);
 
@@ -101,21 +111,29 @@ const RegionMarker = (props: { regionKey: string }) => {
       {showPointerArrow && (
         <img className={classes.pointer} src={pointerArrowIcon} alt="" />
       )}
-      <img className={classes.marker} onClick={onClickMarker} src={icon} alt="" />
+      <img
+        className={classes.marker}
+        onClick={onClickMarker}
+        src={icon}
+        alt=""
+        style={{ height: '16px', width: '16px' }}
+      />
     </>
   );
 };
 
 function useRegionMarker(regionKey: string) {
-const icon = useAppSelector((state) => {
-  const factionKey = state.painter.ownership[regionKey];
-  const faction = factionKey ? state.painter.factions[factionKey] : null;
-  if (!faction) {
-    console.warn("🚨 Unknown factionKey:", factionKey, "for region:", regionKey);
-  }
-  return faction?.icon ?? abandonedIcon;
-});
+  const icon = useAppSelector((state) => {
+    const factionKey = state.painter.ownership[regionKey];
+    const faction = factionKey ? state.painter.factions[factionKey] : null;
 
+    // Ensure fallback to abandoned icon
+    if (factionKey === 'abandoned' || !faction) {
+      return abandonedIcon;
+    }
+
+    return faction.icon;
+  });
 
   const showPointerArrow = useAppSelector((state) => {
     const isModeInteractive = state.painter.mode === 'interactive';
