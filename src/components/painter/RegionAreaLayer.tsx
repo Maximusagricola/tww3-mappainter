@@ -10,9 +10,12 @@ import type { Campaign, Region } from '../../data/campaigns';
 
 const useStyles = makeStyles({
   path: {
-    opacity: 0.4,
+    opacity: 0.75,
+    fillOpacity: 0.75,
+    stroke: '#000',
+    strokeWidth: 1.5,
     '&:hover': {
-      opacity: 0.6,
+      opacity: 0.8,
     },
   },
 });
@@ -24,26 +27,46 @@ const RegionAreaLayer = () => {
   React.useEffect(() => {
     const { map, bounds, campaign } = context;
 
-    const svgElement = createSvgElement(campaign.map.width, campaign.map.height);
-    const layer = L.svgOverlay(svgElement, bounds);
-    map.addLayer(layer);
-    context.addOverlay('region-paths', 'Region owner areas', layer);
-    setSvgElem(svgElement);
+    const handle = requestAnimationFrame(() => {
+      const paneName = 'overlayPane';
+
+      const svgElement = createSvgElement(campaign.map.width, campaign.map.height);
+      svgElement.style.pointerEvents = 'auto';
+      svgElement.style.position = 'absolute';
+      svgElement.style.top = '0';
+      svgElement.style.left = '0';
+      svgElement.style.zIndex = '350'; // higher than base, lower than markers
+
+      const layer = L.svgOverlay(svgElement, bounds, {
+        interactive: true,
+        pane: paneName,
+      });
+      map.addLayer(layer);
+      context.addOverlay('region-paths', 'Region owner areas', layer);
+      setSvgElem(svgElement);
+    });
+
+    return () => cancelAnimationFrame(handle);
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   if (svgElem === null) return null;
 
-  const regionpaths = Object.values(context.campaign.regions).map((region: Region) => (
+  const regionpaths = Object.values(context.campaign.regions).map((region: any) => (
     <RegionPath key={region.key} region={region} />
   ));
 
-  return ReactDOM.createPortal(regionpaths, svgElem!);
+  return ReactDOM.createPortal(regionpaths, svgElem);
 };
 
 const RegionPath = (props: { region: Region }) => {
   const classes = useStyles();
   const { region } = props;
   const { fillColor, onClickRegion } = useRegionPath(region);
+
+  if (!region.d) {
+    console.warn('⚠️ Missing path data for region:', region.key);
+    return null;
+  }
 
   return (
     <path
@@ -59,13 +82,12 @@ function useRegionPath(region: Region) {
   const fillColor = useAppSelector((state) => {
     const factionKey = state.painter.ownership[region.key];
     const faction = factionKey ? state.painter.factions[factionKey] : null;
-    return faction?.color ?? 'transparent';
+    return faction?.color || '#888'; // fallback gray if undefined
   });
 
   const dispatch = useAppDispatch();
   const isModeInteractive = useAppSelector((state) => state.painter.mode === 'interactive');
   const selectedFaction = useAppSelector((state) => state.painter.selectedFaction);
-
   const onClickRegion = React.useCallback(() => {
     if (isModeInteractive) {
       dispatch(regionChanged(region.key));
