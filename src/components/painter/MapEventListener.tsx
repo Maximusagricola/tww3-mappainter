@@ -37,7 +37,8 @@ const MapEventListener = () => {
     if (isLeafletMapReady) {
       Object.values(painterOverlays).forEach((overlay) => {
         const layer = layers[overlay.key];
-        if (overlay.visible) {
+        if (!layer) return;
+        if (overlay.visible || overlay.key === 'region-paths') {
           map.addLayer(layer);
         } else {
           map.removeLayer(layer);
